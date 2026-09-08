@@ -1,0 +1,51 @@
+{
+  "name": "kimsafety",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "build:with-migrate": "npx prisma migrate deploy && next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "deploy:db": "node scripts/deploy-db.mjs",
+    "sync:seed-products": "tsx scripts/sync-seed-products.ts"
+  },
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.9.1",
+    "@prisma/client": "^7.9.1",
+    "@types/pdfkit": "^0.17.6",
+    "clsx": "^2.1.1",
+    "dotenv": "^17.4.2",
+    "framer-motion": "^12.43.0",
+    "lucide-react": "^1.28.0",
+    "next": "14.2.15",
+    "next-auth": "^4.24.15",
+    "nodemailer": "^7.0.13",
+    "pdf-lib": "^1.17.1",
+    "pdfkit": "^0.19.1",
+    "pg": "^8.22.0",
+    "quill": "^2.0.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "sharp": "^0.35.3",
+    "tailwind-merge": "^3.6.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "@types/nodemailer": "^8.0.1",
+    "@types/pg": "^8.21.0",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.15",
+    "postcss": "^8",
+    "prisma": "^7.9.1",
+    "tailwindcss": "^3.4.1",
+    "tsx": "^4.23.11",
+    "typescript": "^5"
+  }
+}
