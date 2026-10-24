@@ -10,7 +10,7 @@ export const revalidate = 300;
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: "Shop All Safety Equipment in Kenya | KimSafety",
+    title: "Shop All Safety Equipment in Kenya",
     description:
       "Browse KimSafety's full catalogue — certified PPE, medical, fire, road, lab and emergency safety products with bulk pricing, same-day Nairobi delivery & corporate procurement support.",
     keywords: ["safety equipment Kenya", "shop safety equipment Nairobi", "PPE Kenya", "buy safety helmets Kenya"],
