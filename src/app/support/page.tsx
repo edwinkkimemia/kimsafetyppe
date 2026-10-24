@@ -33,7 +33,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "How fast is delivery?",
-    a: "Orders confirmed before 3 PM are dispatched the same day from our Industrial Area warehouse. Nairobi delivery is same-day; major towns 24–48 hours; all other counties within 72 hours.",
+    a: "Orders confirmed before 3 PM are dispatched the same day from our River Road shop. Nairobi delivery is same-day; major towns 24–48 hours; all other counties within 72 hours.",
   },
   {
     q: "When is delivery free?",

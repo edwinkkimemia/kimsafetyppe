@@ -37,7 +37,7 @@ const LIGHT = "#F3F4F6";
 
 const FALLBACK_COMPANY = {
   name: "KimSafety Ltd",
-  address: "KimSafety House, Enterprise Road,\nIndustrial Area, Nairobi, Kenya",
+  address: "The One Mall, River Road (Near Khoja),\n1st Floor, Shop F39, Nairobi, Kenya",
   phone: "+254 715135141",
   email: "sales@kimsafety.co.ke",
   website: "www.kimsafety.co.ke",
@@ -347,7 +347,7 @@ export async function buildInvoicePdf(order: InvoiceOrder): Promise<Buffer> {
   // failed, the client can still settle the invoice manually via the Buy
   // Goods till and quote the invoice number.
   if (!paid) {
-    const till = s.mpesa_till || "4178866";
+    const till = s.mpesa_till || "1781595";
     // Confirmation SMS go to the same WhatsApp number shown across the
     // storefront (Settings → whatsapp); formatted for print here.
     const waDigits = (s.whatsapp || "254715135141").replace(/\D/g, "");

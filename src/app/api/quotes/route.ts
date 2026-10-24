@@ -20,7 +20,15 @@ export async function POST(req: Request) {
   const rl = rateLimit(req, "quotes", 5, 600000);
   if (!rl.ok) return tooMany(rl.retryAfter);
 
-  let body: { name?: string; company?: string; email?: string; phone?: string; items?: unknown[]; attachment?: string };
+  let body: {
+    name?: string;
+    company?: string;
+    email?: string;
+    phone?: string;
+    items?: unknown[];
+    attachment?: string;
+    budget?: string;
+  };
   try {
     body = await req.json();
   } catch {
@@ -44,6 +52,7 @@ const items = body.items as QuoteItem[];
     return { productId: i.productId, name: (i as { name?: string }).name ?? p?.name ?? i.productId, qty, price };
   });
 
+  const budget = body.budget?.trim().slice(0, 120) || null;
   const user = await getSessionUser();
   const quote = await createQuote({
     user_id: user?.id ?? null,
@@ -54,6 +63,7 @@ const items = body.items as QuoteItem[];
     items: JSON.stringify(normalized),
     total: Math.round(total),
     attachment: body.attachment ?? null,
+    notes: budget ? `Estimated budget: ${budget}` : null,
   });
 
   // Best-effort confirmation email to the requester — AWAITED so the SMTP
@@ -66,6 +76,7 @@ const items = body.items as QuoteItem[];
         name: quote.name,
         quoteId: quote.id,
         total: quote.total,
+        budget,
       });
     } catch (err) {
       console.error("[quotes] confirmation email failed:", err);
@@ -82,6 +93,8 @@ const items = body.items as QuoteItem[];
         total: quote.total,
         customer: quote.name,
         company: quote.company,
+        budget,
+        items: normalized.map((i) => `${i.name} ×${i.qty}`).join("\n"),
       });
     }
   } catch (err) {

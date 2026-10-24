@@ -139,7 +139,7 @@ async function getBrand(): Promise<Brand> {
     whatsapp,
     waLink: `https://wa.me/${whatsapp}`,
     email: s.email || "sales@kimsafety.co.ke",
-    address: s.address || "KimSafety House, Enterprise Road, Industrial Area, Nairobi, Kenya",
+    address: s.address || "The One Mall, River Road (Near Khoja), 1st Floor, Shop F39, Nairobi, Kenya",
     website: siteUrl.replace(/^https?:\/\//, ""),
   };
 }
@@ -480,17 +480,23 @@ export async function sendQuoteConfirmationEmail(input: {
   name?: string | null;
   quoteId: string;
   total: number;
+  budget?: string | null;
 }): Promise<boolean> {
   const cfg = await getSmtpConfig();
   if (!cfg || !isSmtpConfigured(cfg)) return false;
   const brand = await getBrand();
   const { to, name, quoteId, total } = input;
   const firstName = (name ?? "").split(" ")[0] || "there";
+  // RFQ free-text lines have no price — show the customer's selected budget
+  // range instead of "KES 0".
+  const budget = input.budget?.trim() || null;
+  const estimateLabel = budget ? "Estimated budget" : "Estimated total";
+  const estimateValue = budget ? esc(budget) : total > 0 ? money(total) : null;
   await sendBrandedMail(cfg, {
     from: cfg.from,
     to,
     subject: `Quote request ${quoteId} received — KimSafety`,
-    text: `Hi ${firstName},\n\nWe received your quotation request ${quoteId} (estimated KES ${Math.round(total).toLocaleString("en-KE")}). Our team will confirm pricing and availability within 4 business hours.\n\n— KimSafety Team`,
+    text: `Hi ${firstName},\n\nWe received your quotation request ${quoteId}${estimateValue ? ` (${budget ? "estimated budget" : "estimated total"} ${budget ?? money(total)})` : ""}. Our team will confirm pricing and availability within 4 business hours.\n\n— KimSafety Team`,
     html: renderShell(
       brand,
       `
@@ -499,7 +505,7 @@ export async function sendQuoteConfirmationEmail(input: {
       <p style="font-size:14px;line-height:1.7;color:#374151;margin:0 0 18px 0;">We received your quotation request and our team is already on it. You'll have pricing, availability and delivery confirmed within <strong>4 business hours</strong>.</p>
       ${summaryCard([
         { label: "Quote reference", value: esc(quoteId) },
-        { label: "Estimated total", value: money(total), highlight: true },
+        ...(estimateValue ? [{ label: estimateLabel, value: estimateValue, highlight: true }] : []),
       ])}
       <p style="font-size:13px;line-height:1.7;color:#374151;margin:0 0 18px 0;">While you wait, browse our full catalogue or message us directly — we're happy to help with specs, certifications and bulk pricing.</p>
       ${btn(`${siteUrl}/search`, "Browse the catalogue", true)}
@@ -575,7 +581,7 @@ export async function sendOrderInvoiceEmail(input: {
     po: "Purchase Order (30-day terms)",
   };
   const rows = await resolveItems(items);
-  const till = (await getSettingSafe("mpesa_till")) || "4178866";
+  const till = (await getSettingSafe("mpesa_till")) || "1781595";
   const itemRows = rows
     .map(
       (r) => `
@@ -794,16 +800,37 @@ export async function sendNewQuoteAlert(input: {
   total: number;
   customer: string;
   company?: string | null;
+  budget?: string | null;
+  items?: string | null;
 }): Promise<boolean> {
   const cfg = await getSmtpConfig();
   if (!cfg || !isSmtpConfigured(cfg)) return false;
   const brand = await getBrand();
   const { to, quoteId, total, customer, company } = input;
+  // RFQ free-text lines have no price. Prefer the customer's selected budget
+  // range; fall back to the computed total only when real priced lines exist.
+  const budget = input.budget?.trim() || null;
+  const items = input.items?.trim() || null;
+  const estimate = budget ?? (total > 0 ? money(total) : null);
+  const estimateLabel = budget ? "Estimated budget" : "Estimated total";
+  const subject = `New quote request ${quoteId}${estimate ? ` — ${estimate}` : ""}`;
+  const customerLine = `${customer}${company ? ` (${company})` : ""}`;
+  const text = [
+    `New KimSafety quote request ${quoteId} from ${customerLine}.`,
+    estimate ? `${estimateLabel}: ${estimate}` : "Estimated budget: not provided",
+    items ? `Requested items:\n${items}` : null,
+    `Manage it at ${siteUrl}/admin/quotes.`,
+  ]
+    .filter(Boolean)
+    .join("\n\n");
+  const itemRow = items
+    ? `<tr><td style="padding:10px 18px;font-size:12px;color:${GRAY};border-top:2px solid #f3f4f6;">Requested items</td><td style="padding:10px 18px;font-size:13px;color:${NAVY};text-align:right;white-space:pre-line;">${esc(items)}</td></tr>`
+    : "";
   await sendBrandedMail(cfg, {
     from: cfg.from,
     to,
-    subject: `New quote request ${quoteId} — KES ${Math.round(total).toLocaleString("en-KE")}`,
-    text: `New KimSafety quote request ${quoteId} (estimated KES ${Math.round(total).toLocaleString("en-KE")}) from ${customer}${company ? ` (${company})` : ""}. Manage it at ${siteUrl}/admin/quotes.`,
+    subject,
+    text,
     html: renderShell(
       brand,
       `
@@ -811,8 +838,9 @@ export async function sendNewQuoteAlert(input: {
       <h1 style="font-size:22px;color:${NAVY};margin:0 0 14px 0;">Quote request ${esc(quoteId)}</h1>
       ${summaryCard([
         { label: "Customer", value: esc(customer) + (company ? ` · ${esc(company)}` : "") },
-        { label: "Estimated total", value: money(total), highlight: true },
+        { label: estimateLabel, value: estimate ? esc(estimate) : "Not provided", highlight: true },
       ])}
+      ${itemRow ? `<table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="border:1px solid #e5e7eb;border-radius:12px;overflow:hidden;background:#fafafa;margin:0 0 20px 0;">${itemRow}</table>` : ""}
       ${btn(`${siteUrl}/admin/quotes`, "Open in admin")}
       `
     ),

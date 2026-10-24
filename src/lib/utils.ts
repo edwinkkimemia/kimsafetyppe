@@ -13,6 +13,18 @@ export function formatKES(amount: number): string {
   }).format(amount);
 }
 
+/** Budget range captured for an RFQ (free-text requests have no priced total). */
+export function rfqBudgetText(input: {
+  notes?: string | null;
+  items?: { name?: string | null }[];
+}): string | null {
+  const noteMatch = input.notes?.match(/^\s*Estimated budget:\s*(.+)\s*$/im);
+  if (noteMatch?.[1]) return noteMatch[1].trim();
+  // Older RFQs stored the budget inside the free-text item name: "... (est. X)".
+  const legacy = (input.items?.[0]?.name ?? "").match(/\(est\.\s*([^)]+)\)/i);
+  return legacy?.[1]?.trim() || null;
+}
+
 export function formatKESCompact(amount: number): string {
   if (amount >= 1_000_000) return `KSh ${(amount / 1_000_000).toFixed(1)}M`;
   if (amount >= 1_000) return `KSh ${(amount / 1_000).toFixed(amount % 1000 === 0 ? 0 : 1)}K`;

@@ -129,8 +129,8 @@ export default async function RootLayout({
   // Sequential to avoid 2 concurrent DB connections on cold Lambda (max:1).
   // Both helpers are cached (settings 60s, catalog 30s) so after first hit no DB.
   const brand = await loadBrand();
-  const count = await productCount().catch(() => {
-    const { products } = require("@/lib/data/products");
+  const count = await productCount().catch(async () => {
+    const { products } = await import("@/lib/data/products");
     return products.length;
   });
 
@@ -147,7 +147,7 @@ export default async function RootLayout({
     telephone: brand.phone,
     address: {
       "@type": "PostalAddress",
-      streetAddress: "Industrial Area",
+      streetAddress: "The One Mall, River Road (Near Khoja), 1st Floor, Shop F39",
       addressLocality: "Nairobi",
       addressRegion: "Nairobi",
       postalCode: "00100",

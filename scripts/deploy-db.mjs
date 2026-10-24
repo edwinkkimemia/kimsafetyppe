@@ -17,17 +17,69 @@
  *      upload_files, reviews, newsletter_subscribers).
  *
  * Safe and idempotent on any database: fresh, already Prisma-managed, or
- * built from raw SQL. Reads DATABASE_URL (or DIRECT_URL) from the environment
- * (`.env` is loaded via dotenv).
+ * built from raw SQL. Reads DIRECT_URL / DATABASE_URL_UNPOOLED (direct) or
+ * DATABASE_URL (pooled) from the environment (`.env` is loaded via dotenv).
  */
 
 import "dotenv/config";
 import { execSync } from "node:child_process";
 import pg from "pg";
 
-const url = process.env.DIRECT_URL ?? process.env.DATABASE_URL;
+// Migrations must run against the *direct* Postgres host. Neon's Vercel
+// integration exposes it as DATABASE_URL_UNPOOLED (Prisma docs call it
+// DIRECT_URL); older integrations/CI setups use DIRECT_URL.
+function resolveMigrationUrl() {
+  const direct =
+    process.env.DIRECT_URL ??
+    process.env.DATABASE_URL_UNPOOLED ??
+    process.env.DATABASE_POSTGRES_URL_NON_POOLING ??
+    process.env.POSTGRES_URL_NON_POOLING;
+  if (direct) return direct;
+  const pooled =
+    process.env.DATABASE_URL ??
+    process.env.DATABASE_POSTGRES_URL ??
+    process.env.POSTGRES_URL ??
+    process.env.DATABASE_POSTGRES_PRISMA_URL ??
+    process.env.POSTGRES_PRISMA_URL;
+  if (!pooled) return undefined;
+  // Neon pooled hosts look like ep-xxx-pooler.region.aws.neon.tech; the direct
+  // host is the same name without the "-pooler" suffix.
+  if (/neon\.tech/i.test(pooled)) return pooled.replace(/-pooler(?=\.)/, "");
+  return pooled;
+}
+
+// Used by vercel.json's buildCommand: on a real Vercel build the sensitive DB
+// env vars are available and migrations run; in `vercel build` (prebuilt CI)
+// or preview builds they are not, so skip instead of failing the build.
+const ifPossible = process.argv.includes("--if-possible");
+const shouldSeed = process.argv.includes("--seed");
+const vercelEnv = process.env.VERCEL_ENV;
+if (ifPossible && vercelEnv && vercelEnv !== "production") {
+  console.log(`deploy-db: skipping migrations for VERCEL_ENV=${vercelEnv}`);
+  process.exit(0);
+}
+
+const url = resolveMigrationUrl();
 if (!url) {
-  console.error("deploy-db: DIRECT_URL or DATABASE_URL environment variable is required");
+  if (ifPossible) {
+    console.warn("deploy-db: no database URL available in this build context — skipping migrations");
+    process.exit(0);
+  }
+  console.error(
+    "deploy-db: DIRECT_URL, DATABASE_URL_UNPOOLED, DATABASE_POSTGRES_URL_NON_POOLING or DATABASE_URL environment variable is required"
+  );
+  process.exit(1);
+}
+if (!/^postgres(ql)?:\/\//i.test(url)) {
+  if (ifPossible) {
+    console.warn("deploy-db: database URL is a [SENSITIVE] placeholder in this build context — skipping migrations");
+    process.exit(0);
+  }
+  console.error(
+    "deploy-db: the resolved database URL is a placeholder, not a postgres:// URL.\n" +
+      "deploy-db: Vercel hides 'sensitive' env vars from `vercel pull`/CI.\n" +
+      "deploy-db: set the Neon direct URL as a GitHub Actions secret named DIRECT_URL (or DATABASE_URL_UNPOOLED), or re-add the env vars in Vercel as non-sensitive."
+  );
   process.exit(1);
 }
 
@@ -55,6 +107,21 @@ function runPrisma(args) {
   execSync(`npx prisma ${args.join(" ")}`, { stdio: "inherit" });
 }
 
+// Bootstrap the superadmin + marketing defaults on a fresh database. Runs on
+// Vercel-side production builds (where the real sensitive env vars exist) when
+// `--seed` is passed; skipped in CI/preview where ADMIN_PASSWORD is a
+// `[SENSITIVE]` placeholder.
+function runSeed() {
+  if (!shouldSeed) return;
+  const password = process.env.ADMIN_PASSWORD;
+  if (!password || password === "[SENSITIVE]") {
+    console.warn("deploy-db: ADMIN_PASSWORD not available in this build context — skipping seed");
+    return;
+  }
+  console.log("deploy-db: seeding admin user and marketing defaults…");
+  execSync("npx tsx prisma/seed.ts", { stdio: "inherit" });
+}
+
 async function tableExists(client, table) {
   const res = await client.query("SELECT to_regclass($1) AS t", [`public.${table}`]);
   return !!res.rows[0].t;
@@ -76,6 +143,7 @@ async function main() {
     console.log("deploy-db: Prisma migration history present — running `prisma migrate deploy`.");
     await client.end();
     runPrisma(["migrate", "deploy"]);
+    runSeed();
     return;
   }
 
@@ -92,6 +160,7 @@ async function main() {
 
   console.log("deploy-db: applying remaining migrations…");
   runPrisma(["migrate", "deploy"]);
+  runSeed();
   console.log("deploy-db: database is up to date.");
 }
 

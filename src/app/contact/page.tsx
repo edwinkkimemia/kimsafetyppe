@@ -9,13 +9,13 @@ import { siteUrl } from "@/lib/site";
 export const revalidate = 60;
 
 export const metadata: Metadata = {
-  title: "Contact KimSafety — Nairobi Industrial Area | Sales, Quotes & Support",
+  title: "Contact KimSafety — Nairobi River Road | Sales, Quotes & Support",
   description:
-    "Reach KimSafety — Nairobi warehouse in Industrial Area. Sales, quotes, support and technical advice via phone +254 715 135 141, email sales@kimsafety.co.ke or WhatsApp. Mon–Sat 8am–6pm.",
-  keywords: ["contact KimSafety", "KimSafety phone", "KimSafety Nairobi Industrial Area", "KimSafety sales"],
+    "Reach KimSafety — Nairobi shop on River Road. Sales, quotes, support and technical advice via phone +254 715 135 141, email sales@kimsafety.co.ke or WhatsApp. Mon–Sat 8am–6pm.",
+  keywords: ["contact KimSafety", "KimSafety phone", "KimSafety Nairobi River Road", "KimSafety sales"],
   alternates: { canonical: `${siteUrl}/contact` },
   openGraph: {
-    title: "Contact KimSafety — Nairobi Industrial Area",
+    title: "Contact KimSafety — Nairobi River Road",
     description: "Sales, quotes & support via phone, email or WhatsApp.",
     type: "website",
     url: `${siteUrl}/contact`,

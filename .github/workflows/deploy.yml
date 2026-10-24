@@ -37,12 +37,23 @@ jobs:
         # database for Prisma (baselines migrations already present), then runs
         # `prisma migrate deploy` so tables like upload_files exist before the
         # new build ships. Fail-closed: no deploy if migrations fail.
+        #
+        # Vercel 'sensitive' env vars cannot be read by `vercel pull`, so the
+        # Neon direct URL must also exist as a GitHub Actions secret. Process
+        # env wins over the placeholder values written into .env by dotenv.
+        env:
+          DIRECT_URL: ${{ secrets.DIRECT_URL }}
+          DATABASE_URL_UNPOOLED: ${{ secrets.DATABASE_URL_UNPOOLED }}
         run: |
           if [ ! -f .vercel/.env.production.local ]; then
             echo "::error::vercel pull did not produce .vercel/.env.production.local — cannot run migrations"
             exit 1
           fi
           cp .vercel/.env.production.local .env
+          if [ -z "$DIRECT_URL" ] && [ -z "$DATABASE_URL_UNPOOLED" ]; then
+            echo "::error::Add the Neon *direct* connection string as a GitHub Actions secret named DIRECT_URL (or DATABASE_URL_UNPOOLED). Vercel hides sensitive env vars from vercel pull."
+            exit 1
+          fi
           node scripts/deploy-db.mjs
 
       - name: Build project artifacts

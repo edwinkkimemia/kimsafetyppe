@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useParams } from "next/navigation";
 import { ArrowLeft, ExternalLink, FileText, ImageIcon } from "lucide-react";
 import { useFetch, AdminCard, StatusBadge, quoteStatusTones } from "@/components/admin/ui";
-import { formatKES } from "@/lib/utils";
+import { formatKES, rfqBudgetText } from "@/lib/utils";
 
 type Quote = {
   id: string;
@@ -46,6 +46,10 @@ export default function AdminQuoteDetailPage() {
 
   if (loading) return <p className="py-10 text-center text-sm text-gray-400">Loading…</p>;
   if (!quote) return <p className="py-10 text-center text-sm text-gray-400">Quote not found.</p>;
+
+  const budget = rfqBudgetText(quote);
+  // The budget is stored in notes for admin/PDF visibility; don't show it twice.
+  const notesText = quote.notes?.replace(/^\s*Estimated budget:.*$/im, "").trim() || null;
 
   return (
     <div className="space-y-6">
@@ -171,16 +175,22 @@ export default function AdminQuoteDetailPage() {
                 <dt className="text-[11px] font-bold uppercase tracking-wider text-gray-400">Email</dt>
                 <dd className="text-gray-600">{quote.email || "—"}</dd>
               </div>
+              {isRfq && (
+                <div>
+                  <dt className="text-[11px] font-bold uppercase tracking-wider text-gray-400">Estimated budget</dt>
+                  <dd className="font-semibold text-navy-900">{budget ?? "Not provided"}</dd>
+                </div>
+              )}
               {quote.valid_until && (
                 <div>
                   <dt className="text-[11px] font-bold uppercase tracking-wider text-gray-400">Valid until</dt>
                   <dd className="text-gray-600">{new Date(quote.valid_until).toLocaleDateString("en-KE", { day: "numeric", month: "short", year: "numeric" })}</dd>
                 </div>
               )}
-              {quote.notes && (
+              {notesText && (
                 <div>
                   <dt className="text-[11px] font-bold uppercase tracking-wider text-gray-400">Notes</dt>
-                  <dd className="whitespace-pre-line text-gray-600">{quote.notes}</dd>
+                  <dd className="whitespace-pre-line text-gray-600">{notesText}</dd>
                 </div>
               )}
             </dl>

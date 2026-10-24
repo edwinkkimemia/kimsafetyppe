@@ -1,4 +1,5 @@
 {
+  "buildCommand": "node scripts/deploy-db.mjs --if-possible --seed && next build",
   "crons": [
     {
       "path": "/api/cron/daily-orders",

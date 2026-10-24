@@ -89,11 +89,12 @@ export function QuoteForm() {
           email: form.email,
           phone: form.phone,
           total: 0,
+          budget: form.budget || undefined,
           attachment,
           items: [
             {
               productId: "quote-request",
-              name: `${itemsText}${form.budget ? ` (est. ${form.budget})` : ""}`,
+              name: itemsText,
               qty: 1,
               price: 0,
             },

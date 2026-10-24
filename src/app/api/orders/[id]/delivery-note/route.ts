@@ -16,7 +16,7 @@ const LIGHT = "#F3F4F6";
 
 const FALLBACK_COMPANY = {
   name: "KimSafety Ltd",
-  address: "KimSafety House, Enterprise Road,\nIndustrial Area, Nairobi, Kenya",
+  address: "The One Mall, River Road (Near Khoja),\n1st Floor, Shop F39, Nairobi, Kenya",
   phone: "+254 715135141",
   email: "sales@kimsafety.co.ke",
   website: "www.kimsafety.co.ke",

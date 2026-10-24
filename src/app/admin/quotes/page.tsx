@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { ChevronRight, FilePlus2, Trash2 } from "lucide-react";
 import { useFetch, AdminCard, StatusBadge, quoteStatusTones } from "@/components/admin/ui";
-import { formatKES } from "@/lib/utils";
+import { cn, formatKES, rfqBudgetText } from "@/lib/utils";
 
 type Quote = {
   id: string;
@@ -15,6 +15,7 @@ type Quote = {
   total: number;
   status: string;
   attachment: string | null;
+  notes: string | null;
   created_by_id: string | null;
   created_by_name: string | null;
   created_at: string;
@@ -125,6 +126,10 @@ function QuoteRow({
   onDelete: (id: string) => void;
 }) {
   const canDelete = me?.role === "superadmin" || (!!q.created_by_id && q.created_by_id === me?.id);
+  // RFQs have no priced total — show the customer's estimated budget instead
+  // of "KES 0".
+  const rfq = isRfq(q);
+  const budget = rfq ? rfqBudgetText(q) : null;
   return (
     <div className="group flex w-full items-center justify-between gap-3 rounded-2xl border border-line bg-surface px-5 py-3.5 text-left transition-colors hover:border-safety-300 hover:bg-safety-50">
       <Link href={`/admin/quotes/${encodeURIComponent(q.id)}`} className="flex min-w-0 flex-1 items-center justify-between gap-3">
@@ -140,7 +145,9 @@ function QuoteRow({
           </p>
         </div>
         <div className="flex shrink-0 items-center gap-3">
-          <span className="font-display text-sm font-extrabold text-navy-900">{formatKES(q.total)}</span>
+          <span className={cn("font-display text-sm font-extrabold", rfq && !budget ? "text-gray-400" : "text-navy-900")}>
+            {rfq ? (budget ?? "Estimate pending") : formatKES(q.total)}
+          </span>
           <ChevronRight className="h-4 w-4 text-gray-400" />
         </div>
       </Link>

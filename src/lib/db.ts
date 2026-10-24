@@ -205,18 +205,33 @@ let pool: Pool | null = globalForPg.__kimsafetyPool ?? null;
 
 export function getDb(): Pool {
   if (!pool) {
-    let url = process.env.DATABASE_URL;
+    // Neon on Vercel sets DATABASE_URL (pooled) and DATABASE_URL_UNPOOLED
+    // (direct). When the integration uses an env prefix (e.g. DATABASE_) the
+    // names arrive as DATABASE_POSTGRES_URL / ..._NON_POOLING. Prefer the
+    // pooled URL for the app.
+    let url =
+      process.env.DATABASE_URL ??
+      process.env.DATABASE_POSTGRES_URL ??
+      process.env.POSTGRES_URL ??
+      process.env.DATABASE_POSTGRES_PRISMA_URL ??
+      process.env.POSTGRES_PRISMA_URL ??
+      process.env.DATABASE_URL_UNPOOLED ??
+      process.env.DATABASE_POSTGRES_URL_NON_POOLING;
     if (!url) throw new Error("DATABASE_URL environment variable is required");
     // Prisma Accelerate/Data Proxy URLs (prisma://) are not usable with pg Pool.
     // Vercel/Prisma Postgres at planLimitReached also surfaces as this URL.
-    // Prefer DIRECT_URL (direct postgres) when available — it bypasses the limit.
+    // Prefer the direct postgres URL when available — it bypasses the limit.
     if (url.startsWith("prisma://")) {
-      const direct = process.env.DIRECT_URL;
+      const direct =
+        process.env.DIRECT_URL ??
+        process.env.DATABASE_URL_UNPOOLED ??
+        process.env.DATABASE_POSTGRES_URL_NON_POOLING ??
+        process.env.POSTGRES_URL_NON_POOLING;
       if (direct) {
-        console.warn("[kimsafety] DATABASE_URL is prisma:// — using DIRECT_URL for pg Pool");
+        console.warn("[kimsafety] DATABASE_URL is prisma:// — using the direct Postgres URL for pg Pool");
         url = direct;
       } else {
-        console.error("[kimsafety] DATABASE_URL is prisma:// and DIRECT_URL not set — DB calls will fail until plan is upgraded or DIRECT_URL is set. Falling back to static catalog where possible.");
+        console.error("[kimsafety] DATABASE_URL is prisma:// and no DIRECT_URL/DATABASE_URL_UNPOOLED is set — DB calls will fail until plan is upgraded or a direct URL is set. Falling back to static catalog where possible.");
       }
     }
     let host = "localhost";

@@ -22,7 +22,7 @@ import {
 
 const COMPANY = {
   name: "KimSafety Kenya Ltd",
-  address: "KimSafety House, Enterprise Road, Industrial Area, Nairobi, Kenya",
+  address: "The One Mall, River Road (Near Khoja), 1st Floor, Shop F39, Nairobi, Kenya",
   phone: "+254 715 135 141",
   email: "sales@kimsafety.co.ke",
   website: "www.kimsafety.co.ke",

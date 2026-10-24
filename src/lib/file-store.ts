@@ -28,7 +28,7 @@ const FILE_CACHE_TTL_MS = 60 * 1000;
 const FILE_CACHE_MAX = 100;
 const fileCache = new Map<string, { at: number; data: StoredFile | null }>();
 // Negative cache (null) avoids re-querying missing files every hit.
-let fileCacheInflight = new Map<string, Promise<StoredFile | undefined>>();
+const fileCacheInflight = new Map<string, Promise<StoredFile | undefined>>();
 
 function cacheGet(key: string): StoredFile | undefined | null | undefined {
   // return undefined = miss, null = negative hit, StoredFile = hit

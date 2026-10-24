@@ -34,14 +34,24 @@ npm run deploy:db             # adopts raw-SQL databases, then prisma migrate de
 Documented in `.env.example` — `DATABASE_URL`, `NEXTAUTH_SECRET`, `SMTP_*`, `MPESA_*`,
 `PAYSTACK_SECRET_KEY`, `CRON_SECRET`, `DAILY_ORDERS_EMAIL`, `NEXT_PUBLIC_GA_ID`.
 
+### Neon on Vercel
+
+The Neon integration sets `DATABASE_URL` (pooled) and `DATABASE_URL_UNPOOLED` (direct).
+The app connects with `DATABASE_URL`; `prisma migrate deploy` / `npm run deploy:db`
+automatically use `DIRECT_URL`, then `DATABASE_URL_UNPOOLED`, then
+`POSTGRES_URL_NON_POOLING`. If only a pooled `*.neon.tech` URL is available, the
+`-pooler` suffix is stripped to derive the direct host for migrations.
+
 Required in production:
 
 | Var | Why |
 | --- | --- |
-| `DATABASE_URL` | Postgres connection (app + migrations) |
+| `DATABASE_URL` | Postgres connection (app). On Neon this must be the pooled host |
+| `DIRECT_URL` | Optional direct (unpooled) host for migrations; falls back to `DATABASE_URL_UNPOOLED` / `POSTGRES_URL_NON_POOLING` |
 | `NEXTAUTH_SECRET` | Session signing |
 | `SMTP_HOST/PORT/USER/PASS/FROM` | All transactional email (invoice, quote, tickets, alerts, newsletter) |
 | `MPESA_ENV/CONSUMER_KEY/CONSUMER_SECRET/PASSKEY/SHORTCODE` | STK push |
+| `MPESA_TILL` | Buy Goods till used as `PartyB` (omit for Paybill) |
 | `PAYSTACK_SECRET_KEY` | Card payments |
 | `CRON_SECRET` | Daily-orders cron auth (endpoint refuses to run without it) |
 
@@ -59,8 +69,20 @@ Push to `master` → GitHub Actions deploys to Vercel. The workflow:
 2. `npm run deploy:db` — adopts the DB for Prisma if needed, then applies pending migrations (fail-closed)
 3. `vercel build --prod` then `vercel deploy --prebuilt --prod`
 
-The build script also runs `prisma migrate deploy` (idempotent), so direct Vercel/dashboard
-deploys migrate as well — CI and build may both run it, which is harmless when nothing is pending.
+Vercel marks the Neon env vars as **sensitive**, so `vercel pull` writes `[SENSITIVE]`
+placeholders instead of the connection string. Add the Neon direct URL as a GitHub
+Actions secret named `DIRECT_URL` (or `DATABASE_URL_UNPOOLED`) so step 2 can run;
+the workflow fails with an explicit message if neither secret is set.
+
+`vercel.json` also sets `buildCommand` to `node scripts/deploy-db.mjs --if-possible
+--seed && next build`, so builds that run on Vercel (Git deployments / dashboard
+redeploys) apply migrations automatically with the real sensitive envs. `--seed`
+also creates the superadmin from `ADMIN_EMAIL`/`ADMIN_PASSWORD` and seeds the
+marketing defaults when the database is fresh. Preview builds and prebuilt CI builds
+skip both because the DB URL is unavailable there.
+
+CI and Vercel-side builds may both attempt migrations; `prisma migrate deploy` is
+idempotent, so that is harmless when nothing is pending.
 
 ## Cron
 

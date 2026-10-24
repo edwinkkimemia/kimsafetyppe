@@ -6,6 +6,9 @@ export default defineConfig({
     environment: "node",
     include: ["src/**/*.{test,spec}.{ts,tsx}"],
     globals: true,
+    env: {
+      NEXTAUTH_SECRET: "test-secret-for-vitest-please-change-in-prod-123456",
+    },
   },
   resolve: {
     alias: {

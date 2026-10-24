@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 const sections: [string, string][] = [
   [
     "1. Agreement",
-    "By accessing kimsafety.co.ke or placing an order, you agree to these Terms & Conditions. KimSafety Limited is a company registered in the Republic of Kenya (RC: PVT-2024-8871) with its principal place of business at KimSafety House, Enterprise Road, Industrial Area, Nairobi.",
+    "By accessing kimsafety.co.ke or placing an order, you agree to these Terms & Conditions. KimSafety Limited is a company registered in the Republic of Kenya (RC: PVT-2024-8871) with its principal place of business at The One Mall, River Road (Near Khoja), 1st Floor, Shop F39, Nairobi.",
   ],
   [
     "2. Products & pricing",

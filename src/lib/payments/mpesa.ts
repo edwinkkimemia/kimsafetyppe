@@ -6,6 +6,8 @@
 //   MPESA_CONSUMER_SECRET               (sandbox default below)
 //   MPESA_PASSKEY                       (sandbox default below)
 //   MPESA_SHORTCODE                     (sandbox default 174379)
+//   MPESA_TILL                          (optional Buy Goods till; when set the
+//                                        STK push uses CustomerBuyGoodsOnline)
 //   MPESA_CALLBACK_URL                  (optional; defaults to /api/payments/mpesa/callback)
 //
 // The sandbox defaults are Safaricom's publicly documented sandbox test
@@ -36,6 +38,7 @@ type MpesaConfig = {
   consumerSecret: string;
   passkey: string;
   shortcode: string;
+  till: string;
 };
 
 function config(): MpesaConfig {
@@ -48,6 +51,9 @@ function config(): MpesaConfig {
     consumerSecret: process.env.MPESA_CONSUMER_SECRET || (sandbox ? SANDBOX_DEFAULTS.consumerSecret : ""),
     passkey: process.env.MPESA_PASSKEY || (sandbox ? SANDBOX_DEFAULTS.passkey : ""),
     shortcode: process.env.MPESA_SHORTCODE || (sandbox ? SANDBOX_DEFAULTS.shortcode : ""),
+    // Buy Goods (till) number. When set, PartyB is the till and the STK push
+    // uses CustomerBuyGoodsOnline; BusinessShortCode stays the store number.
+    till: process.env.MPESA_TILL?.trim() || "",
   };
 }
 
@@ -273,6 +279,9 @@ export async function mpesaStkPush(input: {
     .slice(0, 14);
   const password = Buffer.from(`${c.shortcode}${c.passkey}${ts}`).toString("base64");
   const phone = normalizeMpesaPhone(input.phone);
+  // Buy Goods (till): BusinessShortCode is the store/HO number used for the
+  // password, while PartyB is the till that receives the money.
+  const buyGoods = Boolean(c.till);
 
   const res = await fetch(`${c.baseUrl}/mpesa/stkpush/v1/processrequest`, {
     method: "POST",
@@ -281,10 +290,10 @@ export async function mpesaStkPush(input: {
       BusinessShortCode: c.shortcode,
       Password: password,
       Timestamp: ts,
-      TransactionType: "CustomerPayBillOnline",
+      TransactionType: buyGoods ? "CustomerBuyGoodsOnline" : "CustomerPayBillOnline",
       Amount: Math.round(input.amount),
       PartyA: phone,
-      PartyB: c.shortcode,
+      PartyB: buyGoods ? c.till : c.shortcode,
       PhoneNumber: phone,
       CallBackURL: input.callbackUrl,
       AccountReference: input.accountRef.slice(0, 12),

@@ -42,7 +42,7 @@ const sections: [string, string][] = [
   ],
   [
     "8. Contact",
-    "For any privacy request, contact our Data Protection Officer at privacy@kimsafety.co.ke or KimSafety House, Enterprise Road, Industrial Area, Nairobi.",
+    "For any privacy request, contact our Data Protection Officer at privacy@kimsafety.co.ke or The One Mall, River Road (Near Khoja), 1st Floor, Shop F39, Nairobi.",
   ],
 ];
 

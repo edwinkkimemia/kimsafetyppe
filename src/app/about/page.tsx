@@ -9,8 +9,8 @@ export const revalidate = 86400;
 export const metadata: Metadata = {
   title: "About KimSafety — Certified Safety Equipment Supplier Since 2019 | Kenya",
   description:
-    "KimSafety is Kenya's leading supplier of certified industrial PPE, medical safety, fire safety and laboratory equipment — serving 1,200+ organizations across 47 counties since 2019. Industrial Area, Nairobi.",
-  keywords: ["about KimSafety", "safety supplier Nairobi", "industrial Area KimSafety", "KimSafety Kenya history"],
+    "KimSafety is Kenya's leading supplier of certified industrial PPE, medical safety, fire safety and laboratory equipment — serving 1,200+ organizations across 47 counties since 2019. River Road, Nairobi.",
+  keywords: ["about KimSafety", "safety supplier Nairobi", "River Road KimSafety", "KimSafety Kenya history"],
   alternates: { canonical: `${siteUrl}/about` },
   openGraph: {
     title: "About KimSafety — Certified Safety Equipment Since 2019",
@@ -58,7 +58,7 @@ export default function AboutPage() {
                   The audit report — and the supplier — is what KimSafety was built to fix.
                 </p>
                 <p>
-                  We started with a warehouse in Industrial Area and a simple promise:{" "}
+                  We started with a shop on River Road and a simple promise:{" "}
                   <strong className="text-navy-900">
                     every product we sell is genuine, certified and quality-inspected
                   </strong>

@@ -47,3 +47,4 @@ implementation.md
 todo.md
 .vercel
 .env*
+!.env.example
