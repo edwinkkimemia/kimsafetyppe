@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import {
@@ -60,7 +60,11 @@ export function CatalogView({ title, subtitle, search, category, brand, deals, h
   const searchParams = useSearchParams();
   const router = useRouter();
   const pathname = usePathname();
-  const { catalog: liveCatalogItems } = useStore();
+  const { catalog: liveCatalogItems, catalogFetchedAt } = useStore();
+  // Prefer the server-rendered catalog until the client has a fetch from
+  // *this* mount (or a very recent admin-triggered refresh). A stale in-memory
+  // store catalog must never override fresher SSR data and flash old images.
+  const mountedAt = useRef(Date.now());
   const [grid, setGrid] = useState<"grid" | "list">("grid");
   const [page, setPage] = useState(1);
   const [mobileFilters, setMobileFilters] = useState(false);
@@ -86,7 +90,17 @@ export function CatalogView({ title, subtitle, search, category, brand, deals, h
     // Live client catalog wins once loaded; before that we render the
     // server-passed catalog (already live at render time) so no stale seed
     // prices/images ever flash. The static array is a last-resort fallback.
-    let list = [...(liveCatalogItems.length ? liveCatalogItems : initialProducts?.length ? initialProducts : products)];
+    const recentFetch = catalogFetchedAt > 0 && Date.now() - catalogFetchedAt < 10_000;
+    const useLive = recentFetch || catalogFetchedAt > mountedAt.current;
+    let list = [
+      ...(useLive && liveCatalogItems.length
+        ? liveCatalogItems
+        : initialProducts?.length
+          ? initialProducts
+          : liveCatalogItems.length
+            ? liveCatalogItems
+            : products),
+    ];
     if (deals) list = list.filter((p) => p.oldPrice);
     if (q) list = list.filter((p) => matchesQuery(p, q));
     if (cat !== "all") list = list.filter((p) => productInCategory(p, cat));
@@ -120,7 +134,7 @@ export function CatalogView({ title, subtitle, search, category, brand, deals, h
       }
     }
     return list;
-  }, [q, cat, br, availability, rating, minPrice, maxPrice, onSale, sort, sortExplicit, deals, liveCatalogItems, initialProducts]);
+  }, [q, cat, br, availability, rating, minPrice, maxPrice, onSale, sort, sortExplicit, deals, liveCatalogItems, catalogFetchedAt, initialProducts]);
 
   const totalPages = Math.max(1, Math.ceil(results.length / PAGE_SIZE));
   const pageItems = results.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
@@ -338,7 +352,7 @@ export function CatalogView({ title, subtitle, search, category, brand, deals, h
             )}
           >
             {pageItems.map((p) =>
-              grid === "list" ? <ProductRow key={p.id} productId={p.id} /> : (
+              grid === "list" ? <ProductRow key={p.id} productId={p.id} product={p} /> : (
                 <ProductCard key={p.id} product={p} />
               )
             )}

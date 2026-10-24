@@ -27,6 +27,8 @@ type Store = {
   cartTotal: number;
   cartOldTotal: number;
   catalog: Product[];
+  /** Timestamp of the most recent successful catalog fetch. */
+  catalogFetchedAt: number;
   liveProduct: (productId: string) => Product | undefined;
   liveBySlug: (slug: string) => Product | undefined;
   recentlyViewed: string[];
@@ -53,6 +55,7 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   const [compare, setCompare] = useState<string[]>([]);
   const [recentlyViewed, setRecentlyViewed] = useState<string[]>([]);
   const [catalog, setCatalog] = useState<Product[]>([]);
+  const [catalogFetchedAt, setCatalogFetchedAt] = useState(0);
   // Delivery fee / free-shipping threshold come from admin settings; these
   // defaults match the legacy hardcodes until the settings fetch lands.
   const [delivery, setDelivery] = useState({ fee: 350, threshold: 10000 });
@@ -70,7 +73,10 @@ export function StoreProvider({ children }: { children: ReactNode }) {
     fetch("/api/catalog", { cache: "no-store" })
       .then((res) => res.json())
       .then((data) => {
-        if (Array.isArray(data?.products)) setCatalog(data.products);
+        if (Array.isArray(data?.products)) {
+          setCatalog(data.products);
+          setCatalogFetchedAt(Date.now());
+        }
       })
       .catch(() => setCatalog([]));
     // Public settings endpoint — powers the delivery fee / free-shipping text.
@@ -97,7 +103,10 @@ export function StoreProvider({ children }: { children: ReactNode }) {
     try {
       const res = await fetch("/api/catalog", { cache: "no-store" });
       const data = await res.json();
-      if (Array.isArray(data?.products)) setCatalog(data.products);
+      if (Array.isArray(data?.products)) {
+        setCatalog(data.products);
+        setCatalogFetchedAt(Date.now());
+      }
     } catch {
       /* keep the current catalog on failure */
     }
@@ -272,6 +281,7 @@ export function StoreProvider({ children }: { children: ReactNode }) {
       cartTotal,
       cartOldTotal,
       catalog,
+      catalogFetchedAt,
       liveProduct,
       liveBySlug,
       recentlyViewed,
@@ -295,6 +305,7 @@ export function StoreProvider({ children }: { children: ReactNode }) {
       cartTotal,
       cartOldTotal,
       catalog,
+      catalogFetchedAt,
       liveProduct,
       liveBySlug,
       recentlyViewed,

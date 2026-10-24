@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import {
@@ -29,6 +29,7 @@ import type { Product } from "@/lib/types";
 import { useStore } from "@/lib/store";
 import { productInCategory } from "@/lib/data/catalog";
 import { activeBulkTier, bulkUnitPrice, discountPercent, formatKES, cn } from "@/lib/utils";
+import { IMAGE_REMOVED } from "@/lib/image-constants";
 import { sanitizePostHtml } from "@/lib/blog";
 import { ProductArt, productImageFor } from "@/components/product/product-art";
 import { productGalleries, productImages } from "@/lib/data/product-images";
@@ -46,7 +47,7 @@ export function ProductDetail({
   product: Product;
   related: Product[];
 }) {
-  const { addToCart, toggleWishlist, wishlist, toggleCompare, compare, noteRecentlyViewed, recentlyViewed, liveProduct, refreshCatalog, delivery } = useStore();
+  const { addToCart, toggleWishlist, wishlist, toggleCompare, compare, noteRecentlyViewed, recentlyViewed, liveProduct, refreshCatalog, delivery, catalogFetchedAt } = useStore();
   const [qty, setQty] = useState(1);
   const [tab, setTab] = useState("description");
   const [buyNowLoading, setBuyNowLoading] = useState(false);
@@ -59,10 +60,15 @@ export function ProductDetail({
   // Re-sync with the live catalog on mount so admin price/stock/bulk edits show
   // up immediately, even while this page's server-rendered HTML is still from
   // the previous ISR window. Falls back to the server-rendered product prop.
+  const mountedAt = useRef(Date.now());
   useEffect(() => {
     refreshCatalog().catch(() => {});
   }, [refreshCatalog]);
-  const live = liveProduct(product.id) ?? product;
+  // Start from the server-rendered product (fresh at SSR) and only switch to
+  // the in-memory catalog after a fetch from this mount — or a very recent
+  // admin-triggered refresh. Prevents the stale old image flashing first.
+  const recentFetch = catalogFetchedAt > 0 && Date.now() - catalogFetchedAt < 10_000;
+  const live = recentFetch || catalogFetchedAt > mountedAt.current ? (liveProduct(product.id) ?? product) : product;
 
   useEffect(() => {
     noteRecentlyViewed(product.id);
@@ -88,11 +94,15 @@ export function ProductDetail({
     // static photo map. This prevents the SVG placeholder (sku.jpg fallback)
     // showing as main when product has gallery images but no explicit image.
     const fallbackSkuImage = `/images/products/${product.sku}.jpg`;
-    const hasRealImage = live.image && live.image !== fallbackSkuImage;
-    const main = hasRealImage
-      ? live.image!
-      : live.gallery?.[0] || productImages[product.sku] || live.image || productImageFor(product.sku);
-    const extras = live.gallery?.length ? live.gallery : productGalleries[product.sku] ?? [];
+    const imageRemoved = live.image === IMAGE_REMOVED;
+    const hasRealImage = !imageRemoved && live.image && live.image !== fallbackSkuImage;
+    // "" explicitly disables ProductArt's SKU fallback for removed images.
+    const main = imageRemoved
+      ? ""
+      : hasRealImage
+        ? live.image!
+        : live.gallery?.[0] || productImages[product.sku] || live.image || productImageFor(product.sku);
+    const extras = imageRemoved ? [] : live.gallery?.length ? live.gallery : productGalleries[product.sku] ?? [];
     const all = [main, ...extras.filter((src) => src !== main)];
     // Deduplicate while preserving order
     return Array.from(new Set(all));

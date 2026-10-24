@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import { cn } from "@/lib/utils";
 import { productImages } from "@/lib/data/product-images";
+import { IMAGE_REMOVED } from "@/lib/image-constants";
 import {
   Activity,
   Anchor,
@@ -129,7 +130,9 @@ export function ProductArt({
   const [failed, setFailed] = useState(false);
   const Icon = icon ?? artIconFor(tags, categoryName);
   const theme = themes[hashStr(sku + brand + categoryName) % themes.length];
-  const imageSrc = src ?? (sku ? productImageFor(sku) : undefined);
+  // "" (not undefined) deliberately disables the SKU fallback when an admin
+  // has explicitly removed the product image.
+  const imageSrc = src === IMAGE_REMOVED ? "" : (src ?? (sku ? productImageFor(sku) : undefined));
   const defaultAlt = name
     ? `${name} — KimSafety`
     : categoryName || brand || "KimSafety product";

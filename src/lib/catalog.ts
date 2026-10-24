@@ -3,15 +3,15 @@ import { productInCategory } from "@/lib/data/catalog";
 import { productImages, productGalleries } from "@/lib/data/product-images";
 import { getSetting, listAdminProducts } from "@/lib/db";
 import { slugify } from "@/lib/utils";
+import { IMAGE_REMOVED } from "@/lib/image-constants";
 import type { Product } from "@/lib/types";
 import path from "path";
 
-// Admin product table changes only on admin edits. Previously 5s TTL caused
-// every Lambda to hit Postgres every 5s — under burst (Vercel = many Lambdas)
-// this saturates the `prisma_migration` connection limit (53300).
-// 30s TTL + stale-while-revalidate keeps edits visible within ~30s while
-// cutting DB QPS by 6×. On 53300 we back off 30s and serve static catalog.
-const CATALOG_TTL_MS = 30 * 1000;
+// Admin product table changes only on admin edits. Keep the per-Lambda TTL
+// short so image/price edits show up promptly across instances. The protection
+// against 53300 now comes from the pooled Neon connection and the no-store
+// /api/catalog response; on DB failure we still back off briefly.
+const CATALOG_TTL_MS = 5 * 1000;
 const DB_FAIL_TTL_MS = 30 * 1000;
 let cachedAdminRows: { at: number; rows: Awaited<ReturnType<typeof listAdminProducts>> } | null = null;
 let lastDbFailAt = 0;
@@ -130,6 +130,8 @@ export async function removeDeletedSku(sku: string) {
 // in the committed productImages map — otherwise the old file would flash
 // before the new DB-backed upload on every product reload.
 function resolveImage(sku: string, value: unknown, blocked: Set<string>): string {
+  // Explicit admin removal must win over the committed image map fallback.
+  if (value === IMAGE_REMOVED) return IMAGE_REMOVED;
   if (typeof value === "string" && value) {
     // If the admin override itself points to a blocked file, treat as not set
     try {

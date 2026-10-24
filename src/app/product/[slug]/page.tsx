@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { ChevronRight } from "lucide-react";
 import { products } from "@/lib/data/products";
 import { productImages } from "@/lib/data/product-images";
+import { IMAGE_REMOVED } from "@/lib/image-constants";
 import { liveGetBySlug, liveRelatedFor } from "@/lib/catalog";
 import { siteUrl } from "@/lib/site";
 import { ProductDetail } from "@/components/product/product-detail";
@@ -25,9 +26,11 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   const description = `${cleanDesc.slice(0, 120)} — ${priceText} · ${product.stock > 0 ? `${product.stock} in stock` : "Out of stock"} · ${product.rating}★ (${product.reviews} reviews) · Same-day Nairobi delivery & bulk discounts.`;
   // Main image: admin override -> committed product photo -> SKU fallback. Make absolute for OG crawlers.
   const mainImageRaw =
-    product.image ||
-    productImages[product.sku] ||
-    `/images/products/${product.sku}.jpg`;
+    product.image === IMAGE_REMOVED
+      ? "/og-image.jpg"
+      : product.image ||
+        productImages[product.sku] ||
+        `/images/products/${product.sku}.jpg`;
   const mainImage = mainImageRaw.startsWith("http") ? mainImageRaw : `${siteUrl}${mainImageRaw.startsWith("/") ? "" : "/"}${mainImageRaw}`;
   const images = [{ url: mainImage, width: 1200, height: 630, alt: product.name }];
   return {
@@ -65,9 +68,11 @@ export default async function ProductPage({ params }: { params: { slug: string }
 
   const related = await liveRelatedFor(product);
   const mainImageRaw =
-    product.image ||
-    productImages[product.sku] ||
-    `/images/products/${product.sku}.jpg`;
+    product.image === IMAGE_REMOVED
+      ? "/og-image.jpg"
+      : product.image ||
+        productImages[product.sku] ||
+        `/images/products/${product.sku}.jpg`;
   const mainImage = mainImageRaw.startsWith("http") ? mainImageRaw : `${siteUrl}${mainImageRaw.startsWith("/") ? "" : "/"}${mainImageRaw}`;
   const cleanDesc = product.description.replace(/<[^>]+>/g, " ").trim();
   const jsonLd = {

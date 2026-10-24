@@ -25,13 +25,16 @@ export function ProductCarousel({
   /** Server-rendered live catalog — avoids the stale-seed first-paint flash. */
   items?: Product[];
 }) {
-  const { catalog } = useStore();
+  const { catalog, catalogFetchedAt } = useStore();
+  const mountedAt = useRef(Date.now());
   const [tab, setTab] = useState("All");
   const scroller = useRef<HTMLDivElement>(null);
 
   const tabs = ["All", "Medical Safety", "Industrial Safety", "PPE", "Fire Safety", "Road Safety"];
 
-  const list = (catalog.length ? catalog : items?.length ? items : products).filter((p) => {
+  const recentFetch = catalogFetchedAt > 0 && Date.now() - catalogFetchedAt < 10_000;
+  const useLive = recentFetch || catalogFetchedAt > mountedAt.current;
+  const list = (useLive && catalog.length ? catalog : items?.length ? items : catalog.length ? catalog : products).filter((p) => {
     const base =
       filter === "all" ||
       (filter === "deals" ? p.oldPrice != null && p.oldPrice > p.price : p[filter] === true);

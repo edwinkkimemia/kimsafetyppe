@@ -21,6 +21,7 @@ import { addDeletedSku, removeDeletedSku } from "@/lib/catalog";
  */
 function revalidateProductPages(sku?: string, slug?: string) {
   revalidatePath("/", "layout");
+  revalidatePath("/api/catalog");
   if (slug) revalidatePath(`/product/${slug}`);
   if (sku) revalidatePath(`/product/${sku}`);
   // Category/search/brands also show product images – layout bust covers them

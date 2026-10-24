@@ -8,11 +8,12 @@ import { formatKES, discountPercent, cn } from "@/lib/utils";
 import { ProductArt } from "@/components/product/product-art";
 import { RatingStars } from "@/components/ui/rating";
 import { useState } from "react";
+import type { Product } from "@/lib/types";
 
-export function ProductRow({ productId }: { productId: string }) {
+export function ProductRow({ productId, product: initial }: { productId: string; product?: Product }) {
   const { addToCart, toggleWishlist, wishlist, toggleCompare, compare, liveProduct } = useStore();
   const [added, setAdded] = useState(false);
-  const product = liveProduct(productId) ?? getProduct(productId);
+  const product = initial ?? liveProduct(productId) ?? getProduct(productId);
   if (!product) return null;
   const off = discountPercent(product.price, product.oldPrice);
   const priceOnRequest = product.price <= 0;
@@ -24,7 +25,7 @@ export function ProductRow({ productId }: { productId: string }) {
         href={`/product/${product.slug}`}
         className="relative block h-40 w-full shrink-0 overflow-hidden rounded-xl sm:h-44 sm:w-44"
       >
-        <ProductArt tags={product.tags} categoryName={product.categoryName} brand={product.brand} sku={product.sku} name={product.name} className="h-full w-full" src={(product).image || undefined} />
+        <ProductArt tags={product.tags} categoryName={product.categoryName} brand={product.brand} sku={product.sku} name={product.name} className="h-full w-full" src={(product).image ?? undefined} />
         {off && (
           <span className="absolute left-2 top-2 rounded-full bg-danger px-2 py-0.5 text-[10px] font-bold text-white">
             -{off}%

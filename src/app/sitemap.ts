@@ -5,6 +5,7 @@ import { brands as staticBrands } from "@/lib/data/catalog";
 import { guides } from "@/lib/data/content";
 import { listPosts } from "@/lib/db";
 import { siteUrl } from "@/lib/site";
+import { IMAGE_REMOVED } from "@/lib/image-constants";
 import { getLiveBrands } from "@/lib/brands";
 
 const base = siteUrl;
@@ -36,7 +37,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     products = seed.map((p) => ({ ...p, image: productImages[p.sku] ?? `/images/products/${p.sku}.jpg` })) as typeof products;
   }
   const productRoutes = products.map((p) => {
-    const imgRaw = (p as unknown as { image?: string }).image || `/images/products/${(p as { sku: string }).sku}.jpg`;
+    const imgRaw =
+      (p as unknown as { image?: string }).image === IMAGE_REMOVED
+        ? "/og-image.jpg"
+        : (p as unknown as { image?: string }).image || `/images/products/${(p as { sku: string }).sku}.jpg`;
     const img = imgRaw.startsWith("http") ? imgRaw : `${base}${imgRaw}`;
     return {
       url: `${base}/product/${p.slug}`,

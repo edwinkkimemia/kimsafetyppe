@@ -24,6 +24,8 @@ import { RichTextEditor } from "@/components/admin/rich-text-editor";
 import { ProductArt, productImageFor } from "@/components/product/product-art";
 import { processImageInBrowser } from "@/lib/client-image-process";
 import { categories } from "@/lib/data/catalog";
+import { IMAGE_REMOVED } from "@/lib/image-constants";
+import { useStore } from "@/lib/store";
 import { cn } from "@/lib/utils";
 
 type SpecRow = { label: string; value: string };
@@ -127,6 +129,7 @@ export default function AdminProductEditPage() {
   const rawSku = decodeURIComponent(params.sku ?? "");
   const isNew = rawSku === "new";
   const router = useRouter();
+  const { refreshCatalog } = useStore();
 
   const { data, loading } = useFetch<{ products: AdminProduct[] }>("/api/admin/products");
   const [form, setForm] = useState<AdminProduct>(empty);
@@ -254,11 +257,16 @@ export default function AdminProductEditPage() {
       setError(json.error ?? "Save failed");
       return;
     }
+    // Refresh the shared client catalog before navigating away so the
+    // storefront does not render the previous image/price from the stale
+    // in-memory catalog first and swap it a moment later.
+    await refreshCatalog().catch(() => {});
     router.push("/admin/products");
     router.refresh();
   };
 
-  const previewSrc = form.image || (form.sku ? productImageFor(form.sku) : undefined);
+  const imageRemoved = form.image === IMAGE_REMOVED;
+  const previewSrc = imageRemoved ? undefined : form.image || (form.sku ? productImageFor(form.sku) : undefined);
 
   const number = (v: string) => (v === "" ? undefined : Number(v));
 
@@ -302,9 +310,11 @@ export default function AdminProductEditPage() {
             previewSrc={previewSrc}
             gallery={form.gallery ?? []}
             onPick={(path) => set({ image: path })}
-            // "" (not undefined) so the clear actually persists: JSON.stringify
+            // "" (not undefined) so the reset actually persists: JSON.stringify
             // drops undefined keys and the API merge would keep the old image.
             onClear={() => set({ image: "" })}
+            // Explicit removal: suppresses the committed/static image fallback too.
+            onRemove={() => set({ image: IMAGE_REMOVED })}
             onGalleryChange={(gallery) => set({ gallery })}
           />
 
@@ -634,6 +644,7 @@ function ImagePicker({
   gallery,
   onPick,
   onClear,
+  onRemove,
   onGalleryChange,
 }: {
   current?: string;
@@ -641,6 +652,7 @@ function ImagePicker({
   gallery: string[];
   onPick: (path: string) => void;
   onClear: () => void;
+  onRemove: () => void;
   onGalleryChange: (gallery: string[]) => void;
 }) {
   const { data, loading, refresh } = useFetch<{ products: string[] }>("/api/admin/images");
@@ -664,12 +676,19 @@ function ImagePicker({
       title="Images"
       subtitle="Click any photo to set it as the main (cover) image — use +/− to add or remove gallery extras"
       action={
-        current ? (
+        current === IMAGE_REMOVED ? (
           <button
             onClick={onClear}
+            className="flex items-center gap-1 rounded-lg border border-line px-3 py-1.5 text-[11px] font-bold text-navy-900 hover:bg-surface"
+          >
+            <RefreshCw className="h-3.5 w-3.5" /> Restore default image
+          </button>
+        ) : current || previewSrc ? (
+          <button
+            onClick={onRemove}
             className="flex items-center gap-1 rounded-lg border border-danger/30 px-3 py-1.5 text-[11px] font-bold text-danger hover:bg-red-50"
           >
-            <Trash2 className="h-3.5 w-3.5" /> Reset to default
+            <Trash2 className="h-3.5 w-3.5" /> Remove image
           </button>
         ) : undefined
       }
@@ -688,11 +707,15 @@ function ImagePicker({
                 className="aspect-[4/3]"
               />
             </div>
-            {current && (
+            {current === IMAGE_REMOVED ? (
+              <p className="mt-2 rounded-lg bg-amber-50 px-3 py-2 text-[11px] font-semibold text-amber-700">
+                Image removed — the generated placeholder will show until a new image is uploaded.
+              </p>
+            ) : current ? (
               <p className="mt-2 truncate rounded-lg bg-safety-50 px-3 py-2 text-[11px] font-semibold text-safety-700">
                 Override: {current}
               </p>
-            )}
+            ) : null}
           </div>
           <div className="space-y-4">
             <UploadZone
