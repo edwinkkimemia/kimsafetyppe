@@ -737,7 +737,7 @@ export const products: Product[] = [
   }),
   p({
     id: "p-215", sku: "KS-PPE-3006", name: "HiVis Bump Cap (Black/Orange)", brand: "KimSafety", category: "ppe", categoryName: "PPE",
-    price: 1100, stock: 121, lowStockAt: 20, rating: 4.5, reviews: 66, sold: 411,
+    price: 2200, stock: 121, lowStockAt: 20, rating: 4.5, reviews: 66, sold: 411,
     tags: ["ppe"],
     description: "HiVis Bump Cap (Black/Orange), quality-inspected at KimSafety's Nairobi warehouse and certified for professional use. Available in bulk with tiered corporate discounts and same-day dispatch within Nairobi.",
   }),
@@ -779,7 +779,7 @@ export const products: Product[] = [
   }),
   p({
     id: "p-250", sku: "KS-PPE-3013", name: "Rain Coat with Inner Lining", brand: "KimSafety", category: "ppe", categoryName: "PPE",
-    price: 2800, stock: 197, lowStockAt: 20, rating: 4.9, reviews: 22, sold: 1147,
+    price: 1400, stock: 197, lowStockAt: 20, rating: 4.9, reviews: 22, sold: 1147,
     tags: ["ppe"],
     description: "Rain Coat with Inner Lining, quality-inspected at KimSafety's Nairobi warehouse and certified for professional use. Available in bulk with tiered corporate discounts and same-day dispatch within Nairobi.",
   }),
@@ -827,13 +827,13 @@ export const products: Product[] = [
   }),
   p({
     id: "p-270", sku: "KS-PPE-3021", name: "Welding Goggles", brand: "KimSafety", category: "ppe", categoryName: "PPE",
-    price: 950, stock: 199, lowStockAt: 20, rating: 4.3, reviews: 104, sold: 489,
+    price: 350, stock: 199, lowStockAt: 20, rating: 4.3, reviews: 104, sold: 489,
     tags: ["ppe", "goggles"],
     description: "Welding Goggles, quality-inspected at KimSafety's Nairobi warehouse and certified for professional use. Available in bulk with tiered corporate discounts and same-day dispatch within Nairobi.",
   }),
   p({
     id: "p-275", sku: "KS-PPE-3022", name: "Anti-Cut Gloves (TraffiGlove)", brand: "Traffiglove", category: "ppe", categoryName: "PPE",
-    price: 1200, stock: 104, lowStockAt: 20, rating: 4.8, reviews: 149, sold: 834,
+    price: 450, stock: 104, lowStockAt: 20, rating: 4.8, reviews: 149, sold: 834,
     tags: ["ppe", "gloves"],
     description: "Anti-Cut Gloves (TraffiGlove), quality-inspected at KimSafety's Nairobi warehouse and certified for professional use. Available in bulk with tiered corporate discounts and same-day dispatch within Nairobi.",
   }),
@@ -851,7 +851,7 @@ export const products: Product[] = [
   }),
   p({
     id: "p-281", sku: "KS-PPE-3025", name: "Blue Reusable Nitrile Gloves", brand: "KimSafety", category: "ppe", categoryName: "PPE",
-    price: 1200, stock: 213, lowStockAt: 20, rating: 4.9, reviews: 118, sold: 1163,
+    price: 250, stock: 213, lowStockAt: 20, rating: 4.9, reviews: 118, sold: 1163,
     tags: ["ppe", "gloves", "nitrile"],
     description: "Blue Reusable Nitrile Gloves, quality-inspected at KimSafety's Nairobi warehouse and certified for professional use. Available in bulk with tiered corporate discounts and same-day dispatch within Nairobi.",
   }),
@@ -875,7 +875,7 @@ export const products: Product[] = [
   }),
   p({
     id: "p-293", sku: "KS-PPE-3029", name: "Ear Plugs", brand: "KimSafety", category: "ppe", categoryName: "PPE",
-    price: 2400, stock: 142, lowStockAt: 20, rating: 4.6, reviews: 27, sold: 652,
+    price: 130, stock: 142, lowStockAt: 20, rating: 4.6, reviews: 27, sold: 652,
     tags: ["ppe", "hearing"],
     description: "Ear Plugs, quality-inspected at KimSafety's Nairobi warehouse and certified for professional use. Available in bulk with tiered corporate discounts and same-day dispatch within Nairobi.",
   }),

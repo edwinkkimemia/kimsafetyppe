@@ -159,6 +159,7 @@ export const categories: Category[] = [
 ];
 
 export const brands: Brand[] = [
+  { slug: "kimsafety", name: "KimSafety", tagline: "Quality-assured safety essentials", origin: "Kenya", image: "/images/logo/logoy.png" },
   { slug: "3m", name: "3M", tagline: "Global innovation in safety", origin: "USA", image: "/images/brands/3m.jpg" },
   { slug: "honeywell", name: "Honeywell", tagline: "Industrial safety leader", origin: "USA", image: "/images/brands/honeywell.jpg" },
   { slug: "ansell", name: "Ansell", tagline: "Hand protection specialists", origin: "Australia", image: "/images/brands/ansell.jpg" },

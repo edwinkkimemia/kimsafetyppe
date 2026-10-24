@@ -10,20 +10,20 @@ import { Newsletter } from "@/components/home/newsletter";
 import { DealsBanner } from "@/components/home/deals-banner";
 import { CampaignStrip } from "@/components/home/campaign-strip";
 import { getActiveBanners, getActiveCampaigns } from "@/lib/db";
-import { liveCatalog, getProductCount } from "@/lib/catalog";
+import { liveCatalog } from "@/lib/catalog";
 import { siteUrl } from "@/lib/site";
 import type { Metadata } from "next";
 
 export const revalidate = 60;
 
 export async function generateMetadata(): Promise<Metadata> {
-  const count = await getProductCount();
   return {
     title: {
       // absolute — bypasses the layout's "%s | KimSafety" template (already branded)
-      absolute: `KimSafety — Buy ${count}+ Industrial & Medical Safety Equipment Online in Kenya | PPE, Fire Safety, Lab Equipment`,
+      absolute: "KimSafety — Buy Industrial & Medical Safety Equipment Online in Kenya | PPE, Fire Safety, Lab Equipment",
     },
-    description: `Shop ${count} certified safety products in Kenya — PPE, helmets, boots, gloves, fire extinguishers, medical supplies & lab equipment. Bulk discounts, same-day Nairobi delivery, 1,200+ organizations served across 47 counties.`,
+    description:
+      "Shop certified safety products in Kenya — PPE, helmets, boots, gloves, fire extinguishers, medical supplies & lab equipment. Bulk discounts, same-day Nairobi delivery, 1,200+ organizations served across 47 counties.",
     keywords: [
       "buy safety equipment Kenya",
       "PPE Nairobi",
@@ -35,7 +35,8 @@ export async function generateMetadata(): Promise<Metadata> {
     alternates: { canonical: siteUrl },
     openGraph: {
       title: "KimSafety — Industrial & Medical Safety Equipment Supplier in Kenya",
-      description: `${count} certified safety products — PPE, helmets, boots, gloves, fire extinguishers & lab equipment. Bulk discounts, same-day Nairobi delivery.`,
+      description:
+        "Certified safety products — PPE, helmets, boots, gloves, fire extinguishers & lab equipment. Bulk discounts, same-day Nairobi delivery.",
       type: "website",
       url: siteUrl,
       siteName: "KimSafety",
@@ -44,7 +45,8 @@ export async function generateMetadata(): Promise<Metadata> {
     twitter: {
       card: "summary_large_image",
       title: "KimSafety — Industrial & Medical Safety Equipment in Kenya",
-      description: `${count} certified safety products — PPE, fire safety, medical & lab equipment with bulk discounts & same-day delivery.`,
+      description:
+        "Certified safety products — PPE, fire safety, medical & lab equipment with bulk discounts & same-day delivery.",
       images: [`${siteUrl}/og-image.jpg`],
     },
   };

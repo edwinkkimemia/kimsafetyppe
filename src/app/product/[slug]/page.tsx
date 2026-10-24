@@ -21,7 +21,8 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   if (!product) return { title: "Product not found" };
   const cleanDesc = product.description.replace(/<[^>]+>/g, " ").trim();
   const title = `Buy ${product.name} — ${product.brand} in Kenya | KimSafety`;
-  const description = `${cleanDesc.slice(0, 120)} — KES ${product.price.toLocaleString()} · ${product.stock > 0 ? `${product.stock} in stock` : "Out of stock"} · ${product.rating}★ (${product.reviews} reviews) · Same-day Nairobi delivery & bulk discounts.`;
+  const priceText = product.price > 0 ? `KES ${product.price.toLocaleString()}` : "Price on request";
+  const description = `${cleanDesc.slice(0, 120)} — ${priceText} · ${product.stock > 0 ? `${product.stock} in stock` : "Out of stock"} · ${product.rating}★ (${product.reviews} reviews) · Same-day Nairobi delivery & bulk discounts.`;
   // Main image: admin override -> committed product photo -> SKU fallback. Make absolute for OG crawlers.
   const mainImageRaw =
     product.image ||
@@ -88,16 +89,20 @@ export default async function ProductPage({ params }: { params: { slug: string }
       bestRating: 5,
       worstRating: 1,
     },
-    offers: {
-      "@type": "Offer",
-      url: `${siteUrl}/product/${product.slug}`,
-      priceCurrency: "KES",
-      price: product.price,
-      priceValidUntil: new Date(Date.now() + 30 * 24 * 3600 * 1000).toISOString().split("T")[0],
-      availability: product.stock > 0 ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
-      itemCondition: "https://schema.org/NewCondition",
-      seller: { "@type": "Organization", name: "KimSafety", url: siteUrl },
-    },
+    ...(product.price > 0
+      ? {
+          offers: {
+            "@type": "Offer",
+            url: `${siteUrl}/product/${product.slug}`,
+            priceCurrency: "KES",
+            price: product.price,
+            priceValidUntil: new Date(Date.now() + 30 * 24 * 3600 * 1000).toISOString().split("T")[0],
+            availability: product.stock > 0 ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
+            itemCondition: "https://schema.org/NewCondition",
+            seller: { "@type": "Organization", name: "KimSafety", url: siteUrl },
+          },
+        }
+      : {}),
   };
 
   const breadcrumbJsonLd = {
@@ -118,7 +123,13 @@ export default async function ProductPage({ params }: { params: { slug: string }
       {
         "@type": "Question",
         name: `What is the price of ${product.name} in Kenya?`,
-        acceptedAnswer: { "@type": "Answer", text: `${product.name} costs KES ${product.price.toLocaleString()} ${product.oldPrice && product.oldPrice > product.price ? `(was KES ${product.oldPrice.toLocaleString()})` : ""} at KimSafety. Bulk discounts apply for 10+ units.` },
+        acceptedAnswer: {
+          "@type": "Answer",
+          text:
+            product.price > 0
+              ? `${product.name} costs KES ${product.price.toLocaleString()} ${product.oldPrice && product.oldPrice > product.price ? `(was KES ${product.oldPrice.toLocaleString()})` : ""} at KimSafety. Bulk discounts apply for 10+ units.`
+              : `${product.name} is priced on request. Contact KimSafety for a formal quotation and bulk pricing.`,
+        },
       },
       {
         "@type": "Question",

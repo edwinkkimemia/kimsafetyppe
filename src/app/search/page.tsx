@@ -9,15 +9,15 @@ import { siteUrl } from "@/lib/site";
 export const revalidate = 300;
 
 export async function generateMetadata(): Promise<Metadata> {
-  const count = await liveCatalog().then((c) => c.length).catch(() => 0);
   return {
-    title: `Shop All Safety Equipment in Kenya — ${count} Products`,
-    description: `Browse KimSafety's full catalogue — ${count} certified PPE, medical, fire, road, lab and emergency safety products with bulk pricing, same-day Nairobi delivery & corporate procurement support.`,
+    title: "Shop All Safety Equipment in Kenya | KimSafety",
+    description:
+      "Browse KimSafety's full catalogue — certified PPE, medical, fire, road, lab and emergency safety products with bulk pricing, same-day Nairobi delivery & corporate procurement support.",
     keywords: ["safety equipment Kenya", "shop safety equipment Nairobi", "PPE Kenya", "buy safety helmets Kenya"],
     alternates: { canonical: `${siteUrl}/search` },
     openGraph: {
       title: "Shop All Safety Equipment — KimSafety Kenya",
-      description: `${count} certified safety products with bulk pricing & same-day delivery across Kenya.`,
+      description: "Certified safety products with bulk pricing & same-day delivery across Kenya.",
       type: "website",
       url: `${siteUrl}/search`,
       siteName: "KimSafety",
@@ -26,7 +26,7 @@ export async function generateMetadata(): Promise<Metadata> {
     twitter: {
       card: "summary_large_image",
       title: "Shop All Safety Equipment — KimSafety Kenya",
-      description: `${count} certified PPE, fire, medical & lab safety products.`,
+      description: "Certified PPE, fire, medical & lab safety products.",
       images: [`${siteUrl}/og-image.jpg`],
     },
     robots: { index: true, follow: true },

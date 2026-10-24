@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Eye, Heart, Scale, ShoppingCart, Check } from "lucide-react";
+import { Eye, Heart, Scale, ShoppingCart, Check, ClipboardList } from "lucide-react";
 import { useStore } from "@/lib/store";
 import { discountPercent, formatKES, cn } from "@/lib/utils";
 import type { Product } from "@/lib/types";
@@ -26,6 +26,7 @@ export function ProductCard({
   const off = discountPercent(product.price, product.oldPrice);
   const low = product.stock > 0 && product.stock <= product.lowStockAt;
   const out = product.stock <= 0;
+  const priceOnRequest = product.price <= 0;
 
   const handleAdd = () => {
     addToCart(product.id);
@@ -103,9 +104,12 @@ export function ProductCard({
         <RatingStars rating={product.rating} reviews={product.reviews} size="xs" />
         <div className="mt-auto flex items-end justify-between pt-2">
           <div className="flex flex-col">
-            <span className="text-lg font-extrabold text-navy-900">
-              {formatKES(product.price)}
+            <span className={cn("font-extrabold text-navy-900", priceOnRequest ? "text-sm" : "text-lg")}>
+              {priceOnRequest ? "Price on request" : formatKES(product.price)}
             </span>
+            {!priceOnRequest && product.priceNote && (
+              <span className="text-[10px] leading-tight text-gray-400">{product.priceNote}</span>
+            )}
              {off && product.oldPrice != null && product.oldPrice > product.price && (
               <span className="text-xs text-gray-400 line-through">
                 {formatKES(product.oldPrice)}
@@ -116,14 +120,24 @@ export function ProductCard({
         </div>
 
         <div className="mt-2 flex items-center gap-1.5">
-          <button
-            onClick={handleAdd}
-            aria-label={`Add ${product.name} to cart`}
-            className="flex h-9 flex-1 items-center justify-center gap-1.5 rounded-xl bg-navy-900 text-xs font-semibold text-white transition-colors hover:bg-safety-500"
-          >
-            <ShoppingCart className="h-3.5 w-3.5" />
-            {added ? "Added" : "Add to Cart"}
-          </button>
+          {priceOnRequest ? (
+            <Link
+              href={`/quote?product=${product.id}`}
+              className="flex h-9 flex-1 items-center justify-center gap-1.5 rounded-xl bg-safety-500 text-xs font-semibold text-white transition-colors hover:bg-safety-600"
+            >
+              <ClipboardList className="h-3.5 w-3.5" /> Request Quote
+            </Link>
+          ) : (
+            <button
+              onClick={handleAdd}
+              disabled={out}
+              aria-label={`Add ${product.name} to cart`}
+              className="flex h-9 flex-1 items-center justify-center gap-1.5 rounded-xl bg-navy-900 text-xs font-semibold text-white transition-colors hover:bg-safety-500 disabled:cursor-not-allowed disabled:opacity-50"
+            >
+              <ShoppingCart className="h-3.5 w-3.5" />
+              {added ? "Added" : "Add to Cart"}
+            </button>
+          )}
           <button
             onClick={() => toggleWishlist(product.id)}
             aria-label={inWish ? `Remove ${product.name} from wishlist` : `Add ${product.name} to wishlist`}

@@ -97,7 +97,9 @@ export function SmartSearch({ className }: { className?: string }) {
                           {p.brand} · <span className="font-mono">{p.sku}</span>
                         </p>
                       </div>
-                      <span className="text-sm font-bold text-navy-900">{formatKES(p.price)}</span>
+                      <span className="text-sm font-bold text-navy-900">
+                        {p.price > 0 ? formatKES(p.price) : "Price on request"}
+                      </span>
                     </Link>
                   </li>
                 ))}

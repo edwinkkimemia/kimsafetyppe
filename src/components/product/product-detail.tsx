@@ -77,6 +77,7 @@ export function ProductDetail({
   const inWish = wishlist.includes(product.id);
   const inCompare = compare.includes(product.id);
   const out = live.stock <= 0;
+  const priceOnRequest = live.price <= 0;
   const low = !out && live.stock <= (live.lowStockAt ?? 10);
   const unitPrice = bulkUnitPrice(live, qty);
   const bulkPriceActive = unitPrice < live.price;
@@ -227,22 +228,35 @@ export function ProductDetail({
             <div className="mt-5 flex items-end gap-3 rounded-2xl bg-surface p-5">
               <div>
                 <div className="flex items-end gap-2.5">
-                  <span className="font-display text-4xl font-extrabold tracking-tight text-navy-900">
-                    {formatKES(unitPrice)}
+                  <span
+                    className={cn(
+                      "font-display font-extrabold tracking-tight text-navy-900",
+                      priceOnRequest ? "text-2xl" : "text-4xl"
+                    )}
+                  >
+                    {priceOnRequest ? "Price on request" : formatKES(unitPrice)}
                   </span>
-                  {bulkPriceActive && (
+                  {!priceOnRequest && bulkPriceActive && (
                     <span className="pb-1 text-base text-gray-400 line-through">{formatKES(live.price)}</span>
                   )}
-                  {!bulkPriceActive && off && live.oldPrice != null && live.oldPrice > live.price && (
+                  {!priceOnRequest && !bulkPriceActive && off && live.oldPrice != null && live.oldPrice > live.price && (
                     <span className="pb-1 text-base text-gray-400 line-through">{formatKES(live.oldPrice)}</span>
                   )}
                 </div>
-                {bulkPriceActive && activeTier && (
+                {!priceOnRequest && live.priceNote && (
+                  <p className="mt-1 text-xs font-semibold text-gray-500">{live.priceNote}</p>
+                )}
+                {priceOnRequest && (
+                  <p className="mt-1 text-xs font-semibold text-gray-500">
+                    Contact us for pricing, lead time and a formal quotation.
+                  </p>
+                )}
+                {!priceOnRequest && bulkPriceActive && activeTier && (
                   <p className="mt-1 text-xs font-semibold text-emerald-600">
                     Bulk price unlocked — {formatKES(live.price - unitPrice)} off per unit ({activeTier.savings})
                   </p>
                 )}
-                {!bulkPriceActive && off && live.oldPrice != null && live.oldPrice > live.price && (
+                {!priceOnRequest && !bulkPriceActive && off && live.oldPrice != null && live.oldPrice > live.price && (
                   <p className="mt-1 text-xs font-semibold text-emerald-600">
                     You save {formatKES(live.oldPrice - live.price)} ({off}%)
                   </p>
@@ -256,6 +270,7 @@ export function ProductDetail({
               </div>
             </div>
 
+            {!priceOnRequest && (
             <div className="mt-4 rounded-2xl border border-line p-4">
               <p className="mb-2.5 flex items-center gap-2 text-xs font-bold text-navy-900">
                 <BadgePercent className="h-4 w-4 text-safety-500" /> Bulk pricing
@@ -282,6 +297,7 @@ export function ProductDetail({
                 })}
               </div>
             </div>
+            )}
 
             <div className="mt-5 flex items-center gap-3">
               <div className="flex items-center rounded-xl border border-line">
@@ -303,20 +319,29 @@ export function ProductDetail({
                   <Plus className="h-4 w-4" />
                 </button>
               </div>
-              <Button
-                onClick={handleAdd}
-                disabled={out}
-                size="lg"
-                variant={added ? "success" : "primary"}
-                className="flex-1"
-              >
-                {added ? <Check className="h-4 w-4" /> : <ShoppingCart className="h-4 w-4" />}
-                {added ? "Added to Cart" : "Add to Cart"}
-              </Button>
+              {priceOnRequest ? (
+                <Link
+                  href={`/quote?product=${product.id}`}
+                  className="flex flex-1 items-center justify-center gap-2 rounded-xl bg-safety-500 px-6 py-3.5 text-sm font-bold text-white transition-colors hover:bg-safety-600"
+                >
+                  <ClipboardList className="h-4 w-4" /> Request Quote
+                </Link>
+              ) : (
+                <Button
+                  onClick={handleAdd}
+                  disabled={out}
+                  size="lg"
+                  variant={added ? "success" : "primary"}
+                  className="flex-1"
+                >
+                  {added ? <Check className="h-4 w-4" /> : <ShoppingCart className="h-4 w-4" />}
+                  {added ? "Added to Cart" : "Add to Cart"}
+                </Button>
+              )}
             </div>
 
               <div className="mt-3 grid grid-cols-1 gap-3 sm:grid-cols-2">
-                <Button onClick={handleBuyNow} disabled={out} size="lg" variant="secondary">
+                <Button onClick={handleBuyNow} disabled={out || priceOnRequest} size="lg" variant="secondary">
                   <Zap className="h-4 w-4 text-safety-400" />
                   {buyNowLoading ? "Redirecting…" : "Buy Now"}
                 </Button>
@@ -384,7 +409,9 @@ export function ProductDetail({
             <div className="mt-3 flex items-center gap-3">
               <a
                 href={`https://wa.me/254715135141?text=${encodeURIComponent(
-                  `Hello KimSafety! I'd like to order:\n• ${product.name} (${product.sku})\n• Quantity: ${qty}\n• Unit price: ${formatKES(unitPrice)}${bulkPriceActive ? " (bulk price)" : ""}\n• Total: ${formatKES(qty * unitPrice)}`
+                  priceOnRequest
+                    ? `Hello KimSafety! I'd like a quotation for:\n• ${product.name} (${product.sku})\n• Quantity: ${qty}`
+                    : `Hello KimSafety! I'd like to order:\n• ${product.name} (${product.sku})\n• Quantity: ${qty}\n• Unit price: ${formatKES(unitPrice)}${bulkPriceActive ? " (bulk price)" : ""}\n• Total: ${formatKES(qty * unitPrice)}`
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"

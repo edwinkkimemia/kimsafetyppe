@@ -28,6 +28,8 @@ export type Product = {
   categories?: string[];
   price: number;
   oldPrice?: number;
+  /** Display note such as "Price range: ..." or "Price on request". */
+  priceNote?: string;
   stock: number;
   lowStockAt: number;
   rating: number;

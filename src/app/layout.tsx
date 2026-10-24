@@ -45,21 +45,14 @@ async function loadBrand(): Promise<{ site_name: string; logo: string; email: st
 
 const absoluteUrl = (p: string) => (p.startsWith("http") ? p : `${siteUrl}${p}`);
 
-// Live product count so metadata never goes stale as the catalog grows.
-const productCount = async () => {
-  const { getProductCount } = await import("@/lib/catalog");
-  return getProductCount();
-};
-
 export async function generateMetadata(): Promise<Metadata> {
-  const count = await productCount();
   return {
     metadataBase: new URL(siteUrl),
     title: {
       default: "KimSafety — Industrial & Medical Safety Equipment Supplier in Kenya",
       template: "%s | KimSafety",
     },
-    description: `Kenya's trusted marketplace for certified industrial PPE, medical safety, fire safety, road safety and laboratory equipment. ${count} products, bulk discounts, same-day Nairobi delivery, corporate procurement support. Serving 1,200+ organizations across 47 counties.`,
+    description: `Kenya's trusted marketplace for certified industrial PPE, medical safety, fire safety, road safety and laboratory equipment — bulk discounts, same-day Nairobi delivery and corporate procurement support. Serving 1,200+ organizations across 47 counties.`,
     keywords: [
       "safety equipment Kenya",
       "PPE Kenya",
@@ -91,13 +84,13 @@ export async function generateMetadata(): Promise<Metadata> {
       url: siteUrl,
       siteName: "KimSafety",
       title: "KimSafety — Industrial & Medical Safety Equipment Supplier in Kenya",
-      description: `Certified PPE, medical, fire, road and lab safety equipment. ${count} products, bulk discounts, same-day Nairobi delivery, corporate procurement support.`,
+      description: `Certified PPE, medical, fire, road and lab safety equipment — bulk discounts, same-day Nairobi delivery and corporate procurement support.`,
       images: [{ url: `${siteUrl}/og-image.jpg`, width: 1200, height: 630, alt: "KimSafety — Industrial & Medical Safety Equipment Supplier in Kenya" }],
     },
     twitter: {
       card: "summary_large_image",
       title: "KimSafety — Industrial & Medical Safety Equipment Supplier in Kenya",
-      description: `Certified PPE, medical, fire, road and lab safety equipment. ${count} products, bulk discounts, same-day Nairobi delivery.`,
+      description: `Certified PPE, medical, fire, road and lab safety equipment — bulk discounts and same-day Nairobi delivery.`,
       images: [`${siteUrl}/og-image.jpg`],
     },
     icons: {
@@ -129,11 +122,6 @@ export default async function RootLayout({
   // Sequential to avoid 2 concurrent DB connections on cold Lambda (max:1).
   // Both helpers are cached (settings 60s, catalog 30s) so after first hit no DB.
   const brand = await loadBrand();
-  const count = await productCount().catch(async () => {
-    const { products } = await import("@/lib/data/products");
-    return products.length;
-  });
-
   const organizationJsonLd = {
     "@context": "https://schema.org",
     "@type": "Organization",
@@ -142,7 +130,7 @@ export default async function RootLayout({
     url: siteUrl,
     logo: absoluteUrl(brand.logo),
     description:
-      `Kenya's trusted marketplace for certified industrial PPE, medical safety, fire safety, road safety and laboratory equipment. ${count} products, 15 categories, 40+ authorized brands.`,
+      `Kenya's trusted marketplace for certified industrial PPE, medical safety, fire safety, road safety and laboratory equipment across 15 categories and 40+ authorized brands.`,
     email: brand.email,
     telephone: brand.phone,
     address: {
