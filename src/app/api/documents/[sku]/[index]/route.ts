@@ -9,6 +9,7 @@ import { htmlToBlocks, TextRun, Block } from "@/lib/html-blocks";
 import { getAllSettings } from "@/lib/db";
 import { readLogoBytes, getLogoSize, DEFAULT_LOGO } from "@/lib/logo";
 import { getStoredFile, readPublicFile } from "@/lib/file-store";
+import { preparePdfImage } from "@/lib/pdf-image";
 import { DEFAULT_SETTINGS } from "@/lib/settings-defaults";
 import { productImages, productGalleries } from "@/lib/data/product-images";
 import { IMAGE_REMOVED } from "@/lib/image-constants";
@@ -249,10 +250,12 @@ export async function GET(_req: Request, { params }: { params: { sku: string; in
           `/images/products/${product.sku}.jpg`,
         ]),
   ].filter((u): u is string => typeof u === "string" && !!u);
-  const galleryBufs = (await Promise.all(gridCandidates.map((u) => readPublicFile(u)))).filter(
-    (b): b is Buffer => !!b && isSupportedImage(b)
+  const rawGallery = (await Promise.all(gridCandidates.map((u) => readPublicFile(u)))).filter(
+    (b): b is Buffer => !!b
   );
-  const gallery = galleryBufs.slice(0, 3);
+  const gallery = (
+    await Promise.all(rawGallery.slice(0, 3).map((b) => preparePdfImage(b, 640)))
+  ).filter((b): b is Buffer => !!b);
 
   if (gallery.length > 0) {
     const gridGap = 12;
@@ -279,8 +282,10 @@ export async function GET(_req: Request, { params }: { params: { sku: string; in
       : [adminProduct.image, productImages[product.sku], `/images/products/${product.sku}.jpg`]
   ).filter((u): u is string => typeof u === "string" && !!u);
   for (const cand of imageCandidates) {
-    const buf = await readPublicFile(cand);
-    if (buf && isSupportedImage(buf)) {
+    const raw = await readPublicFile(cand);
+    if (!raw) continue;
+    const buf = await preparePdfImage(raw, 640);
+    if (buf) {
       imageW = 118;
       imageH = 118;
       pdf.rect(padR - imageW, y, imageW, imageH).lineWidth(1).strokeColor("#E2E8F0").stroke();
