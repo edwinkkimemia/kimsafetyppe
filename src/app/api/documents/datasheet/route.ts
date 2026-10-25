@@ -10,7 +10,9 @@ export async function GET(req: Request) {
   const sku = searchParams.get("sku");
   if (!sku) return NextResponse.json({ error: "Missing sku" }, { status: 400 });
 
-  const product = (await liveCatalog()).find((p) => p.sku === sku || p.slug === sku || p.id === sku);
+  const product = (await liveCatalog(true)).find(
+    (p) => p.sku === sku || p.slug === sku || p.id === sku
+  );
   if (!product) return NextResponse.json({ error: "Product not found" }, { status: 404 });
 
   const buffer = await buildBrandedDatasheetPdf([product]);
@@ -20,6 +22,7 @@ export async function GET(req: Request) {
       "Content-Type": "application/pdf",
       // Use same disposition as product page docs (/api/documents/[sku]/[index]) — direct download
       "Content-Disposition": `attachment; filename="kimsafety-datasheet-${slugify(product.slug)}.pdf"`,
+      "Cache-Control": "no-store, max-age=0",
     },
   });
 }

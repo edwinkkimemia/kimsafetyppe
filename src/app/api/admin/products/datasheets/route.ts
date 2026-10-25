@@ -43,7 +43,7 @@ function parseSkusFromBody(body: unknown): string[] | null {
 }
 
 async function buildPdf(skus: string[] | null): Promise<{ buffer: Buffer; count: number; filtered: boolean }> {
-  const catalog = await liveCatalog();
+  const catalog = await liveCatalog(true);
 
   let products = catalog;
   let filtered = false;

@@ -4,13 +4,14 @@ import { NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
 import PDFDocument from "pdfkit";
-import { mergedCatalog } from "@/lib/admin-products";
+import { liveCatalog } from "@/lib/catalog";
 import { htmlToBlocks, TextRun, Block } from "@/lib/html-blocks";
 import { getAllSettings } from "@/lib/db";
 import { readLogoBytes, getLogoSize, DEFAULT_LOGO } from "@/lib/logo";
 import { getStoredFile, readPublicFile } from "@/lib/file-store";
 import { DEFAULT_SETTINGS } from "@/lib/settings-defaults";
 import { productImages, productGalleries } from "@/lib/data/product-images";
+import { IMAGE_REMOVED } from "@/lib/image-constants";
 import { brands as staticBrands } from "@/lib/data/catalog";
 import { getLiveBrands } from "@/lib/brands";
 import { slugify } from "@/lib/utils";
@@ -84,7 +85,7 @@ function downloadFilename(product: Product, doc: { name: string; file?: string }
 }
 
 export async function GET(_req: Request, { params }: { params: { sku: string; index: string } }) {
-  const list = (await mergedCatalog()) as Product[];
+  const list = await liveCatalog(true);
   const product = list.find((p) => p.sku === params.sku || p.id === params.sku);
   const idx = Number(params.index);
   const doc = product?.downloads?.[idx];
@@ -108,6 +109,9 @@ export async function GET(_req: Request, { params }: { params: { sku: string; in
         headers: {
           "Content-Type": stored?.mime ?? "application/octet-stream",
           "Content-Disposition": `attachment; filename="${encodeURIComponent(downloadFilename(product, doc))}"`,
+          // Admin edits (product photos, uploaded documents) must never be
+          // masked by a browser-cached PDF under the same filename.
+          "Cache-Control": "no-store, max-age=0",
         },
       });
     }
@@ -233,12 +237,17 @@ export async function GET(_req: Request, { params }: { params: { sku: string; in
 
   // ---- Product image grid (3-up square) ----
   const adminProduct = product as Product & { image?: string; gallery?: string[] };
+  const imageRemoved = adminProduct.image === IMAGE_REMOVED;
   const gridCandidates = [
     ...((adminProduct.gallery ?? []) as string[]),
-    adminProduct.image,
-    ...(productGalleries[product.sku] ?? []),
-    productImages[product.sku],
-    `/images/products/${product.sku}.jpg`,
+    ...(imageRemoved
+      ? []
+      : [
+          adminProduct.image,
+          ...(productGalleries[product.sku] ?? []),
+          productImages[product.sku],
+          `/images/products/${product.sku}.jpg`,
+        ]),
   ].filter((u): u is string => typeof u === "string" && !!u);
   const galleryBufs = (await Promise.all(gridCandidates.map((u) => readPublicFile(u)))).filter(
     (b): b is Buffer => !!b && isSupportedImage(b)
@@ -264,11 +273,11 @@ export async function GET(_req: Request, { params }: { params: { sku: string; in
   // ---- Product photo (right) + summary rows ----
   let imageW = 0;
   let imageH = 0;
-  const imageCandidates = [
-    adminProduct.image,
-    productImages[product.sku],
-    `/images/products/${product.sku}.jpg`,
-  ].filter((u): u is string => typeof u === "string" && !!u);
+  const imageCandidates = (
+    imageRemoved
+      ? []
+      : [adminProduct.image, productImages[product.sku], `/images/products/${product.sku}.jpg`]
+  ).filter((u): u is string => typeof u === "string" && !!u);
   for (const cand of imageCandidates) {
     const buf = await readPublicFile(cand);
     if (buf && isSupportedImage(buf)) {
@@ -614,6 +623,7 @@ export async function GET(_req: Request, { params }: { params: { sku: string; in
     headers: {
       "Content-Type": "application/pdf",
       "Content-Disposition": `attachment; filename="${encodeURIComponent(downloadFilename(product, doc))}"`,
+      "Cache-Control": "no-store, max-age=0",
     },
   });
 }

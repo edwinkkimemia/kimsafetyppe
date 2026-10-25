@@ -15,6 +15,7 @@ import {
   RefreshCw,
   Save,
   Search,
+  Star,
   Trash2,
   Upload,
   X,
@@ -674,7 +675,7 @@ function ImagePicker({
   return (
     <AdminCard
       title="Images"
-      subtitle="Click any photo to set it as the main (cover) image — use +/− to add or remove gallery extras"
+      subtitle="Click any library photo to set it as the main (cover) image — use the ★ button on a gallery photo to make it the main image, +/− to manage extras"
       action={
         current === IMAGE_REMOVED ? (
           <button
@@ -756,15 +757,28 @@ function ImagePicker({
                   <div key={path + i} className="group relative overflow-hidden rounded-xl border border-line">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img src={path} alt={`Gallery ${i + 1}`} className="aspect-square w-full object-cover" />
-                    <div className="absolute inset-0 flex flex-col items-end justify-between bg-black/45 p-1.5 opacity-0 transition-opacity group-hover:opacity-100">
-                      <button
-                        onClick={() => onGalleryChange(gallery.filter((_, idx) => idx !== i))}
-                        aria-label={`Remove gallery image ${i + 1}`}
-                        className="flex h-6 w-6 items-center justify-center rounded-full bg-white text-gray-600 hover:bg-red-500 hover:text-white"
-                      >
-                        <X className="h-3.5 w-3.5" />
-                      </button>
-                      <div className="flex gap-1">
+                    <div className="absolute inset-0 flex flex-col justify-between bg-black/45 p-1.5 opacity-0 transition-opacity group-hover:opacity-100">
+                      <div className="flex w-full items-start justify-between gap-1">
+                        <button
+                          onClick={() => onPick(path)}
+                          aria-label={`Set gallery image ${i + 1} as main image`}
+                          title={current === path ? "Current main image" : "Set as main image"}
+                          className={cn(
+                            "flex h-6 w-6 items-center justify-center rounded-full text-gray-600",
+                            current === path ? "bg-safety-500 text-white" : "bg-white hover:bg-safety-500 hover:text-white"
+                          )}
+                        >
+                          <Star className={cn("h-3.5 w-3.5", current === path && "fill-current")} />
+                        </button>
+                        <button
+                          onClick={() => onGalleryChange(gallery.filter((_, idx) => idx !== i))}
+                          aria-label={`Remove gallery image ${i + 1}`}
+                          className="flex h-6 w-6 items-center justify-center rounded-full bg-white text-gray-600 hover:bg-red-500 hover:text-white"
+                        >
+                          <X className="h-3.5 w-3.5" />
+                        </button>
+                      </div>
+                      <div className="flex justify-end gap-1">
                         <button
                           onClick={() => moveInGallery(i, -1)}
                           disabled={i === 0}
@@ -786,6 +800,11 @@ function ImagePicker({
                     <span className="absolute bottom-1 left-1 rounded-md bg-black/60 px-1.5 py-0.5 text-[10px] font-bold text-white">
                       {i + 1}
                     </span>
+                    {current === path && (
+                      <span className="absolute left-1 top-1 rounded-md bg-safety-500 px-1.5 py-0.5 text-[9px] font-bold text-white group-hover:hidden">
+                        MAIN
+                      </span>
+                    )}
                   </div>
                 ))}
                 <UploadZone

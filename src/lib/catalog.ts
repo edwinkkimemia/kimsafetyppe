@@ -16,11 +16,11 @@ const DB_FAIL_TTL_MS = 30 * 1000;
 let cachedAdminRows: { at: number; rows: Awaited<ReturnType<typeof listAdminProducts>> } | null = null;
 let lastDbFailAt = 0;
 
-export async function getCachedAdminRows(): Promise<Awaited<ReturnType<typeof listAdminProducts>> | null> {
+export async function getCachedAdminRows(fresh = false): Promise<Awaited<ReturnType<typeof listAdminProducts>> | null> {
   const now = Date.now();
-  if (cachedAdminRows && now - cachedAdminRows.at < CATALOG_TTL_MS) return cachedAdminRows.rows;
+  if (!fresh && cachedAdminRows && now - cachedAdminRows.at < CATALOG_TTL_MS) return cachedAdminRows.rows;
   // After a failure, back off briefly so an overloaded DB is not hammered.
-  if (now - lastDbFailAt < DB_FAIL_TTL_MS) {
+  if (!fresh && now - lastDbFailAt < DB_FAIL_TTL_MS) {
     // Serve stale if we have it, otherwise signal caller to use static catalog.
     return cachedAdminRows?.rows ?? null;
   }
@@ -183,9 +183,9 @@ function resolveGallery(sku: string, value: unknown, blocked: Set<string>): stri
   return filtered.length > 0 ? [...filtered] : undefined;
 }
 
-async function mergedCatalog(): Promise<Product[]> {
+async function mergedCatalog(fresh = false): Promise<Product[]> {
   const [rows, blocked, deleted] = await Promise.all([
-    getCachedAdminRows().then((r) => r ?? []),
+    getCachedAdminRows(fresh).then((r) => r ?? []),
     getBlockedSet(),
     getDeletedSet(),
   ]);
@@ -269,15 +269,18 @@ function stableShuffle<T extends { sku: string }>(arr: T[]): T[] {
 
 let catalogInflight: Promise<Product[]> | null = null;
 
-export async function liveCatalog(): Promise<Product[]> {
-  if (catalogInflight) return catalogInflight;
-  catalogInflight = mergedCatalog().finally(() => {
+export async function liveCatalog(fresh = false): Promise<Product[]> {
+  if (!fresh && catalogInflight) return catalogInflight;
+  const pending = mergedCatalog(fresh).finally(() => {
     // clear on next tick so concurrent callers share the same promise
-    setTimeout(() => {
-      catalogInflight = null;
-    }, 0);
+    if (!fresh) {
+      setTimeout(() => {
+        catalogInflight = null;
+      }, 0);
+    }
   });
-  return catalogInflight;
+  if (!fresh) catalogInflight = pending;
+  return pending;
 }
 
 /**

@@ -7,6 +7,7 @@ import { readLogoBytes, getLogoSize, DEFAULT_LOGO } from "@/lib/logo";
 import { readPublicFile } from "@/lib/file-store";
 import { DEFAULT_SETTINGS } from "@/lib/settings-defaults";
 import { productImages, productGalleries } from "@/lib/data/product-images";
+import { IMAGE_REMOVED } from "@/lib/image-constants";
 import { brands as staticBrands } from "@/lib/data/catalog";
 import { getLiveBrands } from "@/lib/brands";
 import type { Product } from "@/lib/types";
@@ -417,13 +418,18 @@ export async function buildBrandedDatasheetPdf(
 
     // Image grid (3-up) — skipped in compact (bundle) mode to keep size sane
     const adminProduct = product as Product & { image?: string; gallery?: string[] };
+    const imageRemoved = adminProduct.image === IMAGE_REMOVED;
     if (!compact) {
       const gridCandidates = [
         ...((adminProduct.gallery ?? []) as string[]),
-        adminProduct.image,
-        ...(productGalleries[product.sku] ?? []),
-        productImages[product.sku],
-        `/images/products/${product.sku}.jpg`,
+        ...(imageRemoved
+          ? []
+          : [
+              adminProduct.image,
+              ...(productGalleries[product.sku] ?? []),
+              productImages[product.sku],
+              `/images/products/${product.sku}.jpg`,
+            ]),
       ].filter((u): u is string => typeof u === "string" && !!u);
       const galleryBufs = (
         await Promise.all(gridCandidates.map((u) => readPublicFile(u)))
@@ -450,11 +456,11 @@ export async function buildBrandedDatasheetPdf(
     // Product photo + summary rows
     let imageW = 0;
     let imageH = 0;
-    const imageCandidates = [
-      adminProduct.image,
-      productImages[product.sku],
-      `/images/products/${product.sku}.jpg`,
-    ].filter((u): u is string => typeof u === "string" && !!u);
+    const imageCandidates = (
+      imageRemoved
+        ? []
+        : [adminProduct.image, productImages[product.sku], `/images/products/${product.sku}.jpg`]
+    ).filter((u): u is string => typeof u === "string" && !!u);
     for (const cand of imageCandidates) {
       let buf = await readPublicFile(cand);
       if (!buf || !isSupportedImage(buf)) continue;
