@@ -1,0 +1,535 @@
+sku,name,brand,category,current_price,matches,market_low,market_median,market_high,suggested_price,change_pct,confidence,best_match,best_source,best_url,note
+KS-IMP-0237,Hillson Clawz Safety Shoe - Low Cut,KimSafety,Industrial Safety,3000,0,,,,3000,0,none,,,,No close competitor match
+KS-IND-2018,Steel-Toe Safety Shoes,KimSafety,Industrial Safety,4600,0,,,,4600,0,none,,,,No close competitor match
+KS-IMP-0255,Super Grip Leather Gloves,KimSafety,PPE,280,5,320,350,400,350,25,medium,Leather Work Gloves,Safety Hub,https://www.safetyhub.co.ke/product/leather-work-gloves/,
+KS-PPE-3008,Designer Reflective Jacket (Orange),KimSafety,PPE,3200,1,1700,1700,1700,1700,-46.9,medium,Reflective Jacket,Safeken,https://safeken.co.ke/product/reflective-jacket/,
+KS-SIG-1310,PPE Required Signage,KimSafety,Signs & Labels,1200,0,,,,1200,0,none,,,,No close competitor match
+KS-IMP-0208,Safety Boy Air Filter Replacement for Full Face Mask,KimSafety,PPE,1600,0,,,,1600,0,none,,,,No close competitor match
+KS-SEC-1104,Garrett Metal Detector,Garrett,Security Equipment,38500,3,2400,3000,3500,38500,0,low,Garrett Metal Detector,Safeken,https://safeken.co.ke/product/garrett-metal-detector/,Outlier ratio 0.08x — review manually
+KS-FIR-4010,Heat Detector,KimSafety,Fire Safety,2600,0,,,,2600,0,none,,,,No close competitor match
+KS-IMP-0068,Concrete Pole Climbers,KimSafety,Construction Safety,6500,2,7000,7000,7000,7000,7.7,high,Concrete pole climbers,Safety Hub,https://www.safetyhub.co.ke/product/concrete-pole-climbers/,
+KS-PPE-3017,Classic Safety Goggles,KimSafety,PPE,850,4,300,300,350,850,0,low,Heavy Duty Safety Goggles,Safety Hub,https://www.safetyhub.co.ke/product/heavy-duty-safety-goggles/,Outlier ratio 0.35x — review manually
+KS-IMP-0083,2 Piece Leather Motorbike Suit - EX UK,KimSafety,Road Safety,8000,0,,,,8000,0,none,,,,No close competitor match
+KS-MED-1001,Nitrilution Exam Gloves — Nitrile Powder-Free,Ansell,Medical Safety,1850,0,,,,1850,0,none,,,,No close competitor match
+KS-IMP-0013,Caution Tape 2-inch and 3-inch – 250 Metres,KimSafety,Road Safety,450,0,,,,450,0,none,,,,No close competitor match
+KS-IMP-0175,ACE Simba Safety Shoe Black,KimSafety,Industrial Safety,3400,0,,,,3400,0,none,,,,No close competitor match
+KS-IMP-0197,Safety Boy Full Face Mask with Replaceable Cartridge S6700,KimSafety,PPE,6800,0,,,,6800,0,none,,,,No close competitor match
+KS-PPE-3007,Construction Rigger Leather Gloves,KimSafety,PPE,1400,5,320,350,400,1400,0,low,Leather Work Gloves,Safety Hub,https://www.safetyhub.co.ke/product/leather-work-gloves/,Outlier ratio 0.25x — review manually
+KS-PPE-3042,Workwear Dustcoats,KimSafety,PPE,2600,0,,,,2600,0,none,,,,No close competitor match
+KS-IMP-0073,Healthcare Occupational First Aid Kit,KimSafety,Emergency Response,7500,5,3000,4000,7400,4000,-46.7,high,Occupational First Aid Kit,Safety Hub,https://www.safetyhub.co.ke/product/occupational-first-aid-kit/,
+KS-IMP-0206,Fall Arrestor Device,KimSafety,Construction Safety,18000,0,,,,18000,0,none,,,,No close competitor match
+KS-TOOL-1526,Strapping Metal Clips,KimSafety,Tools & Hardware,1200,0,,,,1200,0,none,,,,No close competitor match
+KS-SIG-1302,WarningLite Hazard Warning Sign — Danger,Karam,Signs & Labels,550,0,,,,550,0,none,,,,No close competitor match
+KS-PPE-3022,Anti-Cut Gloves (TraffiGlove),Traffiglove,PPE,450,1,550,550,550,550,22.2,medium,Anti Cut Gloves,Safeken,https://safeken.co.ke/product/anti-cut-gloves/,
+KS-PPE-3019,Ultimate Plus Cut-Resistant Gloves,KimSafety,PPE,1900,4,549,550,550,1900,0,low,Ultimate Plus Cut Resistant Gloves,Safety Hub,https://www.safetyhub.co.ke/product/ultimate-plus-cut-resistant-gloves/,Outlier ratio 0.29x — review manually
+KS-SEC-1107,Stun Gun Self-Defense Flashlight Torch 288,KimSafety,Security Equipment,4800,0,,,,4800,0,none,,,,No close competitor match
+KS-IMP-0143,Heavy Duty Tie Down Ratchet Strap - 10 mtrs,KimSafety,Road Safety,2100,0,,,,2100,0,none,,,,No close competitor match
+KS-PPE-3035,Reflective Overalls (Normal Duty),KimSafety,PPE,2600,5,1200,1200,2300,2600,0,low,Reflective overalls,Safety Hub,https://www.safetyhub.co.ke/product/reflective-overalls-3/,Outlier ratio 0.46x — review manually
+KS-IMP-0032,Rider Chest Guard,KimSafety,Road Safety,850,1,750,750,750,750,-11.8,medium,Rider Chest Guard,Safeken,https://safeken.co.ke/product/rider-chest-guard/,
+KS-PPE-3024,Black Multi-Use Gloves,KimSafety,PPE,1200,0,,,,1200,0,none,,,,No close competitor match
+KS-TOOL-1504,Folding Aluminium Ladder,KimSafety,Tools & Hardware,9500,0,,,,9500,0,none,,,,No close competitor match
+KS-SEC-1101,WatchTower 2MP CCTV Dome Camera,Honeywell,Security Equipment,6800,0,,,,6800,0,none,,,,No close competitor match
+KS-CLN-8015,Urinal Toilet Balls,KimSafety,Cleaning & Hygiene,850,0,,,,850,0,none,,,,No close competitor match
+KS-IMP-0202,Footplus Kinga Heavy Duty Coloured Gumboots,KimSafety,Industrial Safety,1050,0,,,,1050,0,none,,,,No close competitor match
+KS-IMP-0331,2 x 6 Step Double Extendable Ladder,KimSafety,Tools,15600,0,,,,15600,0,none,,,,No close competitor match
+KS-PPE-3053,Auto-Darkening Welding Helmet,Honeywell,PPE,8500,2,4319,4500,4500,4500,-47.1,high,Best Auto darkening Welding Helmet,Safety Hub,https://www.safetyhub.co.ke/product/best-auto-darkening-welding-helmet/,
+KS-SIG-1311,Floor Marking Tape,KimSafety,Signs & Labels,1200,1,1450,1450,1450,1450,20.8,medium,Yellow Floor Marking Adhesive Tape,Safeken,https://safeken.co.ke/product/yellow-floor-marking-adhesive-tape/,
+KS-IMP-0081,Workman High Cut Safety Shoe,KimSafety,Industrial Safety,3200,0,,,,3200,0,none,,,,No close competitor match
+KS-IMP-0367,2 x 20 Step Extendable Fibreglass Ladder,KimSafety,Tools,71500,0,,,,71500,0,none,,,,No close competitor match
+KS-IMP-0229,Life Saver Reflective Jacket,KimSafety,Road Safety,2200,2,1700,2500,2500,2500,13.6,high,Life Saver Jacket,Safeken,https://safeken.co.ke/product/life-saver-jacket/,
+KS-PPE-3059,Reflective Safety Jacket — Bomber Style,Portwest,Road Safety,3600,1,1700,1700,1700,3600,0,low,Reflective Jacket,Safeken,https://safeken.co.ke/product/reflective-jacket/,Outlier ratio 0.47x — review manually
+KS-CON-6003,LineWatch Horizontal Safety Lifeline Kit,MSA,Construction Safety,28500,0,,,,28500,0,none,,,,No close competitor match
+KS-IMP-0183,Eye Wash Station,KimSafety,PPE,10200,5,9500,10500,55000,10500,2.9,high,Emergency Eye Wash Station,Safety Hub,https://www.safetyhub.co.ke/product/emergency-eye-wash-station/,
+KS-IMP-0225,Top Quality Anti Cut Level 5 Gloves of TTST Brand,KimSafety,PPE,500,0,,,,500,0,none,,,,No close competitor match
+KS-ROA-5003,BarrierLite Water-Filled Road Barrier,Karam,Road Safety,12500,0,,,,12500,0,none,,,,No close competitor match
+KS-IMP-0085,Kavach Electrical Insulating Gloves,KimSafety,PPE,5200,1,2999,2999,2999,3000,-42.3,medium,Electrical Gloves,Safeken,https://safeken.co.ke/product/electrical-gloves/,
+KS-IMP-0362,3 x 16 Step Triple Extendable Ladder,KimSafety,Tools,43940,0,,,,43940,0,none,,,,No close competitor match
+KS-IMP-0186,10 + 10 Step Dual-Step Ladder,KimSafety,Tools,23400,0,,,,23400,0,none,,,,No close competitor match
+KS-FOO-1207,Food-Grade Biodegradable Garbage Bags,KimSafety,Food Safety,1500,0,,,,1500,0,none,,,,No close competitor match
+KS-PPE-3061,Ear Muffs — Foldable Over-Head SNR 25dB,Delta Plus,PPE,1800,0,,,,1800,0,none,,,,No close competitor match
+KS-IMP-0036,Reflector Vest with Zip & Pockets,KimSafety,Road Safety,400,2,180,600,600,600,50,high,Pocket Reflector Vest,Safeken,https://safeken.co.ke/product/pocket-reflector-vest/,
+KS-TOOL-1513,Handheld Inkjet Coding Printer,KimSafety,Tools & Hardware,55000,0,,,,55000,0,none,,,,No close competitor match
+KS-SEC-1106,Security Whistle,KimSafety,Security Equipment,350,2,100,200,200,200,-42.9,high,Security Guard Whistle,Safeken,https://safeken.co.ke/product/security-guard-whistle/,
+KS-IMP-0301,9 Step Stepper Ladder,KimSafety,Tools,13000,0,,,,13000,0,none,,,,No close competitor match
+KS-IMP-0299,TAHA Safety Chemical Gloves Euler,KimSafety,PPE,1200,0,,,,1200,0,none,,,,No close competitor match
+KS-CON-6005,Full Body Harness Double Hook with Shock Absorber,KimSafety,Construction Safety,6200,2,10000,18000,18000,6200,0,low,Double Hook Full Body Harness,Safeken,https://safeken.co.ke/product/double-hook-full-body-harness/,Outlier ratio 2.90x — review manually
+KS-TOOL-1514,Manilla Baler Twine,KimSafety,Tools & Hardware,1500,0,,,,1500,0,none,,,,No close competitor match
+KS-CLN-8003,Chemical Spill Kit 28L (Bag),KimSafety,Cleaning & Hygiene,8500,0,,,,8500,0,none,,,,No close competitor match
+KS-IMP-0307,6 Step Fixed Ladder,KimSafety,Tools,7800,0,,,,7800,0,none,,,,No close competitor match
+KS-PPE-3015,Knicker Cut-Resistant Gloves,Resends,PPE,1600,2,549,550,550,1600,0,low,Best Cut Resistant Gloves,Safety Hub,https://www.safetyhub.co.ke/product/cut-resistant-gloves/,Outlier ratio 0.34x — review manually
+KS-IMP-0326,Anti-vibration Gloves,KimSafety,PPE,1700,0,,,,1700,0,none,,,,No close competitor match
+KS-IMP-0371,4 x 6 Step Folding Fibreglass Ladder,KimSafety,Tools,31199,0,,,,31199,0,none,,,,No close competitor match
+KS-IMP-0296,Chain Cut Gloves - Short Sleeved,KimSafety,PPE,8500,0,,,,8500,0,none,,,,No close competitor match
+KS-IND-2019,Steel-Toe Safety Gumboot S1-SRA,Vaultex,Industrial Safety,2500,2,1800,2300,2300,2300,-8,medium,Steel Toe Safety Gumboots,Safety Hub,https://www.safetyhub.co.ke/product/safety-gumboots-steel-toe-safety-gumboots/,
+KS-EMR-9003,FirstAid Responder Stretcher — Foldable,MSA,Emergency Response,9500,0,,,,9500,0,none,,,,No close competitor match
+KS-IMP-0065,75 cm High-Visibility PU Pole – Red/Yellow,KimSafety,Road Safety,1100,0,,,,1100,0,none,,,,No close competitor match
+KS-IMP-0354,3 x 9 Step Triple Extendable Ladder,KimSafety,Tools,29120,0,,,,29120,0,none,,,,No close competitor match
+KS-PPE-3057,Disposable Shoe Covers — Anti-Skid (Box of 100),KimSafety,PPE,1400,0,,,,1400,0,none,,,,No close competitor match
+KS-IMP-0107,Power/Cargo Khaki Overall Imported,KimSafety,PPE,3500,0,,,,3500,0,none,,,,No close competitor match
+KS-IMP-0112,Latex Surgical Gloves 50 pcs,KimSafety,Medical Safety,1250,0,,,,1250,0,none,,,,No close competitor match
+KS-CLN-8014,Urinal Screen Mats,KimSafety,Cleaning & Hygiene,3200,0,,,,3200,0,none,,,,No close competitor match
+KS-IMP-0072,Plain Red Bump Cap,KimSafety,Industrial Safety,2200,5,170,1500,3800,1500,-31.8,medium,Red Caps,Safety Hub,https://www.safetyhub.co.ke/product/red-caps/,
+KS-IMP-0369,4 x 4 Step Folding Fibreglass Ladder,KimSafety,Tools,31200,0,,,,31200,0,none,,,,No close competitor match
+KS-IMP-0093,Vaultex Full Body Harness with Shock Absorption Lanyards,Vaultex,Construction Safety,10800,2,9000,9500,9500,9500,-12,high,Vaultex Full Body Harness,Safeken,https://safeken.co.ke/product/vaultex-full-body-harness-2/,
+KS-IMP-0191,Anti Impact Gloves,KimSafety,PPE,2300,2,1600,1600,1600,1600,-30.4,high,Anti Impact Gloves,Safeken,https://safeken.co.ke/product/anti-impact-gloves/,
+KS-IND-2005,ThermoGuard HiVis Winter Jacket,Karam,Industrial Safety,3900,0,,,,3900,0,none,,,,No close competitor match
+KS-IMP-0055,ACE Combat Boot 1256,KimSafety,Industrial Safety,4000,2,3500,3500,3500,3500,-12.5,high,Ace Combat Boots,Safety Hub,https://www.safetyhub.co.ke/product/ace-combat-boots/,
+KS-PPE-3055,Respirator Cartridges — A2P3 Pair,3M,PPE,3600,0,,,,3600,0,none,,,,No close competitor match
+KS-IMP-0047,Healthcare Medium First Aid Kit,KimSafety,Emergency Response,2900,4,3000,3800,4000,3800,31,high,Medium First Aid Kit,Safeken,https://safeken.co.ke/product/medium-first-aid-kit/,
+KS-TOOL-1503,Iron Multifolding Extension Ladder,KimSafety,Tools & Hardware,12500,0,,,,12500,0,none,,,,No close competitor match
+KS-IMP-0135,Single Hook Safety Harness,KimSafety,Construction Safety,2500,0,,,,2500,0,none,,,,No close competitor match
+KS-IMP-0075,Aluminized 1000°C Heat Insulation Suit,KimSafety,PPE,55000,0,,,,55000,0,none,,,,No close competitor match
+KS-FIR-4004,CO2 Fire Extinguisher 2kg,KimSafety,Fire Safety,12500,2,1500,4200,4200,12500,0,low,2Kg CO2 Fire Extinguisher,Sidget Safety,https://sidgetsafety.co.ke/product/2kg-co2-fire-extinguisher/,Outlier ratio 0.34x — review manually
+KS-IMP-0027,Waterproof Chest Wader,KimSafety,PPE,5000,2,3000,11000,11000,3000,-40,high,Waterproof Chest Waders,Safety Hub,https://www.safetyhub.co.ke/product/waterproof-chest-waders/,Range/from product — suggested uses market low
+KS-IMP-0165,Green PVC Gloves,KimSafety,PPE,350,4,350,400,450,400,14.3,high,Industrial PVC Gloves,Safeken,https://safeken.co.ke/product/industrial-pvc-gloves/,
+KS-FOO-1204,Beard Covers,KimSafety,Food Safety,700,1,1000,1000,1000,1000,42.9,medium,Beard Cover,Safeken,https://safeken.co.ke/product/beard-cover/,
+KS-IMP-0118,Full Length PVC Waterproof Apron,KimSafety,PPE,1500,2,700,700,700,1500,0,low,PVC Waterproof Aprons,Safety Hub,https://www.safetyhub.co.ke/product/pvc-waterproof-aprons/,Outlier ratio 0.47x — review manually
+KS-IMP-0079,Leather Welding Shoe Covers,KimSafety,PPE,950,1,800,800,800,800,-15.8,medium,Shoe Covers,Safeken,https://safeken.co.ke/product/shoe-covers/,
+KS-IMP-0129,Reflective Strap Vest,KimSafety,Road Safety,450,1,200,200,200,450,0,low,Reflective Vest,Safeken,https://safeken.co.ke/product/reflective-vest/,Outlier ratio 0.44x — review manually
+KS-IMP-0052,80 cm Convex Mirror,KimSafety,Road Safety,8500,0,,,,8500,0,none,,,,No close competitor match
+KS-IMP-0335,Warm Rider Gloves - Light Duty,KimSafety,PPE,550,1,500,500,500,500,-9.1,medium,Rider gloves,Sidget Safety,https://sidgetsafety.co.ke/product/rider-gloves/,
+KS-IMP-0082,Waterproof Half Gumboot,KimSafety,Industrial Safety,650,0,,,,650,0,none,,,,No close competitor match
+KS-CLN-8012,Neck Barber Rolls,KimSafety,Cleaning & Hygiene,900,0,,,,900,0,none,,,,No close competitor match
+KS-FOO-1211,Hair Nets — Nylon Mesh (Pack of 10),KimSafety,Food Safety,800,0,,,,800,0,none,,,,No close competitor match
+KS-CLN-8011,Makuti Brooms (Large),KimSafety,Cleaning & Hygiene,1200,0,,,,1200,0,none,,,,No close competitor match
+KS-IMP-0171,Full Face 6800 Respirator Mask,KimSafety,PPE,4500,0,,,,4500,0,none,,,,No close competitor match
+KS-IMP-0067,AlcoblowPro AT05 – Rapid Screen Breathalyzer,KimSafety,Security Equipment,130000,0,,,,130000,0,none,,,,No close competitor match
+KS-PPE-3005,4-Stripe Orange Reflective Vest,KimSafety,PPE,1200,1,200,200,200,1200,0,low,Reflective Vest,Safeken,https://safeken.co.ke/product/reflective-vest/,Outlier ratio 0.17x — review manually
+KS-IMP-0157,8 + 8 Step Dual-Step Ladder,KimSafety,Tools,18200,0,,,,18200,0,none,,,,No close competitor match
+KS-IMP-0231,Tyvek 500 Xpert Disposable Coverall,KimSafety,PPE,1100,0,,,,1100,0,none,,,,No close competitor match
+KS-IMP-0248,20 Litre Heavy Duty Metal Jerry Can,KimSafety,PPE,6500,0,,,,6500,0,none,,,,No close competitor match
+KS-IMP-0275,Chemical Resistant Rubber Gloves - Long,KimSafety,PPE,500,1,300,300,300,300,-40,medium,Heavy Duty Chemical Resistant Gloves,Safeken,https://safeken.co.ke/product/heavy-duty-chemical-resitant-gloves/,
+KS-SIG-1304,Deep Excavation Warning Sign (A2),KimSafety,Signs & Labels,1450,0,,,,1450,0,none,,,,No close competitor match
+KS-IMP-0060,JSP Helmet,JSP,Industrial Safety,1700,5,700,1300,1500,1300,-23.5,high,JSP Helmet EVO 2,Safeken,https://safeken.co.ke/product/jsp-helmet-evo-2/,
+KS-IMP-0178,Anti Static Gloves,KimSafety,PPE,1000,0,,,,1000,0,none,,,,No close competitor match
+KS-PPE-3009,Designer Reflective Vest (Orange/Black),KimSafety,PPE,1300,0,,,,1300,0,none,,,,No close competitor match
+KS-MAR-1001,AquaGuard 150N Life Jacket,Delta Plus,Marine Safety,4250,0,,,,4250,0,none,,,,No close competitor match
+KS-PPE-3045,Disposable Type 5/6 Coveralls,DuPont,PPE,1800,2,850,950,950,950,-47.2,high,Disposable Coverall,Safety Hub,https://www.safetyhub.co.ke/product/disposable-coverall/,
+KS-IMP-0142,Vaultex Ear Muff 30 db,Vaultex,PPE,1300,1,800,800,800,800,-38.5,medium,Vaultex Ear Muff,Safeken,https://safeken.co.ke/product/vaultex-ear-muff/,
+KS-IMP-0127,Power/Cargo Khaki Overall 2PC Imported,KimSafety,PPE,4500,0,,,,4500,0,none,,,,No close competitor match
+KS-EMR-9002,SurviveAl Emergency Thermal Blanket (5-pack),MSA,Emergency Response,1200,0,,,,1200,0,none,,,,No close competitor match
+KS-PPE-3048,Welding Gloves — Premium Cowhide,KimSafety,PPE,1400,0,,,,1400,0,none,,,,No close competitor match
+KS-IMP-0277,4 x 9 Step Quad-Fold Ladder,KimSafety,Tools,48100,0,,,,48100,0,none,,,,No close competitor match
+KS-IMP-0007,Vaultex Site Helmet,Vaultex,Industrial Safety,500,3,590,600,650,600,20,high,Vaultex Industrial Helmets,Safety Hub,https://www.safetyhub.co.ke/product/vaultex-industrial-helmets/,
+KS-IND-2015,Vaultex Safety Helmet,Vaultex,Industrial Safety,1600,5,590,650,750,1600,0,low,Vaultex Industrial Helmets,Safety Hub,https://www.safetyhub.co.ke/product/vaultex-industrial-helmets/,Outlier ratio 0.41x — review manually
+KS-IMP-0212,ACE Mamba Safety Shoe,KimSafety,Industrial Safety,3200,2,2700,3000,3000,3000,-6.3,high,Ace Mamba Safety Shoes,Safeken,https://safeken.co.ke/product/ace-mamba-safety-shoes/,
+KS-TOOL-1518,PH2 Magnetic Drill Bits 65mm,KimSafety,Tools & Hardware,1900,0,,,,1900,0,none,,,,No close competitor match
+KS-IMP-0049,PVC Bee Keeping Suit,KimSafety,PPE,4500,1,3000,3000,3000,3000,-33.3,medium,PVC Bee Suit,Safeken,https://safeken.co.ke/product/pvc-bee-suit/,
+KS-CLN-8002,ComfortGrip Heavy-Duty Cleaning Gloves (Pair),Ansell,Cleaning & Hygiene,450,1,750,750,750,750,66.7,medium,Cleaning Gloves,Safeken,https://safeken.co.ke/product/cleaning-gloves/,
+KS-TOOL-1529,Carton Boxes,KimSafety,Tools & Hardware,3800,0,,,,3800,0,none,,,,No close competitor match
+KS-IMP-0364,2 x 10 Step Extendable Fibreglass Ladder,KimSafety,Tools,39000,0,,,,39000,0,none,,,,No close competitor match
+KS-TOOL-1528,Thermal Shipping Labels,KimSafety,Tools & Hardware,900,0,,,,900,0,none,,,,No close competitor match
+KS-IMP-0320,Black/Green Rider Gloves,KimSafety,PPE,2100,1,500,500,500,2100,0,low,Rider gloves,Sidget Safety,https://sidgetsafety.co.ke/product/rider-gloves/,Outlier ratio 0.24x — review manually
+KS-IMP-0350,2 x 20 Step Double Extendable Ladder,KimSafety,Tools,42900,0,,,,42900,0,none,,,,No close competitor match
+KS-IMP-0360,3 x 14 Step Triple Extendable Ladder,KimSafety,Tools,39520,0,,,,39520,0,none,,,,No close competitor match
+KS-IMP-0259,Soft Leather Drivers Gloves,KimSafety,PPE,550,5,320,350,400,350,-36.4,medium,Leather Work Gloves,Safety Hub,https://www.safetyhub.co.ke/product/leather-work-gloves/,
+KS-IMP-0222,Heavy Duty PVC Body Bag,KimSafety,Emergency Response,1800,1,2800,2800,2800,2800,55.6,medium,Body Bag,Safeken,https://safeken.co.ke/product/body-bag-in-nairobi/,
+KS-IND-2021,Steel-Toe Safety Boots — Goodyear Welt,Safety Jogger,Industrial Safety,5200,1,3800,3800,3800,3800,-26.9,medium,Steel Toe Safety Boots,Safeken,https://safeken.co.ke/product/steel-toe-safety-boots/,
+KS-TOOL-1523,PP Woven Sacks,KimSafety,Tools & Hardware,1500,0,,,,1500,0,none,,,,No close competitor match
+KS-ROA-5008,Caution Barrier Tape,KimSafety,Road Safety,1200,3,550,600,700,600,-50,high,Safety Caution Tapes,Safety Hub,https://www.safetyhub.co.ke/product/safety-caution-tapes/,
+KS-CLN-8013,Stainless Steel Tissue Holders,KimSafety,Cleaning & Hygiene,850,0,,,,850,0,none,,,,No close competitor match
+KS-IMP-0203,PVC Chemical Overalls,KimSafety,PPE,3200,0,,,,3200,0,none,,,,No close competitor match
+KS-IMP-0243,ACE Altra Safety Shoe,KimSafety,Industrial Safety,3500,0,,,,3500,0,none,,,,No close competitor match
+KS-IMP-0287,White Leather Glove,KimSafety,PPE,500,5,320,350,400,350,-30,high,Leather Work Gloves,Safety Hub,https://www.safetyhub.co.ke/product/leather-work-gloves/,
+KS-IMP-0088,Grey Mission Jacket,KimSafety,PPE,3500,3,2500,2500,3000,2500,-28.6,high,Mission Jacket,Safeken,https://safeken.co.ke/product/mission-jacket-3/,
+KS-PPE-3001,Nova Shield Half-Mask Respirator,3M,PPE,2950,1,3000,3000,3000,3000,1.7,medium,Half Mask Respirator Mask,Safety Hub,https://www.safetyhub.co.ke/product/half-face-respirator-mask/,
+KS-IMP-0154,Double Hook Safety Harness,KimSafety,Construction Safety,3300,4,9500,18000,25000,3300,0,low,Double Hook Safety Harness,Safety Hub,https://www.safetyhub.co.ke/product/double-hook-safety-harness/,Outlier ratio 5.45x — review manually
+KS-IMP-0121,6 + 6 Step Dual-Step Ladder,KimSafety,Tools,13650,0,,,,13650,0,none,,,,No close competitor match
+KS-FIR-4002,SmartAlert Optical Smoke Detector,Honeywell,Fire Safety,2850,1,1500,1500,1500,1500,-47.4,medium,Smoke Detector,Safeken,https://safeken.co.ke/product/smoke-detector/,
+KS-IMP-0080,Anti Slip Crocs- Imported,KimSafety,Industrial Safety,3000,0,,,,3000,0,none,,,,No close competitor match
+KS-PPE-3046,Chemical-Resistant Gauntlet Gloves,Ansell,PPE,850,1,300,300,300,850,0,low,Heavy Duty Chemical Resistant Gloves,Safeken,https://safeken.co.ke/product/heavy-duty-chemical-resitant-gloves/,Outlier ratio 0.35x — review manually
+KS-IND-2016,Yamato Japanese Safety Shoe,Yamato,Industrial Safety,4800,0,,,,4800,0,none,,,,No close competitor match
+KS-IMP-0372,4 x 8 Step Folding Fibreglass Ladder,KimSafety,Tools,38999,0,,,,38999,0,none,,,,No close competitor match
+KS-IMP-0160,TTST Leather Welding Arm Sleeve – Heavy Duty,KimSafety,PPE,950,0,,,,950,0,none,,,,No close competitor match
+KS-PPE-3018,Safety Overalls,KimSafety,PPE,2900,5,1050,1200,2500,2900,0,low,Hi Vis Overall,Safety Hub,https://www.safetyhub.co.ke/product/hi-vis-overall/,Outlier ratio 0.41x — review manually
+KS-SEC-1103,Electric Fence System,KimSafety,Security Equipment,28000,0,,,,28000,0,none,,,,No close competitor match
+KS-IMP-0039,"Dry Powder Fire Extinguishers – 1 kg, 2 kg, 4 kg, 6 kg and 9 kg",KimSafety,Fire Safety,1900,5,500,2400,4000,1900,0,low,1 Kg Dry Powder Fire Extinguisher,Safeken,https://safeken.co.ke/product/1-kg-dry-powder-fire-extinguisher/,Range/from product — suggested uses market low; Possible pack/quantity mismatch; Outlier ratio 0.26x — review manually
+KS-ROA-5005,"Barricade Caution Tape (Yellow/Black, 2″)",KimSafety,Road Safety,750,0,,,,750,0,none,,,,No close competitor match
+KS-IMP-0059,Cold Storage Gloves,KimSafety,PPE,1150,0,,,,1150,0,none,,,,No close competitor match
+KS-PPE-3041,Welding Gloves,KimSafety,PPE,1200,5,400,450,450,1200,0,low,Leather Welding Gloves,Safety Hub,https://www.safetyhub.co.ke/product/leather-welding-gloves/,Outlier ratio 0.38x — review manually
+KS-IMP-0022,2 + 2 Step Dual-Step Ladder,KimSafety,Tools,5850,0,,,,5850,0,none,,,,No close competitor match
+KS-IMP-0156,3-Ply High Quality Surgical Mask 50 pcs,KimSafety,PPE,450,1,350,350,350,350,-22.2,medium,3 ply disposable surgical mask (50 PCS),Safety Hub,https://www.safetyhub.co.ke/product/3-ply-disposable-surgical-mask-50-pcs/,
+KS-PPE-3052,Full-Face Shield with Ratchet Headgear,MSA,PPE,1900,0,,,,1900,0,none,,,,No close competitor match
+KS-ROA-5007,Truck Traffic Reflective Warning Safety Tape,KimSafety,Road Safety,900,0,,,,900,0,none,,,,No close competitor match
+KS-IMP-0109,Motorcycle Helmet,KimSafety,Industrial Safety,2000,5,150,500,1400,2000,0,low,Motorcycle Rider Helmet,Safeken,https://safeken.co.ke/product/motorcycle-rider-helmet/,Outlier ratio 0.25x — review manually
+KS-IMP-0018,Single Chemical Respirator,KimSafety,PPE,380,3,350,450,500,450,18.4,high,Single Nozzle Chemical respirators,Safety Hub,https://www.safetyhub.co.ke/product/single-nozzle-chemical-respirators/,
+KS-TOOL-1520,Pop Rivets,KimSafety,Tools & Hardware,1900,0,,,,1900,0,none,,,,No close competitor match
+KS-PPE-3014,Rain Coat,KimSafety,PPE,2400,5,1200,1200,1500,1200,-50,high,Rain coats,Safety Hub,https://www.safetyhub.co.ke/product/pvc-rain-coats/,
+KS-IMP-0214,Short Sleeve Cotton Overall,KimSafety,PPE,2800,1,2200,2200,2200,2200,-21.4,medium,Cotton Overall,Safeken,https://safeken.co.ke/product/cotton-overall/,
+KS-IMP-0070,Vaultex K95 Mask 20 pcs,Vaultex,PPE,1600,0,,,,1600,0,none,,,,No close competitor match
+KS-IMP-0278,Safety Boy Safety Shoe,KimSafety,Industrial Safety,3500,4,2500,3200,3800,3200,-8.6,high,Safety Boy Safety Shoe,Safeken,https://safeken.co.ke/product/safety-boy-safety-shoe-in-nairobi/,
+KS-IMP-0304,10 Step Stepper Ladder,KimSafety,Tools,14300,0,,,,14300,0,none,,,,No close competitor match
+KS-IMP-0261,4 x 5 Step Quad-Fold Ladder,KimSafety,Tools,23400,0,,,,23400,0,none,,,,No close competitor match
+KS-IMP-0290,TTST Rider Gloves,KimSafety,PPE,1500,1,500,500,500,1500,0,low,Rider gloves,Sidget Safety,https://sidgetsafety.co.ke/product/rider-gloves/,Outlier ratio 0.33x — review manually
+KS-CLN-8004,Heavy Duty Chemical Resistant Rubber Gloves 22″,KimSafety,Cleaning & Hygiene,850,1,300,300,300,850,0,low,Heavy Duty Chemical Resistant Gloves,Safeken,https://safeken.co.ke/product/heavy-duty-chemical-resitant-gloves/,Outlier ratio 0.35x — review manually
+KS-SIG-1303,Construction In Progress Sign (A2),KimSafety,Signs & Labels,1450,1,2700,2700,2700,2700,86.2,medium,Construction in Progress Sign,Safeken,https://safeken.co.ke/product/construction-in-progress-sign/,
+KS-IND-2002,GripTech Steel-Toe Work Boots,Karam,Industrial Safety,4850,1,3800,3800,3800,3800,-21.6,medium,Steel Toe Safety Boots,Safeken,https://safeken.co.ke/product/steel-toe-safety-boots/,
+KS-CON-6001,HarnessMax Full-Body Fall Arrest Harness,MSA,Construction Safety,8900,4,10000,18000,18000,18000,102.2,medium,Full Body Safety Harness,Safety Hub,https://www.safetyhub.co.ke/product/full-body-safety-harness/,
+KS-FOO-1209,Hair Nets (Bouffant),KimSafety,Food Safety,450,0,,,,450,0,none,,,,No close competitor match
+KS-TOOL-1510,Cotton Sewing Yarn,KimSafety,Tools & Hardware,1200,0,,,,1200,0,none,,,,No close competitor match
+KS-IMP-0282,Safety Jogger Safety Shoe,Safety Jogger,Industrial Safety,4000,5,2500,3800,6500,3800,-5,high,BestGirl Safety Jogger shoes,Safety Hub,https://www.safetyhub.co.ke/product/best-girl-safety-jogger-shoes/,
+KS-IND-2001,Vanguard Safety Helmet — White,3M,Industrial Safety,1350,2,450,450,450,1350,0,low,White Heavy duty safety helmets,Safety Hub,https://www.safetyhub.co.ke/product/white-heavy-duty-safety-helmets/,Outlier ratio 0.33x — review manually
+KS-CON-6006,Safety Helmets — Vented Hard Hat,JSP,Construction Safety,1700,2,1300,3800,3800,1700,0,low,Hard Hat,Safeken,https://safeken.co.ke/product/hard-hat/,Outlier ratio 2.24x — review manually
+KS-IMP-0034,Vaultex Thermal Safety Gloves for Cold Rooms & Heat Protection,Vaultex,PPE,1300,1,1200,1200,1200,1200,-7.7,medium,Cold Room Gloves,Safeken,https://safeken.co.ke/product/cold-room-gloves/,
+KS-PPE-3025,Blue Reusable Nitrile Gloves,KimSafety,PPE,250,2,250,400,400,400,60,medium,Nitrile Gloves,Safeken,https://safeken.co.ke/product/nitrile-gloves/,
+KS-IMP-0069,Clear Safety Goggles (UD39),KimSafety,PPE,250,1,250,250,250,250,0,medium,Clear goggles,Sidget Safety,https://sidgetsafety.co.ke/product/clear-goggles/,
+KS-IMP-0188,Hillson Brown Safety Shoe,KimSafety,Industrial Safety,3500,0,,,,3500,0,none,,,,No close competitor match
+KS-PPE-3056,Reusable Half-Mask Respirator — Dual Cartridge,Dräger,PPE,4200,1,3000,3000,3000,3000,-28.6,medium,Half Mask Respirator Mask,Safety Hub,https://www.safetyhub.co.ke/product/half-face-respirator-mask/,
+KS-IMP-0133,Orange Safety Barrier Net 1M X 50M,KimSafety,Road Safety,5300,0,,,,5300,0,none,,,,No close competitor match
+KS-IMP-0078,Black Leather Tool Belt,KimSafety,Tools,4500,0,,,,4500,0,none,,,,No close competitor match
+KS-IMP-0274,Prime Captain Shoe,KimSafety,Industrial Safety,2500,0,,,,2500,0,none,,,,No close competitor match
+KS-MED-1010,Professional Stethoscope,KimSafety,Medical Safety,3800,0,,,,3800,0,none,,,,No close competitor match
+KS-MED-1009,Latex Powdered Medical Examination Gloves,KimSafety,Medical Safety,1600,2,650,700,700,1600,0,low,Latex Medical Examination Glove,Safeken,https://safeken.co.ke/product/latex-medical-examination-glove/,Outlier ratio 0.44x — review manually
+KS-IMP-0263,14-Inch Heat-Resistant Safety Mitten Gloves,KimSafety,PPE,600,2,380,500,500,500,-16.7,medium,Heat Resistant Gloves,Safety Hub,https://www.safetyhub.co.ke/product/heat-resistant-gloves/,
+KS-IMP-0365,2 x 12 Step Extendable Fibreglass Ladder,KimSafety,Tools,45500,0,,,,45500,0,none,,,,No close competitor match
+KS-IND-2010,Safety Jogger Best Boy Safety Boot,Safety Jogger,Industrial Safety,5600,4,3200,3800,4000,3800,-32.1,high,Safety Joggers Boots,Safety Hub,https://www.safetyhub.co.ke/product/safety-joggers-boots/,
+KS-IMP-0096,Polyester Material Bib Apron,KimSafety,PPE,800,3,500,500,500,500,-37.5,medium,Bib Apron,Safeken,https://safeken.co.ke/product/bib-apron-3/,
+KS-IMP-0110,Chinese Collar Reflector Vest -Heavy Duty,KimSafety,Road Safety,850,1,180,180,180,850,0,low,Reflector Vest,Safeken,https://safeken.co.ke/product/reflector-vest/,Outlier ratio 0.24x — review manually
+KS-IMP-0314,Latex Household Gloves,KimSafety,PPE,160,1,500,500,500,160,0,low,Latex Gloves,Safety Hub,https://www.safetyhub.co.ke/product/top-quality-latex-gloves/,Outlier ratio 3.13x — review manually
+KS-IMP-0358,3 x 12 Step Triple Extendable Ladder,KimSafety,Tools,35230,0,,,,35230,0,none,,,,No close competitor match
+KS-IMP-0030,ACE Parade Boot 1298,KimSafety,Industrial Safety,3700,1,3500,3500,3500,3500,-5.4,medium,Ace Safety Boots,Safeken,https://safeken.co.ke/product/ace-safety-boots/,
+KS-PPE-3032,Leather Garden Gloves 10″,KimSafety,PPE,1200,5,320,350,400,1200,0,low,Leather Work Gloves,Safety Hub,https://www.safetyhub.co.ke/product/leather-work-gloves/,Outlier ratio 0.29x — review manually
+KS-SIG-1309,Men At Work Sign,KimSafety,Signs & Labels,1300,0,,,,1300,0,none,,,,No close competitor match
+KS-MED-1003,MedTech Digital Thermometer,Dräger,Medical Safety,750,0,,,,750,0,none,,,,No close competitor match
+KS-IMP-0247,2 x 10 Step Dual-Fold Ladder,KimSafety,Tools,19500,0,,,,19500,0,none,,,,No close competitor match
+KS-IMP-0020,Polyamide Blue & Grey Bump Cap,KimSafety,Industrial Safety,2200,1,1200,1200,1200,1200,-45.5,medium,Blue bump caps,Safety Hub,https://www.safetyhub.co.ke/product/blue-bump-caps/,
+KS-PPE-3054,N95 Respirators NIOSH-Approved (Box of 20),3M,PPE,2800,0,,,,2800,0,none,,,,No close competitor match
+KS-IMP-0046,Royal Blue Bump Cap,KimSafety,Industrial Safety,2200,5,170,1400,1500,1400,-36.4,high,Royal Blue Bump caps,Safety Hub,https://www.safetyhub.co.ke/product/royal-blue-bump-caps/,
+KS-IMP-0245,Vaultex BMW Industrial Helmet,Vaultex,Industrial Safety,950,3,590,600,650,600,-36.8,high,Vaultex Industrial Helmets,Safety Hub,https://www.safetyhub.co.ke/product/vaultex-industrial-helmets/,
+KS-IMP-0170,Emergency Shower and Eye Wash - Galvanised,KimSafety,PPE,39000,1,58000,58000,58000,58000,48.7,medium,Emergency Eye Wash Shower,Safeken,https://safeken.co.ke/product/emergency-eye-wash-shower/,
+KS-ELC-1403,Jua Kali Booster Cable 2000 Amp,Jua Kali,Electrical Safety,2500,0,,,,2500,0,none,,,,No close competitor match
+KS-TOOL-1515,Manual Strapping Tool,KimSafety,Tools & Hardware,12500,0,,,,12500,0,none,,,,No close competitor match
+KS-PPE-3027,Cowhide TIG Leather Gloves 14″,KimSafety,PPE,1200,0,,,,1200,0,none,,,,No close competitor match
+KS-IMP-0147,Fire Retardant Cotton Overall,KimSafety,PPE,8500,2,2200,2800,2800,8500,0,low,Fire Retardant Overalls,Safety Hub,https://www.safetyhub.co.ke/product/fire-retardant-overalls/,Outlier ratio 0.33x — review manually
+KS-EMR-9005,"First Aid Kit (Medium, Grey)",KimSafety,Emergency Response,2800,4,3000,3800,4000,3800,35.7,high,Medium First Aid Kit,Safeken,https://safeken.co.ke/product/medium-first-aid-kit/,
+KS-IMP-0319,14 Step Fixed Ladder,KimSafety,Tools,18200,0,,,,18200,0,none,,,,No close competitor match
+KS-IMP-0242,Security Guard Sweater,KimSafety,Security Equipment,1700,5,1400,1500,1500,1500,-11.8,high,High Quality Security Guard Sweaters,Safety Hub,https://www.safetyhub.co.ke/product/high-quality-security-guard-sweaters/,
+KS-SIG-1301,ExitMaster Photoluminescent Exit Sign,Honeywell,Signs & Labels,850,0,,,,850,0,none,,,,No close competitor match
+KS-IMP-0045,Yellow Leather Apron,KimSafety,PPE,1400,0,,,,1400,0,none,,,,No close competitor match
+KS-IMP-0148,Reusable Nitrile Gloves Heavy Duty,KimSafety,PPE,350,2,250,400,400,400,14.3,high,Nitrile Gloves,Safeken,https://safeken.co.ke/product/nitrile-gloves/,
+KS-IMP-0102,Workman Pro Ear Muff,KimSafety,PPE,1700,3,250,250,300,1700,0,low,Ear muffs,Safety Hub,https://www.safetyhub.co.ke/product/ear-muffs/,Outlier ratio 0.15x — review manually
+KS-PPE-3040,Waterproof Canvas Aprons,KimSafety,PPE,1500,1,750,750,750,750,-50,medium,Waterproof Apron,Safeken,https://safeken.co.ke/product/waterproof-apron/,
+KS-IMP-0370,4 x 5 Step Folding Fibreglass Ladder,KimSafety,Tools,28599,0,,,,28599,0,none,,,,No close competitor match
+KS-PPE-3016,Riders Chest Guard,KimSafety,PPE,2500,1,750,750,750,2500,0,low,Rider Chest Guard,Safeken,https://safeken.co.ke/product/rider-chest-guard/,Outlier ratio 0.30x — review manually
+KS-CLN-8010,Industrial Hand Dryer (1800–2200W),KimSafety,Cleaning & Hygiene,16500,0,,,,16500,0,none,,,,No close competitor match
+KS-IMP-0139,Quip Occupational First Aid Kit,KimSafety,Emergency Response,7200,5,3000,4000,7400,4000,-44.4,high,Occupational First Aid Kit,Safety Hub,https://www.safetyhub.co.ke/product/occupational-first-aid-kit/,
+KS-IMP-0176,Kinga Black Gumboot - Heavy Duty,KimSafety,Industrial Safety,950,2,850,850,850,850,-10.5,high,Black Industrial Gumboot,Safeken,https://safeken.co.ke/product/black-industrial-gumboot/,
+KS-PPE-3006,HiVis Bump Cap (Black/Orange),KimSafety,PPE,2200,2,1200,1800,1800,1800,-18.2,medium,Orange Bump Cap,Safety Hub,https://www.safetyhub.co.ke/product/orange-bump-cap/,
+KS-IMP-0040,"Reflective Road Cones – 50 cm, 75 cm and 100 cm",KimSafety,Road Safety,1400,0,,,,1400,0,none,,,,No close competitor match
+KS-PPE-3011,High-Quality Reflective Windbreaker,KimSafety,PPE,2400,0,,,,2400,0,none,,,,No close competitor match
+KS-IMP-0042,Lion AlcoBlow Rapid Screener,KimSafety,Security Equipment,105000,0,,,,105000,0,none,,,,No close competitor match
+KS-ROA-5009,Lime-Green Reflective Vests Class 2 (Pack of 5),Portwest,Road Safety,2900,0,,,,2900,0,none,,,,No close competitor match
+KS-IMP-0177,Denim Welding Overall,KimSafety,PPE,3000,1,2300,2300,2300,2300,-23.3,medium,Welding Overall,Safeken,https://safeken.co.ke/product/welding-overall/,
+KS-IMP-0056,Steel Toe Cap Industrial Gumboots Black - Vaultex,Vaultex,Industrial Safety,1800,4,1800,1800,2300,1800,0,high,Vaultex Black Steel Toe Gumboots,Safeken,https://safeken.co.ke/product/vaultex-black-steel-toe-gumboots/,
+KS-SEC-1108,Suggestion Box (Mid Size),KimSafety,Security Equipment,2600,1,5000,5000,5000,5000,92.3,medium,Suggestion Box,Safeken,https://safeken.co.ke/product/suggestion-box-in-nairobi/,
+KS-IND-2008,General Purpose Industrial Gumboot (Green),KimSafety,Industrial Safety,1900,2,950,1100,1100,1100,-42.1,medium,Green Heavy Duty Gumboots Price,Safety Hub,https://www.safetyhub.co.ke/product/green-heavy-duty-gumboots-price/,
+KS-TOOL-1517,Pallet Stretch Film,KimSafety,Tools & Hardware,1500,0,,,,1500,0,none,,,,No close competitor match
+KS-IMP-0161,Knicker Safety Shoes,KimSafety,Industrial Safety,2000,3,2500,3200,3800,3200,60,medium,Quality Safety shoes,Safety Hub,https://www.safetyhub.co.ke/product/quality-safety-shoes/,
+KS-IMP-0100,Eskimo Cold Room Suit,KimSafety,PPE,5500,1,6500,6500,6500,6500,18.2,medium,Eskimo Suit,Safeken,https://safeken.co.ke/product/eskimo-suit/,
+KS-PPE-3029,Ear Plugs,KimSafety,PPE,130,5,70,100,150,100,-23.1,high,Industrial Ear Plugs,Safety Hub,https://www.safetyhub.co.ke/product/industrial-ear-plugs/,
+KS-IMP-0050,Workman Ear Muff,KimSafety,PPE,950,3,250,250,300,950,0,low,Ear muffs,Safety Hub,https://www.safetyhub.co.ke/product/ear-muffs/,Outlier ratio 0.26x — review manually
+KS-TOOL-1521,Portable Bag Closer Machine,KimSafety,Tools & Hardware,12500,0,,,,12500,0,none,,,,No close competitor match
+KS-CLN-8001,Sanix Professional Disinfectant 5L,Kimberly-Clark,Cleaning & Hygiene,1950,0,,,,1950,0,none,,,,No close competitor match
+KS-IMP-0366,2 x 16 Step Extendable Fibreglass Ladder,KimSafety,Tools,58500,0,,,,58500,0,none,,,,No close competitor match
+KS-EMR-9006,Spine Board Stretcher,KimSafety,Emergency Response,12500,0,,,,12500,0,none,,,,No close competitor match
+KS-FOO-1203,Disposable Hairnets (Food & Medical Grade),KimSafety,Food Safety,600,0,,,,600,0,none,,,,No close competitor match
+KS-IMP-0035,Vaultex Industrial Helmets,Vaultex,Industrial Safety,650,5,590,650,750,650,0,high,Vaultex Industrial Helmets,Safety Hub,https://www.safetyhub.co.ke/product/vaultex-industrial-helmets/,
+KS-IMP-0048,3 + 3 Step Dual-Step Ladder,KimSafety,Tools,7150,0,,,,7150,0,none,,,,No close competitor match
+KS-IMP-0250,Blue Leather Rigger Gloves,KimSafety,PPE,300,5,320,350,400,350,16.7,medium,Leather Work Gloves,Safety Hub,https://www.safetyhub.co.ke/product/leather-work-gloves/,
+KS-LAB-7003,ChemShield Laboratory Apron,Delta Plus,Laboratory Equipment,1650,0,,,,1650,0,none,,,,No close competitor match
+KS-IMP-0344,Heavy Duty Rider Gloves with Knuckles,KimSafety,PPE,950,1,500,500,500,500,-47.4,medium,Rider gloves,Sidget Safety,https://sidgetsafety.co.ke/product/rider-gloves/,
+KS-IMP-0210,14 + 14 Step Dual-Step Ladder,KimSafety,Tools,29900,0,,,,29900,0,none,,,,No close competitor match
+KS-IMP-0292,5 Step Stepper Ladder,KimSafety,Tools,7800,0,,,,7800,0,none,,,,No close competitor match
+KS-IMP-0111,Cold Room Jacket,KimSafety,PPE,5200,0,,,,5200,0,none,,,,No close competitor match
+KS-IMP-0199,12 + 12 Step Dual-Step Ladder,KimSafety,Tools,27300,0,,,,27300,0,none,,,,No close competitor match
+KS-PPE-3026,Cotton Aprons,KimSafety,PPE,1500,2,500,3540,3540,1500,0,low,Cotton bib aprons with pockets,Safety Hub,https://www.safetyhub.co.ke/product/cotton-bib-aprons-with-pockets/,Outlier ratio 2.37x — review manually
+KS-IMP-0298,7 Step Stepper Ladder,KimSafety,Tools,10400,0,,,,10400,0,none,,,,No close competitor match
+KS-IMP-0167,Navy Blue Heavy Reflective Jacket,KimSafety,PPE,4500,1,1700,1700,1700,4500,0,low,Reflective Jacket,Safeken,https://safeken.co.ke/product/reflective-jacket/,Outlier ratio 0.38x — review manually
+KS-IMP-0006,Vaultex Diamond Grip Gloves for General Work,Vaultex,PPE,170,5,150,200,290,200,17.6,medium,Heavy Duty Diamond Grip Gloves,Safety Hub,https://www.safetyhub.co.ke/product/heavy-duty-diamond-grip-gloves/,
+KS-IMP-0328,20 Step Fixed Ladder,KimSafety,Tools,23776,0,,,,23776,0,none,,,,No close competitor match
+KS-LAB-7001,ProLab Binocular Microscope 40x–1000x,Honeywell,Laboratory Equipment,28500,0,,,,28500,0,none,,,,No close competitor match
+KS-IMP-0226,Heavy Duty Round Safety Helmet,KimSafety,Industrial Safety,800,5,150,200,700,800,0,low,Industrial Safety helmets,Safety Hub,https://www.safetyhub.co.ke/product/safety-helmets-3/,Outlier ratio 0.25x — review manually
+KS-IMP-0145,Fire Resistant Safety Gumboots,KimSafety,Industrial Safety,11000,0,,,,11000,0,none,,,,No close competitor match
+KS-IMP-0295,6 Step Stepper Ladder,KimSafety,Tools,9100,0,,,,9100,0,none,,,,No close competitor match
+KS-IMP-0258,Feetguard Safety Shoe - C&P,KimSafety,Industrial Safety,3500,3,2500,3200,3800,3200,-8.6,medium,Quality Safety shoes,Safety Hub,https://www.safetyhub.co.ke/product/quality-safety-shoes/,
+KS-IMP-0346,2 x 16 Step Double Extendable Ladder,KimSafety,Tools,35100,0,,,,35100,0,none,,,,No close competitor match
+KS-CLN-8009,Barber Spirit Spray Bottles,KimSafety,Cleaning & Hygiene,850,0,,,,850,0,none,,,,No close competitor match
+KS-IND-2013,Steel Toe Gumboot,KimSafety,Industrial Safety,2400,5,1700,1800,2300,1800,-25,high,Steel Toe Safety Gumboots,Safety Hub,https://www.safetyhub.co.ke/product/safety-gumboots-steel-toe-safety-gumboots/,
+KS-IMP-0149,Medium Plastic Welding Helmet,KimSafety,Industrial Safety,950,0,,,,950,0,none,,,,No close competitor match
+KS-IMP-0238,Heavy Duty Leather Gloves,KimSafety,PPE,600,5,320,350,400,350,-41.7,high,Leather Work Gloves,Safety Hub,https://www.safetyhub.co.ke/product/leather-work-gloves/,
+KS-IMP-0094,Swimming Goggles,KimSafety,PPE,1800,4,300,300,350,1800,0,low,Heavy Duty Safety Goggles,Safety Hub,https://www.safetyhub.co.ke/product/heavy-duty-safety-goggles/,Outlier ratio 0.17x — review manually
+KS-IMP-0091,Security Plastic Chain Barriers 6MM by 50M,KimSafety,Road Safety,2600,0,,,,2600,0,none,,,,No close competitor match
+KS-IMP-0101,2 Piece Rain Suit,KimSafety,PPE,1800,0,,,,1800,0,none,,,,No close competitor match
+KS-IMP-0211,Multiple Lumen Head Lamp - USB Rechargeable,KimSafety,PPE,1200,0,,,,1200,0,none,,,,No close competitor match
+KS-IMP-0200,Single Lumen Head Lamp - USB Rechargeable,KimSafety,PPE,1200,0,,,,1200,0,none,,,,No close competitor match
+KS-IMP-0215,Kratos Anti-cut Gloves,KimSafety,PPE,400,1,550,550,550,550,37.5,medium,Anti Cut Gloves,Safeken,https://safeken.co.ke/product/anti-cut-gloves/,
+KS-PPE-3021,Welding Goggles,KimSafety,PPE,350,5,230,350,400,350,0,high,Welding Safety Goggles,Safety Hub,https://www.safetyhub.co.ke/product/welding-safety-goggles/,
+KS-TOOL-1519,Pop Rivet Machine,KimSafety,Tools & Hardware,1900,0,,,,1900,0,none,,,,No close competitor match
+KS-IMP-0323,Fire Fighting Gloves,KimSafety,PPE,17000,0,,,,17000,0,none,,,,No close competitor match
+KS-IMP-0125,Rider Boda Moto Gumboots Black/Red - ACE,KimSafety,Industrial Safety,1200,0,,,,1200,0,none,,,,No close competitor match
+KS-IMP-0338,Half Finger Gloves - Light Duty,KimSafety,PPE,550,0,,,,550,0,none,,,,No close competitor match
+KS-CON-6002,SiteSafe Heavy-Duty Knee Pads,Karam,Construction Safety,950,0,,,,950,0,none,,,,No close competitor match
+KS-SEC-1105,Power Megaphone,KimSafety,Security Equipment,4200,0,,,,4200,0,none,,,,No close competitor match
+KS-IMP-0002,Combat Askari Boot,KimSafety,Industrial Safety,2200,0,,,,2200,0,none,,,,No close competitor match
+KS-ROA-5004,RoadStar LED Warning Flashlight,Honeywell,Road Safety,1100,0,,,,1100,0,none,,,,No close competitor match
+KS-IMP-0146,Canvas Motorbike Jacket - EX UK,KimSafety,Road Safety,6500,0,,,,6500,0,none,,,,No close competitor match
+KS-IMP-0089,Disposable Polythene Gloves 100 pcs,KimSafety,Medical Safety,250,0,,,,250,0,none,,,,No close competitor match
+KS-CON-6010,Safety Rope — Kernmantle Anchor Line 10m,Karam,Construction Safety,3800,0,,,,3800,0,none,,,,No close competitor match
+KS-IMP-0119,Coltan Bump Cap,KimSafety,Industrial Safety,2200,4,1500,2200,3800,2200,0,high,Safety bump caps,Safety Hub,https://www.safetyhub.co.ke/product/safety-bump-caps-2/,
+KS-IMP-0189,Footplus Shujaa Light Duty Coloured Gumboots,KimSafety,Industrial Safety,750,0,,,,750,0,none,,,,No close competitor match
+KS-CLN-8007,Air Fresheners,KimSafety,Cleaning & Hygiene,850,0,,,,850,0,none,,,,No close competitor match
+KS-IMP-0209,Navy Blue Mesh Bump Cap,KimSafety,Industrial Safety,1800,2,1200,1200,1200,1200,-33.3,high,Navy Blue Bump Caps,Safety Hub,https://www.safetyhub.co.ke/product/navy-blue-bump-caps/,
+KS-IMP-0322,16 Step Fixed Ladder,KimSafety,Tools,20800,0,,,,20800,0,none,,,,No close competitor match
+KS-MED-1006,3-Ply Washable & Reusable Face Mask (KEBS Approved),KimSafety,Medical Safety,350,0,,,,350,0,none,,,,No close competitor match
+KS-IMP-0266,Safetyboy Men Safety Sport Shoe,KimSafety,Industrial Safety,6400,0,,,,6400,0,none,,,,No close competitor match
+KS-IMP-0057,Leather Motorbike Jacket - EX UK,KimSafety,Road Safety,4000,0,,,,4000,0,none,,,,No close competitor match
+KS-IMP-0236,100mtrs/14mm Nylon Static Climbing Rope,KimSafety,Construction Safety,9000,0,,,,9000,0,none,,,,No close competitor match
+KS-IMP-0265,4 x 6 Step Quad-Fold Ladder,KimSafety,Tools,26000,0,,,,26000,0,none,,,,No close competitor match
+KS-IMP-0182,Safety Fall Protection Lanyards - Indian Made,KimSafety,Construction Safety,7000,0,,,,7000,0,none,,,,No close competitor match
+KS-TOOL-1527,Thermal Receipt Rolls,KimSafety,Tools & Hardware,900,0,,,,900,0,none,,,,No close competitor match
+KS-IMP-0132,Fire Blankets – 1.2 m × 1.2 m and 1.8 m × 1.8 m,KimSafety,Fire Safety,2450,2,2450,2500,2500,2450,0,low,1.8 by 1.8 Fire Blanket price,Safety Hub,https://www.safetyhub.co.ke/product/1-8-by-1-8-fire-blanket-price/,Range/from product — suggested uses market low; Possible pack/quantity mismatch
+KS-SIG-1308,LPG Safety Signage,KimSafety,Signs & Labels,1100,0,,,,1100,0,none,,,,No close competitor match
+KS-PPE-3012,Light Reflective Riders Jacket,KimSafety,PPE,2800,2,1700,2800,2800,2800,0,medium,Reflective Jacket,Safeken,https://safeken.co.ke/product/reflective-jacket/,
+KS-IMP-0151,Latex Examination Gloves Powder Free 1000 pcs,KimSafety,Medical Safety,6000,0,,,,6000,0,none,,,,No close competitor match
+KS-FOO-1205,Disposable Chef Caps,KimSafety,Food Safety,550,0,,,,550,0,none,,,,No close competitor match
+KS-IMP-0216,Industrial Helmet with Ear Muffs,KimSafety,Industrial Safety,2500,3,250,250,300,2500,0,low,Ear muffs,Safety Hub,https://www.safetyhub.co.ke/product/ear-muffs/,Outlier ratio 0.10x — review manually
+KS-SEC-1102,Askari Security Baton,KimSafety,Security Equipment,1800,1,1000,1000,1000,1000,-44.4,medium,Quality Security Baton,Safety Hub,https://www.safetyhub.co.ke/product/quality-security-baton/,
+KS-IMP-0185,Orange Reflective Mesh Bump Cap,KimSafety,Industrial Safety,1800,2,1200,1800,1800,1800,0,medium,Orange Bump Cap,Safety Hub,https://www.safetyhub.co.ke/product/orange-bump-cap/,
+KS-FIR-4001,FireGuard 6kg ABC Dry Powder Extinguisher,MSA,Fire Safety,9800,0,,,,9800,0,none,,,,No close competitor match
+KS-IND-2017,Construction Helmets,KimSafety,Industrial Safety,1500,5,150,200,250,1500,0,low,Construction Safety Helmets,Safeken,https://safeken.co.ke/product/construction-safety-helmet-2/,Outlier ratio 0.13x — review manually
+KS-IMP-0348,2 x 18 Step Double Extendable Ladder,KimSafety,Tools,37700,0,,,,37700,0,none,,,,No close competitor match
+KS-IMP-0257,4 x 4 Step Quad-Fold Ladder,KimSafety,Tools,18850,0,,,,18850,0,none,,,,No close competitor match
+KS-CON-6008,Full-Body Harness — Front & Rear D-Rings,MSA,Construction Safety,7200,4,10000,18000,18000,7200,0,low,Full Body Safety Harness,Safety Hub,https://www.safetyhub.co.ke/product/full-body-safety-harness/,Outlier ratio 2.50x — review manually
+KS-IMP-0061,Heavy Duty Reflector Vest – Non-Zip,KimSafety,Road Safety,230,1,180,180,180,200,-13,medium,Reflector Vest,Safeken,https://safeken.co.ke/product/reflector-vest/,
+KS-SIG-1306,Fire Point Sign,KimSafety,Signs & Labels,1200,1,1900,1900,1900,1900,58.3,medium,Fire Assembly Point Caution Sign,Safeken,https://safeken.co.ke/product/fire-assembly-point-caution-sign/,
+KS-IMP-0207,Anti-Fog Full Face Clear Shield,KimSafety,PPE,950,0,,,,950,0,none,,,,No close competitor match
+KS-IMP-0308,Cotton Knitted Gloves,KimSafety,PPE,170,1,100,100,100,100,-41.2,medium,Cotton Gloves,Safeken,https://safeken.co.ke/product/cotton-gloves/,
+KS-IMP-0031,Steel Toe Cap & Steel Plate Delta Gumboot,KimSafety,Industrial Safety,2300,3,1800,1800,2300,1800,-21.7,high,DELTA SAFETY GUMBOOTS WITH STEEL TOE,Safety Hub,https://www.safetyhub.co.ke/product/delta-safety-gumboots-with-steel-toe/,
+KS-PPE-3020,Vaultex Dust Mask VB1,Vaultex,PPE,700,3,80,600,800,600,-14.3,medium,Industrial dust masks,Safety Hub,https://www.safetyhub.co.ke/product/industrial-dust-masks/,
+KS-IMP-0005,Plain Tetrex Overall,KimSafety,PPE,1500,0,,,,1500,0,none,,,,No close competitor match
+KS-IND-2020,Industrial Gumboot — Plain Toe,KimSafety,Industrial Safety,1500,0,,,,1500,0,none,,,,No close competitor match
+KS-IMP-0155,Clear Face Shield,KimSafety,PPE,500,3,400,800,1500,800,60,high,Protective Face Shield,Safety Hub,https://www.safetyhub.co.ke/product/protective-face-shield/,
+KS-IMP-0023,Cotton Bee Keeping Suit,KimSafety,PPE,4200,2,3000,3200,3200,3200,-23.8,high,Cotton Bee Suit,Safety Hub,https://www.safetyhub.co.ke/product/cotton-bee-suit/,
+KS-IMP-0033,Reflective Tetrex Overall,KimSafety,PPE,1800,5,1200,1200,2300,1200,-33.3,high,Reflective overalls,Safety Hub,https://www.safetyhub.co.ke/product/reflective-overalls-3/,
+KS-FOO-1210,Reusable Chef Hats,KimSafety,Food Safety,550,2,300,300,300,300,-45.5,high,Best chef hat prices in Nairobi,Safety Hub,https://www.safetyhub.co.ke/product/best-chef-hat-prices-in-nairobi/,
+KS-IMP-0224,Dungaree Cotton Overall,KimSafety,PPE,2500,3,1400,2100,2200,2100,-16,high,Quality Dungaree Overall,Safety Hub,https://www.safetyhub.co.ke/product/quality-dungaree-overall/,
+KS-MED-1002,Surgical Face Masks — 3-Ply Disposable,Kimberly-Clark,Medical Safety,950,0,,,,950,0,none,,,,No close competitor match
+KS-IMP-0137,Dust Filter Mask,KimSafety,PPE,100,3,80,600,800,100,0,low,Industrial dust masks,Safety Hub,https://www.safetyhub.co.ke/product/industrial-dust-masks/,Outlier ratio 6.00x — review manually
+KS-IMP-0341,Half Finger Gloves - Heavy Duty,KimSafety,PPE,850,0,,,,850,0,none,,,,No close competitor match
+KS-IMP-0062,Navy Blue Mission Jacket,KimSafety,PPE,3500,3,2500,2500,3000,2500,-28.6,medium,Mission Jacket,Safeken,https://safeken.co.ke/product/mission-jacket-3/,
+KS-IMP-0098,Quip Personal First Aid Kit,KimSafety,Emergency Response,1300,4,2700,3500,4000,1300,0,low,Personal First Aid Kit,Safeken,https://safeken.co.ke/product/personal-first-aid-kit/,Outlier ratio 2.69x — review manually
+KS-IMP-0316,12 Step Fixed Ladder,KimSafety,Tools,15600,0,,,,15600,0,none,,,,No close competitor match
+KS-IMP-0337,2 x 10 Step Double Extendable Ladder,KimSafety,Tools,22100,0,,,,22100,0,none,,,,No close competitor match
+KS-FOO-1208,Food-Grade Mops & Brushes,KimSafety,Food Safety,1200,0,,,,1200,0,none,,,,No close competitor match
+KS-IMP-0138,Black Grey with Orange Piping Bump Cap,KimSafety,Industrial Safety,2200,2,1200,1800,1800,1800,-18.2,medium,Orange Bump Cap,Safety Hub,https://www.safetyhub.co.ke/product/orange-bump-cap/,
+KS-IMP-0028,Anti Slip Safety Crocs-Local,KimSafety,Industrial Safety,2500,0,,,,2500,0,none,,,,No close competitor match
+KS-TOOL-1525,Sisal Twine,KimSafety,Tools & Hardware,1500,0,,,,1500,0,none,,,,No close competitor match
+KS-PPE-3004,PureFlow Disposable Dust Masks FFP2 (Box of 20),3M,PPE,1550,0,,,,1550,0,none,,,,No close competitor match
+KS-SIG-1312,Floor Safety Signages,KimSafety,Signs & Labels,1200,1,1700,1700,1700,1700,41.7,medium,Wet floor signage,Sidget Safety,https://sidgetsafety.co.ke/product/wet-floor-signage/,
+KS-IMP-0037,Yellow Reflective Jacket,KimSafety,PPE,4500,1,1700,1700,1700,4500,0,low,Reflective Jacket,Safeken,https://safeken.co.ke/product/reflective-jacket/,Outlier ratio 0.38x — review manually
+KS-IMP-0233,Anti-Riot Helmet with Shield and Safety Belt – Black,KimSafety,Industrial Safety,10500,0,,,,10500,0,none,,,,No close competitor match
+KS-IMP-0262,Safety Jogger Ceres S3 Ladies Safety Shoes,Safety Jogger,Industrial Safety,6400,0,,,,6400,0,none,,,,No close competitor match
+KS-IMP-0251,Light Duty Helmet,KimSafety,Industrial Safety,250,5,150,200,700,200,-20,high,Light Duty Construction Helmets,Safety Hub,https://www.safetyhub.co.ke/product/light-duty-construction-helmets/,
+KS-IND-2004,FlexFit HiVis Coverall — Navy,Delta Plus,Industrial Safety,3400,0,,,,3400,0,none,,,,No close competitor match
+KS-ELC-1401,VoltSafe Class 0 Insulated Gloves (Pair),3M,Electrical Safety,5200,0,,,,5200,0,none,,,,No close competitor match
+KS-IMP-0044,Double Chemical Respirator,KimSafety,PPE,400,1,500,500,500,500,25,medium,Chemical respirators,Safety Hub,https://www.safetyhub.co.ke/product/chemical-respirators/,
+KS-IMP-0108,Disposable Nitrile Gloves 100 pcs,KimSafety,PPE,650,0,,,,650,0,none,,,,No close competitor match
+KS-IMP-0305,PVC Bee Gloves,KimSafety,PPE,850,3,350,350,400,850,0,low,Industrial PVC Gloves,Safeken,https://safeken.co.ke/product/industrial-pvc-gloves/,Outlier ratio 0.41x — review manually
+KS-IMP-0204,Dual Visor Safety Helmet,KimSafety,Industrial Safety,5000,0,,,,5000,0,none,,,,No close competitor match
+KS-IMP-0223,Hillson Clawz Safety Shoe - High Cut,KimSafety,Industrial Safety,3000,0,,,,3000,0,none,,,,No close competitor match
+KS-IMP-0038,Medical Rubber Bands,KimSafety,Medical Safety,800,0,,,,800,0,none,,,,No close competitor match
+KS-IMP-0099,5 + 5 Step Dual-Step Ladder,KimSafety,Tools,11700,0,,,,11700,0,none,,,,No close competitor match
+KS-PPE-3002,FlexiGlove Nitrile Work Gloves (Pair),Ansell,PPE,750,2,250,400,400,400,-46.7,high,Nitrile Gloves,Safeken,https://safeken.co.ke/product/nitrile-gloves/,
+KS-IMP-0150,Sleeveless Jacket,KimSafety,PPE,2500,2,2500,2500,2500,2500,0,high,Sleeveless Puff Jacket,Safety Hub,https://www.safetyhub.co.ke/product/sleeveless-puff-jacket/,
+KS-IMP-0011,Hair Nets 100 pcs,KimSafety,Medical Safety,600,0,,,,600,0,none,,,,No close competitor match
+KS-IMP-0195,Workman Full Body Harness with Double Hook Lanyards,KimSafety,Construction Safety,10000,3,10000,18000,25000,18000,80,high,Double Hook Lanyards Full Body Harness,Safety Hub,https://www.safetyhub.co.ke/product/double-hook-lanyards-full-body-harness/,
+KS-IMP-0193,Light Duty Blue/Navy Blue Reflective Jacket,KimSafety,PPE,2500,0,,,,2500,0,none,,,,No close competitor match
+KS-IMP-0311,Rubber Household Gloves,KimSafety,PPE,170,5,270,400,800,170,0,low,Rubber Gloves,Safety Hub,https://www.safetyhub.co.ke/product/rubber-gloves/,Outlier ratio 2.35x — review manually
+KS-IMP-0114,Solar Traffic Cone Light,KimSafety,Road Safety,1800,0,,,,1800,0,none,,,,No close competitor match
+KS-ROA-5006,Barrier & Safety Barricade Tape,KimSafety,Road Safety,650,0,,,,650,0,none,,,,No close competitor match
+KS-PPE-3003,EarGuard Pro Ear Muffs SNR 31dB,3M,PPE,1900,0,,,,1900,0,none,,,,No close competitor match
+KS-PPE-3030,Green Nitrile Gloves,KimSafety,PPE,1200,2,250,400,400,1200,0,low,Nitrile Gloves,Safeken,https://safeken.co.ke/product/nitrile-gloves/,Outlier ratio 0.33x — review manually
+KS-PPE-3050,Anti-Fog Safety Glasses,Uvex,PPE,1250,0,,,,1250,0,none,,,,No close competitor match
+KS-PPE-3031,Heavy-Duty Twill Overalls,KimSafety,PPE,2600,5,1050,1800,2500,1800,-30.8,high,Cotton Twill Industrial Overall,Safety Hub,https://www.safetyhub.co.ke/product/cotton-twill-industrial-overall/,
+KS-FIR-4003,FireBlanket Pro 1.8m Kitchen Fire Blanket,Honeywell,Fire Safety,2800,0,,,,2800,0,none,,,,No close competitor match
+KS-IMP-0010,Cotton Dust Coat,KimSafety,PPE,1500,5,650,1000,1200,1000,-33.3,high,Industrial Cotton Dust Coat,Safeken,https://safeken.co.ke/product/industrial-cotton-dust-coat/,
+KS-IMP-0064,Foam Fire Extinguishers – 6 Litres and 9 Litres,KimSafety,Fire Safety,4400,3,3500,3500,4500,4400,0,low,6 litre foam fire extinguishers price,Safety Hub,https://www.safetyhub.co.ke/product/6-litre-foam-fire-extinguishers-price/,Range/from product — suggested uses market low; Possible pack/quantity mismatch
+KS-IMP-0270,Ladies Guard Safety Shoe - Steel Toe & Plate,KimSafety,Industrial Safety,4500,0,,,,4500,0,none,,,,No close competitor match
+KS-IMP-0192,Safety Hard Hats,KimSafety,Industrial Safety,250,1,3800,3800,3800,250,0,low,Hard Hat,Safeken,https://safeken.co.ke/product/hard-hat/,Outlier ratio 15.20x — review manually
+KS-IMP-0128,Small Plastic Welding Helmet,KimSafety,Industrial Safety,600,0,,,,600,0,none,,,,No close competitor match
+KS-IMP-0343,2 x 14 Step Double Extendable Ladder,KimSafety,Tools,31200,0,,,,31200,0,none,,,,No close competitor match
+KS-IMP-0051,Leather Double Tool Belt,KimSafety,Tools,5000,0,,,,5000,0,none,,,,No close competitor match
+KS-IMP-0279,Chemical Resistant Rubber Gloves - Short,KimSafety,PPE,400,1,300,300,300,300,-25,medium,Heavy Duty Chemical Resistant Gloves,Safeken,https://safeken.co.ke/product/heavy-duty-chemical-resitant-gloves/,
+KS-IMP-0140,7 + 7 Step Dual-Step Ladder,KimSafety,Tools,15600,0,,,,15600,0,none,,,,No close competitor match
+KS-IMP-0340,2 x 12 Step Double Extendable Ladder,KimSafety,Tools,26000,0,,,,26000,0,none,,,,No close competitor match
+KS-CON-6007,Bump Cap — Baseball Style,KimSafety,Construction Safety,1200,4,1500,2200,3800,2200,83.3,medium,Safety bump caps,Safety Hub,https://www.safetyhub.co.ke/product/safety-bump-caps-2/,
+KS-IMP-0131,Sterile Gauze Swabs 100 pcs,KimSafety,Medical Safety,750,0,,,,750,0,none,,,,No close competitor match
+KS-IMP-0026,Leather Single Tool Belt,KimSafety,Tools,4000,0,,,,4000,0,none,,,,No close competitor match
+KS-IMP-0187,USB Rechargeable T6 LED Three-Head Fixed-Focus Head Lamp,KimSafety,PPE,1800,0,,,,1800,0,none,,,,No close competitor match
+KS-IMP-0221,2 x 6 Step Dual-Fold Ladder,KimSafety,Tools,16250,0,,,,16250,0,none,,,,No close competitor match
+KS-IMP-0124,Vaultex Safety Shoes,Vaultex,Industrial Safety,2500,5,2500,2700,3200,2700,8,high,Vaultex Industrial Safety Shoes,Safeken,https://safeken.co.ke/product/vaultex-industrial-safety-shoes/,
+KS-TOOL-1524,Rubber Bands,KimSafety,Tools & Hardware,1200,0,,,,1200,0,none,,,,No close competitor match
+KS-IMP-0077,Delta Plus Ear Muff,Delta Plus,PPE,1600,3,250,250,300,1600,0,low,Ear muffs,Safety Hub,https://www.safetyhub.co.ke/product/ear-muffs/,Outlier ratio 0.16x — review manually
+KS-MED-1004,Medical Disposable Isolation Gowns (Box of 50),Kimberly-Clark,Medical Safety,6800,0,,,,6800,0,none,,,,No close competitor match
+KS-IMP-0166,Forestry Safety Helmet,KimSafety,Industrial Safety,4500,5,150,500,4200,4500,0,low,Forestry Safety Helmet,Safeken,https://safeken.co.ke/product/forestry-safety-helmet-in-nairobi_kenya/,Outlier ratio 0.11x — review manually
+KS-PPE-3023,Barber Wrap Capes,KimSafety,PPE,1500,0,,,,1500,0,none,,,,No close competitor match
+KS-PPE-3043,Reflective Cargo Overalls,Karam,PPE,3400,5,1200,2300,2700,2300,-32.4,high,Industrial Reflective Cargo Overalls,Safety Hub,https://www.safetyhub.co.ke/product/industrial-reflective-cargo-overalls/,
+KS-PPE-3010,Heavy Duty Industrial Dungaree,KimSafety,PPE,3200,2,1400,2100,2100,2100,-34.4,medium,Quality Dungaree Overall,Safety Hub,https://www.safetyhub.co.ke/product/quality-dungaree-overall/,
+KS-IMP-0090,Water Fire Extinguisher – 9 Litres,KimSafety,Fire Safety,4300,3,3500,3500,3800,4300,0,low,9 Litre Water Fire Extinguisher,Safeken,https://safeken.co.ke/product/9-litre-water-fire-extinguisher/,Possible pack/quantity mismatch
+KS-MED-1007,Medic Face Shield (Blue),KimSafety,Medical Safety,950,3,400,800,1500,800,-15.8,medium,Protective Face Shield,Safety Hub,https://www.safetyhub.co.ke/product/protective-face-shield/,
+KS-IMP-0302,Leather Bee Gloves,KimSafety,PPE,850,5,320,350,400,850,0,low,Leather Work Gloves,Safety Hub,https://www.safetyhub.co.ke/product/leather-work-gloves/,Outlier ratio 0.41x — review manually
+KS-IMP-0025,Generic Ear Muff,KimSafety,PPE,450,3,250,250,300,250,-44.4,high,Ear muffs,Safety Hub,https://www.safetyhub.co.ke/product/ear-muffs/,
+KS-PPE-3013,Rain Coat with Inner Lining,KimSafety,PPE,1400,5,1200,1200,1500,1200,-14.3,high,Rain Coats with a cotton inner lining,Safety Hub,https://www.safetyhub.co.ke/product/rain-coats-with-a-cotton-inner-lining/,
+KS-IMP-0196,Portable Chemical Eyewash 34 Litres,KimSafety,PPE,23500,0,,,,23500,0,none,,,,No close competitor match
+KS-IMP-0158,Waterproof Overall with Lining,KimSafety,PPE,2600,1,2000,2000,2000,2000,-23.1,medium,Waterproof Overalls,Safety Hub,https://www.safetyhub.co.ke/product/water-proof-overalls/,
+KS-TOOL-1506,A4 Label Papers,KimSafety,Tools & Hardware,900,0,,,,900,0,none,,,,No close competitor match
+KS-IMP-0084,Power/Cargo Cotton Twil Overall Reflective,KimSafety,PPE,2800,1,2700,2700,2700,2700,-3.6,medium,Industrial Reflective Cargo Overalls,Safety Hub,https://www.safetyhub.co.ke/product/industrial-reflective-cargo-overalls/,
+KS-IMP-0198,Yellow Reflective Mesh Bump Cap,KimSafety,Industrial Safety,1800,0,,,,1800,0,none,,,,No close competitor match
+KS-IMP-0120,Quip Medium First Aid Kit,KimSafety,Emergency Response,3200,4,3000,3800,4000,3800,18.8,high,Medium First Aid Kit,Safeken,https://safeken.co.ke/product/medium-first-aid-kit/,
+KS-CLN-8005,Heavy Duty Chemical Resistant Gloves,KimSafety,Cleaning & Hygiene,750,2,250,300,300,750,0,low,Heavy Duty Chemical Resistant Gloves,Safeken,https://safeken.co.ke/product/heavy-duty-chemical-resitant-gloves/,Outlier ratio 0.40x — review manually
+KS-IMP-0232,Electric Heat Gloves,KimSafety,PPE,3800,0,,,,3800,0,none,,,,No close competitor match
+KS-IMP-0267,Duocolour Chemical-Resistant Gloves – Blue & Yellow,KimSafety,PPE,450,1,300,300,300,300,-33.3,medium,Heavy Duty Chemical Resistant Gloves,Safeken,https://safeken.co.ke/product/heavy-duty-chemical-resitant-gloves/,
+KS-IMP-0239,Heavy Duty Helmet with a Face Shield,KimSafety,Industrial Safety,2500,3,400,800,1500,2500,0,low,Protective Face Shield,Safety Hub,https://www.safetyhub.co.ke/product/protective-face-shield/,Outlier ratio 0.32x — review manually
+KS-MED-1008,Foldable Wheelchair,KimSafety,Medical Safety,18500,0,,,,18500,0,none,,,,No close competitor match
+KS-IMP-0054,ACE Wolverine Safety Shoe,KimSafety,Industrial Safety,3500,1,3300,3300,3300,3300,-5.7,medium,Wolverine Safety Shoe,Safety Hub,https://www.safetyhub.co.ke/product/wolverine-safety-shoe/,
+KS-TOOL-1516,Non-Woven Packaging Bags,KimSafety,Tools & Hardware,1500,0,,,,1500,0,none,,,,No close competitor match
+KS-IMP-0058,Power/Cargo Cotton Twil Overall,KimSafety,PPE,2800,0,,,,2800,0,none,,,,No close competitor match
+KS-IMP-0063,Disposable Polythene Shoe Covers 100 pcs,KimSafety,Medical Safety,1300,0,,,,1300,0,none,,,,No close competitor match
+KS-IMP-0190,Denim Welding Overall 2PC,KimSafety,PPE,3600,1,2300,2300,2300,2300,-36.1,medium,Welding Overall,Safeken,https://safeken.co.ke/product/welding-overall/,
+KS-IMP-0325,18 Step Fixed Ladder,KimSafety,Tools,21549,0,,,,21549,0,none,,,,No close competitor match
+KS-IMP-0235,2 x 8 Step Dual-Fold Ladder,KimSafety,Tools,17550,0,,,,17550,0,none,,,,No close competitor match
+KS-IMP-0254,ACE Executive Safety Shoe,KimSafety,Industrial Safety,4500,0,,,,4500,0,none,,,,No close competitor match
+KS-IMP-0116,Workman Fall Protection Lanyards,KimSafety,Construction Safety,5500,0,,,,5500,0,none,,,,No close competitor match
+KS-PPE-3044,Plain Cotton-Twill Overalls,KimSafety,PPE,2600,2,1800,2200,2200,2200,-15.4,high,Cotton Twill Industrial Overall,Safety Hub,https://www.safetyhub.co.ke/product/cotton-twill-industrial-overall/,
+KS-PPE-3038,Shoe Covers,KimSafety,PPE,700,5,800,1000,3200,1000,42.9,high,Shoe Covers,Safeken,https://safeken.co.ke/product/shoe-covers/,
+KS-TOOL-1501,ProGrip Insulated Side-Cutting Pliers 200mm,Honeywell,Tools,2100,0,,,,2100,0,none,,,,No close competitor match
+KS-PPE-3028,Double Respirator Mask (NP306),KimSafety,PPE,800,0,,,,800,0,none,,,,No close competitor match
+KS-IMP-0253,4 x 2 Step Quad-Fold Ladder,KimSafety,Tools,11700,0,,,,11700,0,none,,,,No close competitor match
+KS-CON-6009,Twin-Leg Shock-Absorbing Lanyard,Karam,Construction Safety,5600,0,,,,5600,0,none,,,,No close competitor match
+KS-IMP-0281,4 x 10 Step Quad-Fold Ladder,KimSafety,Tools,54600,0,,,,54600,0,none,,,,No close competitor match
+KS-IMP-0159,Vaultex Ear Muff 25 db,Vaultex,PPE,950,1,800,800,800,800,-15.8,medium,Vaultex Ear Muff,Safeken,https://safeken.co.ke/product/vaultex-ear-muff/,
+KS-IMP-0097,Navy Blue with Orange Piping Bump Cap,KimSafety,Industrial Safety,2200,4,1200,1200,1800,1200,-45.5,high,Navy Blue Bump Caps,Safety Hub,https://www.safetyhub.co.ke/product/navy-blue-bump-caps/,
+KS-IMP-0123,Long Range Walkie Talkie Twin,KimSafety,Security Equipment,5000,0,,,,5000,0,none,,,,No close competitor match
+KS-PPE-3036,Safety Balaclava,KimSafety,PPE,700,0,,,,700,0,none,,,,No close competitor match
+KS-IMP-0363,2 x 8 Step Extendable Fibreglass Ladder,KimSafety,Tools,32500,0,,,,32500,0,none,,,,No close competitor match
+KS-IMP-0174,Leather Welding Safety Arm Sleeve,KimSafety,PPE,800,0,,,,800,0,none,,,,No close competitor match
+KS-TOOL-1509,Cellotape Dispenser,KimSafety,Tools & Hardware,380,0,,,,380,0,none,,,,No close competitor match
+KS-FIR-4007,ABC Dry Powder Fire Extinguisher 9kg,KimSafety,Fire Safety,12500,2,3800,5800,5800,12500,0,low,9kg Dry Powder Fire Extinguisher,Safety Hub,https://www.safetyhub.co.ke/product/9kg-dry-powder-fire-extinguisher/,Outlier ratio 0.46x — review manually
+KS-IMP-0249,ACE Sindi Ladies Safety Shoe,KimSafety,Industrial Safety,3200,2,2800,3000,3000,3000,-6.3,high,Ace Sindi Ladies Safety Shoes,Safeken,https://safeken.co.ke/product/ace-sindi-ladies-safety-shoes/,
+KS-IMP-0180,Navy Blue Light Duty Reflective Jacket,KimSafety,PPE,2500,0,,,,2500,0,none,,,,No close competitor match
+KS-IMP-0218,Adjustable Work positioning Safety Belt with Hook,KimSafety,Construction Safety,2500,0,,,,2500,0,none,,,,No close competitor match
+KS-IMP-0105,Steel Toe Cap Industrial Gumboots Black - ACE,KimSafety,Industrial Safety,1800,3,1800,1800,2300,1800,0,high,Black Steel Toe Gumboots,Safety Hub,https://www.safetyhub.co.ke/product/black-ace-steel-toe-gumboots/,
+KS-PPE-3039,Single Respirator Mask (NP307),KimSafety,PPE,800,1,350,350,350,800,0,low,Single respirator,Sidget Safety,https://sidgetsafety.co.ke/product/single-respirator/,Outlier ratio 0.44x — review manually
+KS-IMP-0164,Denim Welding Overall Reflective,KimSafety,PPE,3200,5,1200,1200,2300,3200,0,low,Reflective overalls,Safety Hub,https://www.safetyhub.co.ke/product/reflective-overalls-3/,Outlier ratio 0.38x — review manually
+KS-CLN-8008,Anti-Fatigue Floor Mats,KimSafety,Cleaning & Hygiene,3200,0,,,,3200,0,none,,,,No close competitor match
+KS-FIR-4005,ABC Dry Powder Fire Extinguisher 4kg,KimSafety,Fire Safety,8200,2,3000,4200,4200,4200,-48.8,high,4kg Dry Powder fire extinguisher,Safety Hub,https://www.safetyhub.co.ke/product/4kg-dry-powder-fire-extinguisher/,
+KS-IMP-0152,4 kg Fire Ball,KimSafety,Fire Safety,6400,3,5800,7000,7000,6400,0,low,4 kg fire balls,Safety Hub,https://www.safetyhub.co.ke/product/4-kg-fire-balls/,Possible pack/quantity mismatch
+KS-ROA-5001,TrafficPro Reflective Traffic Cone 750mm,Karam,Road Safety,1450,0,,,,1450,0,none,,,,No close competitor match
+KS-IMP-0219,Safety Boy Half Face Mask Double Cartridge S6700,KimSafety,PPE,2950,0,,,,2950,0,none,,,,No close competitor match
+KS-IMP-0228,2 x 7 Step Dual-Fold Ladder,KimSafety,Tools,16250,0,,,,16250,0,none,,,,No close competitor match
+KS-IMP-0017,Dark Safety Glasses (UD46),KimSafety,PPE,300,0,,,,300,0,none,,,,No close competitor match
+KS-IMP-0106,Leather Motorbike Trousers - EX UK,KimSafety,Road Safety,4000,0,,,,4000,0,none,,,,No close competitor match
+KS-IMP-0074,4 + 4 Step Dual-Step Ladder,KimSafety,Tools,9750,0,,,,9750,0,none,,,,No close competitor match
+KS-IMP-0368,4 x 3 Step Folding Fibreglass Ladder,KimSafety,Tools,27300,0,,,,27300,0,none,,,,No close competitor match
+KS-IMP-0014,Foldable Warning Signs – Light Duty and Heavy Duty,KimSafety,Signs & Labels,950,0,,,,950,0,none,,,,No close competitor match
+KS-IMP-0201,Workman Low Cut Safety Shoe,KimSafety,Industrial Safety,3200,0,,,,3200,0,none,,,,No close competitor match
+KS-PPE-3051,Chemical Splash Goggles — Indirect Vent,KimSafety,PPE,950,0,,,,950,0,none,,,,No close competitor match
+KS-FIR-4006,CO2 Fire Extinguisher 5kg,KimSafety,Fire Safety,16500,2,2500,7200,7200,16500,0,low,5kg Co2 fire extinguisher refilling price,Safety Hub,https://www.safetyhub.co.ke/product/5kg-co2-fire-extinguisher-refilling-price/,Outlier ratio 0.44x — review manually
+KS-IMP-0286,Tiger Grip Visitor Shoe,KimSafety,Industrial Safety,4200,0,,,,4200,0,none,,,,No close competitor match
+KS-IMP-0095,Vaultex 6200 Respiratory Half Face Mask,Vaultex,PPE,1500,2,1600,1600,1600,1600,6.7,high,Vaultex Half Face Mask,Safeken,https://safeken.co.ke/product/vaultex-half-face-mask/,
+KS-IMP-0352,3 x 7 Step Triple Extendable Ladder,KimSafety,Tools,24830,0,,,,24830,0,none,,,,No close competitor match
+KS-IMP-0162,Shujaa Black Gumboot - Light Duty,KimSafety,Industrial Safety,650,2,850,850,850,850,30.8,medium,Black Industrial Gumboot,Safeken,https://safeken.co.ke/product/black-industrial-gumboot/,
+KS-IMP-0016,Wooden Pole Climbers,KimSafety,Construction Safety,7200,2,7000,7500,7500,7500,4.2,high,Wooden Pole Climbers,Safety Hub,https://www.safetyhub.co.ke/product/wooden-pole-climbers/,
+KS-PPE-3047,Cut-Resistant Level 5 Grip Gloves,Traffiglove,PPE,1600,2,549,550,550,1600,0,low,Best Cut Resistant Gloves,Safety Hub,https://www.safetyhub.co.ke/product/cut-resistant-gloves/,Outlier ratio 0.34x — review manually
+KS-IMP-0329,Knicker Black/Grey Leather Gloves - Long,KimSafety,PPE,350,0,,,,350,0,none,,,,No close competitor match
+KS-IMP-0009,Green Mission Jacket,KimSafety,PPE,3500,3,2500,2500,3000,2500,-28.6,high,Mission Jacket,Safeken,https://safeken.co.ke/product/mission-jacket-3/,
+KS-IMP-0283,Cotton Nitrile Coated Gloves,KimSafety,PPE,800,4,100,250,400,800,0,low,Nitrile Coated Gloves,Safeken,https://safeken.co.ke/product/nitrile-coated-gloves/,Outlier ratio 0.31x — review manually
+KS-IMP-0071,Cotton Material Bib Apron,KimSafety,PPE,1400,3,500,500,500,1400,0,low,Bib Apron,Safeken,https://safeken.co.ke/product/bib-apron-3/,Outlier ratio 0.36x — review manually
+KS-TOOL-1505,LED Strong Light Flashlight,KimSafety,Tools & Hardware,2200,0,,,,2200,0,none,,,,No close competitor match
+KS-FIR-4009,Fire Hose Pipe,KimSafety,Fire Safety,5500,0,,,,5500,0,none,,,,No close competitor match
+KS-IMP-0313,10 Step Fixed Ladder,KimSafety,Tools,13000,0,,,,13000,0,none,,,,No close competitor match
+KS-MED-1011,Standard Foldable Wheelchair,KimSafety,Medical Safety,16500,0,,,,16500,0,none,,,,No close competitor match
+KS-TOOL-1507,Bubble Wrap (100m Roll),KimSafety,Tools & Hardware,900,0,,,,900,0,none,,,,No close competitor match
+KS-PPE-3058,Waterproof Rain Suit — Jacket & Bib Trousers,Delta Plus,PPE,3200,1,1800,1800,1800,1800,-43.8,medium,Quality Waterproof Rain Jacket,Safety Hub,https://www.safetyhub.co.ke/product/quality-waterproof-rain-jacket/,
+KS-IND-2009,HIVIEW Safety Boot HTS4101,HIVIEW,Industrial Safety,5200,2,4000,4700,4700,4700,-9.6,high,HIVIEW SAFETY BOOT HTS4101,Sidget Safety,https://sidgetsafety.co.ke/product/hiview-safety-boot-hts4101/,
+KS-EMR-9001,RescuePro 25-Piece First Aid Kit,MSA,Emergency Response,3900,3,3000,3500,4000,3500,-10.3,medium,First Aid Kits,Safety Hub,https://www.safetyhub.co.ke/product/first-aid-kits/,
+KS-IMP-0136,Industrial Face Shield,KimSafety,PPE,750,5,400,750,1500,750,0,high,Protective Face Shield,Safety Hub,https://www.safetyhub.co.ke/product/protective-face-shield/,
+KS-IMP-0043,Safety Glasses (UD71),KimSafety,PPE,300,0,,,,300,0,none,,,,No close competitor match
+KS-TOOL-1512,Grease-Proof Packaging Paper,KimSafety,Tools & Hardware,900,0,,,,900,0,none,,,,No close competitor match
+KS-IMP-0130,Warm Puff Jackets Long Sleeve,KimSafety,PPE,2800,0,,,,2800,0,none,,,,No close competitor match
+KS-IND-2014,Vaultex Safety Boot,Vaultex,Industrial Safety,5000,5,2700,2720,2800,2700,-46,high,Vaultex Safety Boots,Safety Hub,https://www.safetyhub.co.ke/product/vaultex-safety-boots/,
+KS-EMR-9004,"First Aid Kit Stock, Refill & Restocking Supplies",KimSafety,Emergency Response,4500,0,,,,4500,0,none,,,,No close competitor match
+KS-FOO-1201,FoodSafe Vinyl Food Handling Gloves (Box of 100),Ansell,Food Safety,1150,0,,,,1150,0,none,,,,No close competitor match
+KS-PPE-3037,Salon Wrap Aprons,KimSafety,PPE,1500,0,,,,1500,0,none,,,,No close competitor match
+KS-IND-2006,DuraFlex General Purpose Work Gloves (12 pairs),Ansell,Industrial Safety,1650,0,,,,1650,0,none,,,,No close competitor match
+KS-IMP-0173,9 + 9 Step Dual-Step Ladder,KimSafety,Tools,20800,0,,,,20800,0,none,,,,No close competitor match
+KS-IND-2012,Sandak Gumboot,Sandak,Industrial Safety,2200,5,700,850,1800,2200,0,low,Sandak Gumboot,Safeken,https://safeken.co.ke/product/sandak-gumboot/,Outlier ratio 0.39x — review manually
+KS-LAB-7002,LabGuard Safety Glasses — Clear,Uvex,Laboratory Equipment,850,1,300,300,300,850,0,low,Clear Safety Glasses,Safeken,https://safeken.co.ke/product/clear-safety-glasses/,Outlier ratio 0.35x — review manually
+KS-IMP-0141,Multi-colour Kids Rain Coat,KimSafety,PPE,700,1,1200,1200,1200,1200,71.4,medium,Quality Kids Rain Coats,Safety Hub,https://www.safetyhub.co.ke/product/quality-kids-rain-coats/,
+KS-IMP-0122,Navy Blue Kids Rain Coat,KimSafety,PPE,1200,5,1200,1200,1200,1200,0,high,Navy Blue Rain Coat,Safeken,https://safeken.co.ke/product/navy-blue-rain-coat/,
+KS-IMP-0310,8 Step Fixed Ladder,KimSafety,Tools,10400,0,,,,10400,0,none,,,,No close competitor match
+KS-IMP-0169,Full Body Harness with Shock Absorption Lanyards - Indian Made,KimSafety,Construction Safety,15500,0,,,,15500,0,none,,,,No close competitor match
+KS-IMP-0179,Metal Fibre Welding Helmet,KimSafety,Industrial Safety,10500,0,,,,10500,0,none,,,,No close competitor match
+KS-IMP-0285,3 Step Stepper Ladder,KimSafety,Tools,5200,0,,,,5200,0,none,,,,No close competitor match
+KS-IMP-0086,Work at Height Helmet,KimSafety,Industrial Safety,3300,5,2700,2700,3300,2700,-18.2,high,Work at Height Helmet,Safeken,https://safeken.co.ke/product/work-at-height-helmet/,
+KS-IMP-0172,Solid Orange Bump Cap,KimSafety,Industrial Safety,2200,5,170,1500,1800,1500,-31.8,high,Orange Bump Cap,Safety Hub,https://www.safetyhub.co.ke/product/orange-bump-cap/,
+KS-MED-1005,SafeSharps Puncture-Proof Sharps Container 2L,Kimberly-Clark,Medical Safety,750,0,,,,750,0,none,,,,No close competitor match
+KS-IMP-0076,Reflective Rain Coat - Long,KimSafety,PPE,1600,4,1200,1500,1500,1500,-6.3,medium,Rain coats,Safety Hub,https://www.safetyhub.co.ke/product/pvc-rain-coats/,
+KS-TOOL-1502,12-Step Multipurpose Aluminium Ladder 3.7m (Red Edition),KimSafety,Tools & Hardware,16500,0,,,,16500,0,none,,,,No close competitor match
+KS-IMP-0029,Hillson Light Weight Safety Shoe - Black,KimSafety,Industrial Safety,3800,0,,,,3800,0,none,,,,No close competitor match
+KS-IMP-0113,Wet Chemical Fire Extinguisher – 6 Litres,KimSafety,Fire Safety,7600,0,,,,7600,0,none,,,,No close competitor match
+KS-TOOL-1511,Digital Wall Clock,KimSafety,Tools & Hardware,4500,0,,,,4500,0,none,,,,No close competitor match
+KS-IMP-0104,Hillson Light Weight Safety Shoe - Brown,KimSafety,Industrial Safety,3800,0,,,,3800,0,none,,,,No close competitor match
+KS-ROA-5002,HiVis Class 2 Reflective Vest — Orange,3M,Road Safety,650,0,,,,650,0,none,,,,No close competitor match
+KS-PPE-3049,Electrical Insulating Gloves Class 0,Honeywell,Electrical Safety,4800,1,2999,2999,2999,3000,-37.5,medium,Electrical Gloves,Safeken,https://safeken.co.ke/product/electrical-gloves/,
+KS-IMP-0244,Light Duty Leather Gloves,KimSafety,PPE,550,5,320,350,400,350,-36.4,high,Leather Work Gloves,Safety Hub,https://www.safetyhub.co.ke/product/leather-work-gloves/,
+KS-SIG-1305,Fire Action Plan Sign,KimSafety,Signs & Labels,1200,1,1200,1200,1200,1200,0,medium,Fire Action Plan,Safeken,https://safeken.co.ke/product/fire-action-plan/,
+KS-SIG-1307,Lock Out / Tag Out Sign,KimSafety,Signs & Labels,1100,0,,,,1100,0,none,,,,No close competitor match
+KS-TOOL-1522,PP Strapping Rolls 15mm,KimSafety,Tools & Hardware,900,0,,,,900,0,none,,,,No close competitor match
+KS-IMP-0356,3 x 10 Step Triple Extendable Ladder,KimSafety,Tools,31070,0,,,,31070,0,none,,,,No close competitor match
+KS-PPE-3034,Red Heavy-Duty Nitrile Gloves,KimSafety,PPE,1200,2,250,400,400,1200,0,low,Nitrile Gloves,Safeken,https://safeken.co.ke/product/nitrile-gloves/,Outlier ratio 0.33x — review manually
+KS-IMP-0220,Red Mesh Bump Cap,KimSafety,Industrial Safety,1800,5,170,1500,3800,1500,-16.7,medium,Red Caps,Safety Hub,https://www.safetyhub.co.ke/product/red-caps/,
+KS-PPE-3060,Corded Ear Plugs SNR 37dB (Box of 100),3M,PPE,3200,0,,,,3200,0,none,,,,No close competitor match
+KS-IND-2003,SafEyes Chemical Splash Goggles,Uvex,Industrial Safety,1100,0,,,,1100,0,none,,,,No close competitor match
+KS-SEC-1109,Wooden Suggestion Box,KimSafety,Security Equipment,3200,1,5000,5000,5000,5000,56.3,medium,Suggestion Box,Safeken,https://safeken.co.ke/product/suggestion-box-in-nairobi/,
+KS-PPE-3033,Leather Working Gloves,KimSafety,PPE,1200,5,320,350,400,1200,0,low,Leather Work Gloves,Safety Hub,https://www.safetyhub.co.ke/product/leather-work-gloves/,Outlier ratio 0.29x — review manually
+KS-IMP-0087,Heavy Duty Reflector Vest – Zipped,KimSafety,Road Safety,250,4,125,180,1200,200,-20,high,Zipped Reflector Vest,Safeken,https://safeken.co.ke/product/zipped-reflector-vest/,
+KS-IMP-0012,CO₂ Fire Extinguishers – 2 kg and 5 kg,KimSafety,Fire Safety,4500,1,7000,7000,7000,4500,0,low,5 Kg CO₂ Fire Extinguisher,Safeken,https://safeken.co.ke/product/5kg-c02-fire-extinguisher/,Range/from product — suggested uses market low; Possible pack/quantity mismatch
+KS-IMP-0008,Light Duty Reflector Vest – Non-Zip,KimSafety,Road Safety,150,1,200,200,200,200,33.3,medium,Light Reflector Vest,Safeken,https://safeken.co.ke/product/light-reflector-vest/,
+KS-MAR-1002,SeaSafe Throwable Lifebuoy Ring,Delta Plus,Marine Safety,2900,0,,,,2900,0,none,,,,No close competitor match
+KS-IMP-0271,PVC Double Dipped Gloves,KimSafety,PPE,300,4,350,400,450,400,33.3,high,Green Double Dipped PVC Gloves,Safety Hub,https://www.safetyhub.co.ke/product/green-double-dipped-pvc-gloves/,
+KS-IMP-0289,4 Step Stepper Ladder,KimSafety,Tools,6500,0,,,,6500,0,none,,,,No close competitor match
+KS-IMP-0334,2 x 8 Step Double Extendable Ladder,KimSafety,Tools,18200,0,,,,18200,0,none,,,,No close competitor match
+KS-ELC-1402,InsulTool VDE Insulated Screwdriver Set (6pc),Honeywell,Electrical Safety,2450,0,,,,2450,0,none,,,,No close competitor match
+KS-FOO-1206,Food Industry Dustcoats,KimSafety,Food Safety,2600,0,,,,2600,0,none,,,,No close competitor match
+KS-CON-6004,American Polycarbonate Industrial Safety Glass,American,Construction Safety,3800,0,,,,3800,0,none,,,,No close competitor match
+KS-IMP-0273,4 x 8 Step Quad-Fold Ladder,KimSafety,Tools,42900,0,,,,42900,0,none,,,,No close competitor match
+KS-IMP-0019,Disposable Polythene Apron 100 pcs,KimSafety,PPE,1600,0,,,,1600,0,none,,,,No close competitor match
+KS-IMP-0053,Anti Slip Safety Crocs with Steel toe,KimSafety,Industrial Safety,3700,0,,,,3700,0,none,,,,No close competitor match
+KS-IMP-0213,WB Kids Gumboot - Black & Coloured,KimSafety,Industrial Safety,550,0,,,,550,0,none,,,,No close competitor match
+KS-IMP-0126,Reflective 2 Piece Leather Motorbike Suit - EX UK,KimSafety,Road Safety,8500,0,,,,8500,0,none,,,,No close competitor match
+KS-CLN-8016,Washing & Scrubbing Pads,KimSafety,Cleaning & Hygiene,850,0,,,,850,0,none,,,,No close competitor match
+KS-IMP-0144,C&P FleetMax Safety Shoe,KimSafety,Industrial Safety,3500,3,2500,3200,3800,3200,-8.6,medium,Quality Safety shoes,Safety Hub,https://www.safetyhub.co.ke/product/quality-safety-shoes/,
+KS-IND-2011,Safety Jogger Safety Manager Boot,Safety Jogger,Industrial Safety,6100,3,3800,3800,4000,3800,-37.7,high,Safety Joggers Boots,Safety Hub,https://www.safetyhub.co.ke/product/safety-joggers-boots/,
+KS-IMP-0003,"Heavy Duty Gumboots - C&P, Vaultex & Bata",Vaultex,Industrial Safety,950,3,850,1100,1800,1100,15.8,high,Vaultex Safety Gumboots,Safety Hub,https://www.safetyhub.co.ke/product/vaultex-safety-gumboots/,
+KS-IMP-0163,Motorcycle Helmet Riding Goggles with Face Mask,KimSafety,Road Safety,1200,0,,,,1200,0,none,,,,No close competitor match
+KS-IMP-0269,4 x 7 Step Quad-Fold Ladder,KimSafety,Tools,36400,0,,,,36400,0,none,,,,No close competitor match
+KS-IMP-0015,Alcohol Breathalyzer / Alcoblow Checker Meter - Digital,KimSafety,Security Equipment,9500,0,,,,9500,0,none,,,,No close competitor match
+KS-IMP-0184,Full Face 6900 Chemical Gas Mask,KimSafety,PPE,10500,0,,,,10500,0,none,,,,No close competitor match
+KS-FOO-1202,TempGuard Digital Food Thermometer,Honeywell,Food Safety,1950,0,,,,1950,0,none,,,,No close competitor match
+KS-FIR-4008,Fire Marshal Reflective Vest (Branded),KimSafety,Fire Safety,1500,0,,,,1500,0,none,,,,No close competitor match
+KS-IMP-0021,Healthcare Personal First Aid Kit,KimSafety,Emergency Response,1900,4,2700,3500,4000,3500,84.2,high,Personal First Aid Kit,Safeken,https://safeken.co.ke/product/personal-first-aid-kit/,
+KS-IMP-0332,Warm Rider Gloves - Heavy Duty,KimSafety,PPE,650,1,500,500,500,500,-23.1,medium,Rider gloves,Sidget Safety,https://sidgetsafety.co.ke/product/rider-gloves/,
+KS-TOOL-1508,Cellotape,KimSafety,Tools & Hardware,380,0,,,,380,0,none,,,,No close competitor match
+KS-IMP-0230,ACE Chui Safety Shoe,KimSafety,Industrial Safety,3200,0,,,,3200,0,none,,,,No close competitor match
+KS-IMP-0241,2 x 9 Step Dual-Fold Ladder,KimSafety,Tools,19500,0,,,,19500,0,none,,,,No close competitor match
+KS-IMP-0117,Dust Mask 50 pcs,KimSafety,PPE,700,1,650,650,650,700,0,low,Dust Masks Packet of 50 Pieces,Safety Hub,https://www.safetyhub.co.ke/product/dust-masks-packet-of-50-pieces/,Possible pack/quantity mismatch
+KS-IMP-0004,Rider’s Protective Knee & Elbow Guards (4-Piece),KimSafety,Road Safety,3500,0,,,,3500,0,none,,,,No close competitor match
+KS-MED-1012,Metal Detectable Bandages,KimSafety,Medical Safety,650,0,,,,650,0,none,,,,No close competitor match
+KS-CLN-8006,PVC Dotted Cotton Gloves,KimSafety,Cleaning & Hygiene,480,5,100,120,350,480,0,low,Cotton Dotted Gloves,Safety Hub,https://www.safetyhub.co.ke/product/cotton-dotted-gloves/,Outlier ratio 0.21x — review manually
+KS-IMP-0317,Double Coloured PVC Coated Heavy Duty Gloves,KimSafety,PPE,230,0,,,,230,0,none,,,,No close competitor match
+KS-IND-2007,VisionPro Adjustable Face Shield,Uvex,Industrial Safety,1600,3,400,800,1500,800,-50,medium,Protective Face Shield,Safety Hub,https://www.safetyhub.co.ke/product/protective-face-shield/,
+KS-IMP-0103,Magnetic Revolving Emergency / Warning Lights,KimSafety,Road Safety,2500,0,,,,2500,0,none,,,,No close competitor match
+KS-IMP-0001,ACE Duma Safety Shoe,KimSafety,Industrial Safety,3500,2,3050,3500,3500,3500,0,high,Ace Duma Safety Shoes,Safety Hub,https://www.safetyhub.co.ke/product/ace-duma-safety-shoes/,
+KS-IMP-0024,Light Duty Rain Coat,KimSafety,PPE,950,4,1200,1500,1500,1500,57.9,high,Rain coats,Safety Hub,https://www.safetyhub.co.ke/product/pvc-rain-coats/,
+KS-IMP-0293,Chain Cut Resistant Gloves,KimSafety,PPE,9500,3,549,550,6500,9500,0,low,Chain Mail Cut Resistant Gloves,Safeken,https://safeken.co.ke/product/chain-mail-cut-resistant-gloves/,Outlier ratio 0.06x — review manually

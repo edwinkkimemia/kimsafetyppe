@@ -1,0 +1,1472 @@
+[
+  {
+    "sku": "KS-IMP-0255",
+    "name": "Super Grip Leather Gloves",
+    "old_price": 280,
+    "new_price": 350,
+    "change_pct": 25,
+    "confidence": "medium",
+    "source": "Safety Hub",
+    "best_match": "Leather Work Gloves"
+  },
+  {
+    "sku": "KS-PPE-3008",
+    "name": "Designer Reflective Jacket (Orange)",
+    "old_price": 3200,
+    "new_price": 1700,
+    "change_pct": -46.9,
+    "confidence": "medium",
+    "source": "Safeken",
+    "best_match": "Reflective Jacket"
+  },
+  {
+    "sku": "KS-IMP-0068",
+    "name": "Concrete Pole Climbers",
+    "old_price": 6500,
+    "new_price": 7000,
+    "change_pct": 7.7,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "Concrete pole climbers"
+  },
+  {
+    "sku": "KS-IMP-0073",
+    "name": "Healthcare Occupational First Aid Kit",
+    "old_price": 7500,
+    "new_price": 4000,
+    "change_pct": -46.7,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "Occupational First Aid Kit"
+  },
+  {
+    "sku": "KS-PPE-3022",
+    "name": "Anti-Cut Gloves (TraffiGlove)",
+    "old_price": 450,
+    "new_price": 550,
+    "change_pct": 22.2,
+    "confidence": "medium",
+    "source": "Safeken",
+    "best_match": "Anti Cut Gloves"
+  },
+  {
+    "sku": "KS-IMP-0032",
+    "name": "Rider Chest Guard",
+    "old_price": 850,
+    "new_price": 750,
+    "change_pct": -11.8,
+    "confidence": "medium",
+    "source": "Safeken",
+    "best_match": "Rider Chest Guard"
+  },
+  {
+    "sku": "KS-PPE-3053",
+    "name": "Auto-Darkening Welding Helmet",
+    "old_price": 8500,
+    "new_price": 4500,
+    "change_pct": -47.1,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "Best Auto darkening Welding Helmet"
+  },
+  {
+    "sku": "KS-SIG-1311",
+    "name": "Floor Marking Tape",
+    "old_price": 1200,
+    "new_price": 1450,
+    "change_pct": 20.8,
+    "confidence": "medium",
+    "source": "Safeken",
+    "best_match": "Yellow Floor Marking Adhesive Tape"
+  },
+  {
+    "sku": "KS-IMP-0229",
+    "name": "Life Saver Reflective Jacket",
+    "old_price": 2200,
+    "new_price": 2500,
+    "change_pct": 13.6,
+    "confidence": "high",
+    "source": "Safeken",
+    "best_match": "Life Saver Jacket"
+  },
+  {
+    "sku": "KS-IMP-0183",
+    "name": "Eye Wash Station",
+    "old_price": 10200,
+    "new_price": 10500,
+    "change_pct": 2.9,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "Emergency Eye Wash Station"
+  },
+  {
+    "sku": "KS-IMP-0085",
+    "name": "Kavach Electrical Insulating Gloves",
+    "old_price": 5200,
+    "new_price": 3000,
+    "change_pct": -42.3,
+    "confidence": "medium",
+    "source": "Safeken",
+    "best_match": "Electrical Gloves"
+  },
+  {
+    "sku": "KS-IMP-0036",
+    "name": "Reflector Vest with Zip & Pockets",
+    "old_price": 400,
+    "new_price": 600,
+    "change_pct": 50,
+    "confidence": "high",
+    "source": "Safeken",
+    "best_match": "Pocket Reflector Vest"
+  },
+  {
+    "sku": "KS-SEC-1106",
+    "name": "Security Whistle",
+    "old_price": 350,
+    "new_price": 200,
+    "change_pct": -42.9,
+    "confidence": "high",
+    "source": "Safeken",
+    "best_match": "Security Guard Whistle"
+  },
+  {
+    "sku": "KS-IND-2019",
+    "name": "Steel-Toe Safety Gumboot S1-SRA",
+    "old_price": 2500,
+    "new_price": 2300,
+    "change_pct": -8,
+    "confidence": "medium",
+    "source": "Safety Hub",
+    "best_match": "Steel Toe Safety Gumboots"
+  },
+  {
+    "sku": "KS-IMP-0072",
+    "name": "Plain Red Bump Cap",
+    "old_price": 2200,
+    "new_price": 1500,
+    "change_pct": -31.8,
+    "confidence": "medium",
+    "source": "Safety Hub",
+    "best_match": "Red Caps"
+  },
+  {
+    "sku": "KS-IMP-0093",
+    "name": "Vaultex Full Body Harness with Shock Absorption Lanyards",
+    "old_price": 10800,
+    "new_price": 9500,
+    "change_pct": -12,
+    "confidence": "high",
+    "source": "Safeken",
+    "best_match": "Vaultex Full Body Harness"
+  },
+  {
+    "sku": "KS-IMP-0191",
+    "name": "Anti Impact Gloves",
+    "old_price": 2300,
+    "new_price": 1600,
+    "change_pct": -30.4,
+    "confidence": "high",
+    "source": "Safeken",
+    "best_match": "Anti Impact Gloves"
+  },
+  {
+    "sku": "KS-IMP-0055",
+    "name": "ACE Combat Boot 1256",
+    "old_price": 4000,
+    "new_price": 3500,
+    "change_pct": -12.5,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "Ace Combat Boots"
+  },
+  {
+    "sku": "KS-IMP-0047",
+    "name": "Healthcare Medium First Aid Kit",
+    "old_price": 2900,
+    "new_price": 3800,
+    "change_pct": 31,
+    "confidence": "high",
+    "source": "Safeken",
+    "best_match": "Medium First Aid Kit"
+  },
+  {
+    "sku": "KS-IMP-0027",
+    "name": "Waterproof Chest Wader",
+    "old_price": 5000,
+    "new_price": 3000,
+    "change_pct": -40,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "Waterproof Chest Waders"
+  },
+  {
+    "sku": "KS-IMP-0165",
+    "name": "Green PVC Gloves",
+    "old_price": 350,
+    "new_price": 400,
+    "change_pct": 14.3,
+    "confidence": "high",
+    "source": "Safeken",
+    "best_match": "Industrial PVC Gloves"
+  },
+  {
+    "sku": "KS-FOO-1204",
+    "name": "Beard Covers",
+    "old_price": 700,
+    "new_price": 1000,
+    "change_pct": 42.9,
+    "confidence": "medium",
+    "source": "Safeken",
+    "best_match": "Beard Cover"
+  },
+  {
+    "sku": "KS-IMP-0079",
+    "name": "Leather Welding Shoe Covers",
+    "old_price": 950,
+    "new_price": 800,
+    "change_pct": -15.8,
+    "confidence": "medium",
+    "source": "Safeken",
+    "best_match": "Shoe Covers"
+  },
+  {
+    "sku": "KS-IMP-0335",
+    "name": "Warm Rider Gloves - Light Duty",
+    "old_price": 550,
+    "new_price": 500,
+    "change_pct": -9.1,
+    "confidence": "medium",
+    "source": "Sidget Safety",
+    "best_match": "Rider gloves"
+  },
+  {
+    "sku": "KS-IMP-0275",
+    "name": "Chemical Resistant Rubber Gloves - Long",
+    "old_price": 500,
+    "new_price": 300,
+    "change_pct": -40,
+    "confidence": "medium",
+    "source": "Safeken",
+    "best_match": "Heavy Duty Chemical Resistant Gloves"
+  },
+  {
+    "sku": "KS-IMP-0060",
+    "name": "JSP Helmet",
+    "old_price": 1700,
+    "new_price": 1300,
+    "change_pct": -23.5,
+    "confidence": "high",
+    "source": "Safeken",
+    "best_match": "JSP Helmet EVO 2"
+  },
+  {
+    "sku": "KS-PPE-3045",
+    "name": "Disposable Type 5/6 Coveralls",
+    "old_price": 1800,
+    "new_price": 950,
+    "change_pct": -47.2,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "Disposable Coverall"
+  },
+  {
+    "sku": "KS-IMP-0142",
+    "name": "Vaultex Ear Muff 30 db",
+    "old_price": 1300,
+    "new_price": 800,
+    "change_pct": -38.5,
+    "confidence": "medium",
+    "source": "Safeken",
+    "best_match": "Vaultex Ear Muff"
+  },
+  {
+    "sku": "KS-IMP-0007",
+    "name": "Vaultex Site Helmet",
+    "old_price": 500,
+    "new_price": 600,
+    "change_pct": 20,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "Vaultex Industrial Helmets"
+  },
+  {
+    "sku": "KS-IMP-0212",
+    "name": "ACE Mamba Safety Shoe",
+    "old_price": 3200,
+    "new_price": 3000,
+    "change_pct": -6.3,
+    "confidence": "high",
+    "source": "Safeken",
+    "best_match": "Ace Mamba Safety Shoes"
+  },
+  {
+    "sku": "KS-IMP-0049",
+    "name": "PVC Bee Keeping Suit",
+    "old_price": 4500,
+    "new_price": 3000,
+    "change_pct": -33.3,
+    "confidence": "medium",
+    "source": "Safeken",
+    "best_match": "PVC Bee Suit"
+  },
+  {
+    "sku": "KS-CLN-8002",
+    "name": "ComfortGrip Heavy-Duty Cleaning Gloves (Pair)",
+    "old_price": 450,
+    "new_price": 750,
+    "change_pct": 66.7,
+    "confidence": "medium",
+    "source": "Safeken",
+    "best_match": "Cleaning Gloves"
+  },
+  {
+    "sku": "KS-IMP-0259",
+    "name": "Soft Leather Drivers Gloves",
+    "old_price": 550,
+    "new_price": 350,
+    "change_pct": -36.4,
+    "confidence": "medium",
+    "source": "Safety Hub",
+    "best_match": "Leather Work Gloves"
+  },
+  {
+    "sku": "KS-IMP-0222",
+    "name": "Heavy Duty PVC Body Bag",
+    "old_price": 1800,
+    "new_price": 2800,
+    "change_pct": 55.6,
+    "confidence": "medium",
+    "source": "Safeken",
+    "best_match": "Body Bag"
+  },
+  {
+    "sku": "KS-IND-2021",
+    "name": "Steel-Toe Safety Boots — Goodyear Welt",
+    "old_price": 5200,
+    "new_price": 3800,
+    "change_pct": -26.9,
+    "confidence": "medium",
+    "source": "Safeken",
+    "best_match": "Steel Toe Safety Boots"
+  },
+  {
+    "sku": "KS-ROA-5008",
+    "name": "Caution Barrier Tape",
+    "old_price": 1200,
+    "new_price": 600,
+    "change_pct": -50,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "Safety Caution Tapes"
+  },
+  {
+    "sku": "KS-IMP-0287",
+    "name": "White Leather Glove",
+    "old_price": 500,
+    "new_price": 350,
+    "change_pct": -30,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "Leather Work Gloves"
+  },
+  {
+    "sku": "KS-IMP-0088",
+    "name": "Grey Mission Jacket",
+    "old_price": 3500,
+    "new_price": 2500,
+    "change_pct": -28.6,
+    "confidence": "high",
+    "source": "Safeken",
+    "best_match": "Mission Jacket"
+  },
+  {
+    "sku": "KS-PPE-3001",
+    "name": "Nova Shield Half-Mask Respirator",
+    "old_price": 2950,
+    "new_price": 3000,
+    "change_pct": 1.7,
+    "confidence": "medium",
+    "source": "Safety Hub",
+    "best_match": "Half Mask Respirator Mask"
+  },
+  {
+    "sku": "KS-FIR-4002",
+    "name": "SmartAlert Optical Smoke Detector",
+    "old_price": 2850,
+    "new_price": 1500,
+    "change_pct": -47.4,
+    "confidence": "medium",
+    "source": "Safeken",
+    "best_match": "Smoke Detector"
+  },
+  {
+    "sku": "KS-IMP-0156",
+    "name": "3-Ply High Quality Surgical Mask 50 pcs",
+    "old_price": 450,
+    "new_price": 350,
+    "change_pct": -22.2,
+    "confidence": "medium",
+    "source": "Safety Hub",
+    "best_match": "3 ply disposable surgical mask (50 PCS)"
+  },
+  {
+    "sku": "KS-IMP-0018",
+    "name": "Single Chemical Respirator",
+    "old_price": 380,
+    "new_price": 450,
+    "change_pct": 18.4,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "Single Nozzle Chemical respirators"
+  },
+  {
+    "sku": "KS-PPE-3014",
+    "name": "Rain Coat",
+    "old_price": 2400,
+    "new_price": 1200,
+    "change_pct": -50,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "Rain coats"
+  },
+  {
+    "sku": "KS-IMP-0214",
+    "name": "Short Sleeve Cotton Overall",
+    "old_price": 2800,
+    "new_price": 2200,
+    "change_pct": -21.4,
+    "confidence": "medium",
+    "source": "Safeken",
+    "best_match": "Cotton Overall"
+  },
+  {
+    "sku": "KS-IMP-0278",
+    "name": "Safety Boy Safety Shoe",
+    "old_price": 3500,
+    "new_price": 3200,
+    "change_pct": -8.6,
+    "confidence": "high",
+    "source": "Safeken",
+    "best_match": "Safety Boy Safety Shoe"
+  },
+  {
+    "sku": "KS-SIG-1303",
+    "name": "Construction In Progress Sign (A2)",
+    "old_price": 1450,
+    "new_price": 2700,
+    "change_pct": 86.2,
+    "confidence": "medium",
+    "source": "Safeken",
+    "best_match": "Construction in Progress Sign"
+  },
+  {
+    "sku": "KS-IND-2002",
+    "name": "GripTech Steel-Toe Work Boots",
+    "old_price": 4850,
+    "new_price": 3800,
+    "change_pct": -21.6,
+    "confidence": "medium",
+    "source": "Safeken",
+    "best_match": "Steel Toe Safety Boots"
+  },
+  {
+    "sku": "KS-CON-6001",
+    "name": "HarnessMax Full-Body Fall Arrest Harness",
+    "old_price": 8900,
+    "new_price": 18000,
+    "change_pct": 102.2,
+    "confidence": "medium",
+    "source": "Safety Hub",
+    "best_match": "Full Body Safety Harness"
+  },
+  {
+    "sku": "KS-IMP-0282",
+    "name": "Safety Jogger Safety Shoe",
+    "old_price": 4000,
+    "new_price": 3800,
+    "change_pct": -5,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "BestGirl Safety Jogger shoes"
+  },
+  {
+    "sku": "KS-IMP-0034",
+    "name": "Vaultex Thermal Safety Gloves for Cold Rooms & Heat Protection",
+    "old_price": 1300,
+    "new_price": 1200,
+    "change_pct": -7.7,
+    "confidence": "medium",
+    "source": "Safeken",
+    "best_match": "Cold Room Gloves"
+  },
+  {
+    "sku": "KS-PPE-3025",
+    "name": "Blue Reusable Nitrile Gloves",
+    "old_price": 250,
+    "new_price": 400,
+    "change_pct": 60,
+    "confidence": "medium",
+    "source": "Safeken",
+    "best_match": "Nitrile Gloves"
+  },
+  {
+    "sku": "KS-PPE-3056",
+    "name": "Reusable Half-Mask Respirator — Dual Cartridge",
+    "old_price": 4200,
+    "new_price": 3000,
+    "change_pct": -28.6,
+    "confidence": "medium",
+    "source": "Safety Hub",
+    "best_match": "Half Mask Respirator Mask"
+  },
+  {
+    "sku": "KS-IMP-0263",
+    "name": "14-Inch Heat-Resistant Safety Mitten Gloves",
+    "old_price": 600,
+    "new_price": 500,
+    "change_pct": -16.7,
+    "confidence": "medium",
+    "source": "Safety Hub",
+    "best_match": "Heat Resistant Gloves"
+  },
+  {
+    "sku": "KS-IND-2010",
+    "name": "Safety Jogger Best Boy Safety Boot",
+    "old_price": 5600,
+    "new_price": 3800,
+    "change_pct": -32.1,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "Safety Joggers Boots"
+  },
+  {
+    "sku": "KS-IMP-0096",
+    "name": "Polyester Material Bib Apron",
+    "old_price": 800,
+    "new_price": 500,
+    "change_pct": -37.5,
+    "confidence": "medium",
+    "source": "Safeken",
+    "best_match": "Bib Apron"
+  },
+  {
+    "sku": "KS-IMP-0030",
+    "name": "ACE Parade Boot 1298",
+    "old_price": 3700,
+    "new_price": 3500,
+    "change_pct": -5.4,
+    "confidence": "medium",
+    "source": "Safeken",
+    "best_match": "Ace Safety Boots"
+  },
+  {
+    "sku": "KS-IMP-0020",
+    "name": "Polyamide Blue & Grey Bump Cap",
+    "old_price": 2200,
+    "new_price": 1200,
+    "change_pct": -45.5,
+    "confidence": "medium",
+    "source": "Safety Hub",
+    "best_match": "Blue bump caps"
+  },
+  {
+    "sku": "KS-IMP-0046",
+    "name": "Royal Blue Bump Cap",
+    "old_price": 2200,
+    "new_price": 1400,
+    "change_pct": -36.4,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "Royal Blue Bump caps"
+  },
+  {
+    "sku": "KS-IMP-0245",
+    "name": "Vaultex BMW Industrial Helmet",
+    "old_price": 950,
+    "new_price": 600,
+    "change_pct": -36.8,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "Vaultex Industrial Helmets"
+  },
+  {
+    "sku": "KS-IMP-0170",
+    "name": "Emergency Shower and Eye Wash - Galvanised",
+    "old_price": 39000,
+    "new_price": 58000,
+    "change_pct": 48.7,
+    "confidence": "medium",
+    "source": "Safeken",
+    "best_match": "Emergency Eye Wash Shower"
+  },
+  {
+    "sku": "KS-EMR-9005",
+    "name": "First Aid Kit (Medium, Grey)",
+    "old_price": 2800,
+    "new_price": 3800,
+    "change_pct": 35.7,
+    "confidence": "high",
+    "source": "Safeken",
+    "best_match": "Medium First Aid Kit"
+  },
+  {
+    "sku": "KS-IMP-0242",
+    "name": "Security Guard Sweater",
+    "old_price": 1700,
+    "new_price": 1500,
+    "change_pct": -11.8,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "High Quality Security Guard Sweaters"
+  },
+  {
+    "sku": "KS-IMP-0148",
+    "name": "Reusable Nitrile Gloves Heavy Duty",
+    "old_price": 350,
+    "new_price": 400,
+    "change_pct": 14.3,
+    "confidence": "high",
+    "source": "Safeken",
+    "best_match": "Nitrile Gloves"
+  },
+  {
+    "sku": "KS-PPE-3040",
+    "name": "Waterproof Canvas Aprons",
+    "old_price": 1500,
+    "new_price": 750,
+    "change_pct": -50,
+    "confidence": "medium",
+    "source": "Safeken",
+    "best_match": "Waterproof Apron"
+  },
+  {
+    "sku": "KS-IMP-0139",
+    "name": "Quip Occupational First Aid Kit",
+    "old_price": 7200,
+    "new_price": 4000,
+    "change_pct": -44.4,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "Occupational First Aid Kit"
+  },
+  {
+    "sku": "KS-IMP-0176",
+    "name": "Kinga Black Gumboot - Heavy Duty",
+    "old_price": 950,
+    "new_price": 850,
+    "change_pct": -10.5,
+    "confidence": "high",
+    "source": "Safeken",
+    "best_match": "Black Industrial Gumboot"
+  },
+  {
+    "sku": "KS-PPE-3006",
+    "name": "HiVis Bump Cap (Black/Orange)",
+    "old_price": 2200,
+    "new_price": 1800,
+    "change_pct": -18.2,
+    "confidence": "medium",
+    "source": "Safety Hub",
+    "best_match": "Orange Bump Cap"
+  },
+  {
+    "sku": "KS-IMP-0177",
+    "name": "Denim Welding Overall",
+    "old_price": 3000,
+    "new_price": 2300,
+    "change_pct": -23.3,
+    "confidence": "medium",
+    "source": "Safeken",
+    "best_match": "Welding Overall"
+  },
+  {
+    "sku": "KS-SEC-1108",
+    "name": "Suggestion Box (Mid Size)",
+    "old_price": 2600,
+    "new_price": 5000,
+    "change_pct": 92.3,
+    "confidence": "medium",
+    "source": "Safeken",
+    "best_match": "Suggestion Box"
+  },
+  {
+    "sku": "KS-IND-2008",
+    "name": "General Purpose Industrial Gumboot (Green)",
+    "old_price": 1900,
+    "new_price": 1100,
+    "change_pct": -42.1,
+    "confidence": "medium",
+    "source": "Safety Hub",
+    "best_match": "Green Heavy Duty Gumboots Price"
+  },
+  {
+    "sku": "KS-IMP-0161",
+    "name": "Knicker Safety Shoes",
+    "old_price": 2000,
+    "new_price": 3200,
+    "change_pct": 60,
+    "confidence": "medium",
+    "source": "Safety Hub",
+    "best_match": "Quality Safety shoes"
+  },
+  {
+    "sku": "KS-IMP-0100",
+    "name": "Eskimo Cold Room Suit",
+    "old_price": 5500,
+    "new_price": 6500,
+    "change_pct": 18.2,
+    "confidence": "medium",
+    "source": "Safeken",
+    "best_match": "Eskimo Suit"
+  },
+  {
+    "sku": "KS-PPE-3029",
+    "name": "Ear Plugs",
+    "old_price": 130,
+    "new_price": 100,
+    "change_pct": -23.1,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "Industrial Ear Plugs"
+  },
+  {
+    "sku": "KS-IMP-0250",
+    "name": "Blue Leather Rigger Gloves",
+    "old_price": 300,
+    "new_price": 350,
+    "change_pct": 16.7,
+    "confidence": "medium",
+    "source": "Safety Hub",
+    "best_match": "Leather Work Gloves"
+  },
+  {
+    "sku": "KS-IMP-0344",
+    "name": "Heavy Duty Rider Gloves with Knuckles",
+    "old_price": 950,
+    "new_price": 500,
+    "change_pct": -47.4,
+    "confidence": "medium",
+    "source": "Sidget Safety",
+    "best_match": "Rider gloves"
+  },
+  {
+    "sku": "KS-IMP-0006",
+    "name": "Vaultex Diamond Grip Gloves for General Work",
+    "old_price": 170,
+    "new_price": 200,
+    "change_pct": 17.6,
+    "confidence": "medium",
+    "source": "Safety Hub",
+    "best_match": "Heavy Duty Diamond Grip Gloves"
+  },
+  {
+    "sku": "KS-IMP-0258",
+    "name": "Feetguard Safety Shoe - C&P",
+    "old_price": 3500,
+    "new_price": 3200,
+    "change_pct": -8.6,
+    "confidence": "medium",
+    "source": "Safety Hub",
+    "best_match": "Quality Safety shoes"
+  },
+  {
+    "sku": "KS-IND-2013",
+    "name": "Steel Toe Gumboot",
+    "old_price": 2400,
+    "new_price": 1800,
+    "change_pct": -25,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "Steel Toe Safety Gumboots"
+  },
+  {
+    "sku": "KS-IMP-0238",
+    "name": "Heavy Duty Leather Gloves",
+    "old_price": 600,
+    "new_price": 350,
+    "change_pct": -41.7,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "Leather Work Gloves"
+  },
+  {
+    "sku": "KS-IMP-0215",
+    "name": "Kratos Anti-cut Gloves",
+    "old_price": 400,
+    "new_price": 550,
+    "change_pct": 37.5,
+    "confidence": "medium",
+    "source": "Safeken",
+    "best_match": "Anti Cut Gloves"
+  },
+  {
+    "sku": "KS-IMP-0209",
+    "name": "Navy Blue Mesh Bump Cap",
+    "old_price": 1800,
+    "new_price": 1200,
+    "change_pct": -33.3,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "Navy Blue Bump Caps"
+  },
+  {
+    "sku": "KS-SEC-1102",
+    "name": "Askari Security Baton",
+    "old_price": 1800,
+    "new_price": 1000,
+    "change_pct": -44.4,
+    "confidence": "medium",
+    "source": "Safety Hub",
+    "best_match": "Quality Security Baton"
+  },
+  {
+    "sku": "KS-IMP-0061",
+    "name": "Heavy Duty Reflector Vest – Non-Zip",
+    "old_price": 230,
+    "new_price": 200,
+    "change_pct": -13,
+    "confidence": "medium",
+    "source": "Safeken",
+    "best_match": "Reflector Vest"
+  },
+  {
+    "sku": "KS-SIG-1306",
+    "name": "Fire Point Sign",
+    "old_price": 1200,
+    "new_price": 1900,
+    "change_pct": 58.3,
+    "confidence": "medium",
+    "source": "Safeken",
+    "best_match": "Fire Assembly Point Caution Sign"
+  },
+  {
+    "sku": "KS-IMP-0308",
+    "name": "Cotton Knitted Gloves",
+    "old_price": 170,
+    "new_price": 100,
+    "change_pct": -41.2,
+    "confidence": "medium",
+    "source": "Safeken",
+    "best_match": "Cotton Gloves"
+  },
+  {
+    "sku": "KS-IMP-0031",
+    "name": "Steel Toe Cap & Steel Plate Delta Gumboot",
+    "old_price": 2300,
+    "new_price": 1800,
+    "change_pct": -21.7,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "DELTA SAFETY GUMBOOTS WITH STEEL TOE"
+  },
+  {
+    "sku": "KS-PPE-3020",
+    "name": "Vaultex Dust Mask VB1",
+    "old_price": 700,
+    "new_price": 600,
+    "change_pct": -14.3,
+    "confidence": "medium",
+    "source": "Safety Hub",
+    "best_match": "Industrial dust masks"
+  },
+  {
+    "sku": "KS-IMP-0155",
+    "name": "Clear Face Shield",
+    "old_price": 500,
+    "new_price": 800,
+    "change_pct": 60,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "Protective Face Shield"
+  },
+  {
+    "sku": "KS-IMP-0023",
+    "name": "Cotton Bee Keeping Suit",
+    "old_price": 4200,
+    "new_price": 3200,
+    "change_pct": -23.8,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "Cotton Bee Suit"
+  },
+  {
+    "sku": "KS-IMP-0033",
+    "name": "Reflective Tetrex Overall",
+    "old_price": 1800,
+    "new_price": 1200,
+    "change_pct": -33.3,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "Reflective overalls"
+  },
+  {
+    "sku": "KS-FOO-1210",
+    "name": "Reusable Chef Hats",
+    "old_price": 550,
+    "new_price": 300,
+    "change_pct": -45.5,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "Best chef hat prices in Nairobi"
+  },
+  {
+    "sku": "KS-IMP-0224",
+    "name": "Dungaree Cotton Overall",
+    "old_price": 2500,
+    "new_price": 2100,
+    "change_pct": -16,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "Quality Dungaree Overall"
+  },
+  {
+    "sku": "KS-IMP-0062",
+    "name": "Navy Blue Mission Jacket",
+    "old_price": 3500,
+    "new_price": 2500,
+    "change_pct": -28.6,
+    "confidence": "medium",
+    "source": "Safeken",
+    "best_match": "Mission Jacket"
+  },
+  {
+    "sku": "KS-IMP-0138",
+    "name": "Black Grey with Orange Piping Bump Cap",
+    "old_price": 2200,
+    "new_price": 1800,
+    "change_pct": -18.2,
+    "confidence": "medium",
+    "source": "Safety Hub",
+    "best_match": "Orange Bump Cap"
+  },
+  {
+    "sku": "KS-SIG-1312",
+    "name": "Floor Safety Signages",
+    "old_price": 1200,
+    "new_price": 1700,
+    "change_pct": 41.7,
+    "confidence": "medium",
+    "source": "Sidget Safety",
+    "best_match": "Wet floor signage"
+  },
+  {
+    "sku": "KS-IMP-0251",
+    "name": "Light Duty Helmet",
+    "old_price": 250,
+    "new_price": 200,
+    "change_pct": -20,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "Light Duty Construction Helmets"
+  },
+  {
+    "sku": "KS-IMP-0044",
+    "name": "Double Chemical Respirator",
+    "old_price": 400,
+    "new_price": 500,
+    "change_pct": 25,
+    "confidence": "medium",
+    "source": "Safety Hub",
+    "best_match": "Chemical respirators"
+  },
+  {
+    "sku": "KS-PPE-3002",
+    "name": "FlexiGlove Nitrile Work Gloves (Pair)",
+    "old_price": 750,
+    "new_price": 400,
+    "change_pct": -46.7,
+    "confidence": "high",
+    "source": "Safeken",
+    "best_match": "Nitrile Gloves"
+  },
+  {
+    "sku": "KS-IMP-0195",
+    "name": "Workman Full Body Harness with Double Hook Lanyards",
+    "old_price": 10000,
+    "new_price": 18000,
+    "change_pct": 80,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "Double Hook Lanyards Full Body Harness"
+  },
+  {
+    "sku": "KS-PPE-3031",
+    "name": "Heavy-Duty Twill Overalls",
+    "old_price": 2600,
+    "new_price": 1800,
+    "change_pct": -30.8,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "Cotton Twill Industrial Overall"
+  },
+  {
+    "sku": "KS-IMP-0010",
+    "name": "Cotton Dust Coat",
+    "old_price": 1500,
+    "new_price": 1000,
+    "change_pct": -33.3,
+    "confidence": "high",
+    "source": "Safeken",
+    "best_match": "Industrial Cotton Dust Coat"
+  },
+  {
+    "sku": "KS-IMP-0279",
+    "name": "Chemical Resistant Rubber Gloves - Short",
+    "old_price": 400,
+    "new_price": 300,
+    "change_pct": -25,
+    "confidence": "medium",
+    "source": "Safeken",
+    "best_match": "Heavy Duty Chemical Resistant Gloves"
+  },
+  {
+    "sku": "KS-CON-6007",
+    "name": "Bump Cap — Baseball Style",
+    "old_price": 1200,
+    "new_price": 2200,
+    "change_pct": 83.3,
+    "confidence": "medium",
+    "source": "Safety Hub",
+    "best_match": "Safety bump caps"
+  },
+  {
+    "sku": "KS-IMP-0124",
+    "name": "Vaultex Safety Shoes",
+    "old_price": 2500,
+    "new_price": 2700,
+    "change_pct": 8,
+    "confidence": "high",
+    "source": "Safeken",
+    "best_match": "Vaultex Industrial Safety Shoes"
+  },
+  {
+    "sku": "KS-PPE-3043",
+    "name": "Reflective Cargo Overalls",
+    "old_price": 3400,
+    "new_price": 2300,
+    "change_pct": -32.4,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "Industrial Reflective Cargo Overalls"
+  },
+  {
+    "sku": "KS-PPE-3010",
+    "name": "Heavy Duty Industrial Dungaree",
+    "old_price": 3200,
+    "new_price": 2100,
+    "change_pct": -34.4,
+    "confidence": "medium",
+    "source": "Safety Hub",
+    "best_match": "Quality Dungaree Overall"
+  },
+  {
+    "sku": "KS-MED-1007",
+    "name": "Medic Face Shield (Blue)",
+    "old_price": 950,
+    "new_price": 800,
+    "change_pct": -15.8,
+    "confidence": "medium",
+    "source": "Safety Hub",
+    "best_match": "Protective Face Shield"
+  },
+  {
+    "sku": "KS-IMP-0025",
+    "name": "Generic Ear Muff",
+    "old_price": 450,
+    "new_price": 250,
+    "change_pct": -44.4,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "Ear muffs"
+  },
+  {
+    "sku": "KS-PPE-3013",
+    "name": "Rain Coat with Inner Lining",
+    "old_price": 1400,
+    "new_price": 1200,
+    "change_pct": -14.3,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "Rain Coats with a cotton inner lining"
+  },
+  {
+    "sku": "KS-IMP-0158",
+    "name": "Waterproof Overall with Lining",
+    "old_price": 2600,
+    "new_price": 2000,
+    "change_pct": -23.1,
+    "confidence": "medium",
+    "source": "Safety Hub",
+    "best_match": "Waterproof Overalls"
+  },
+  {
+    "sku": "KS-IMP-0084",
+    "name": "Power/Cargo Cotton Twil Overall Reflective",
+    "old_price": 2800,
+    "new_price": 2700,
+    "change_pct": -3.6,
+    "confidence": "medium",
+    "source": "Safety Hub",
+    "best_match": "Industrial Reflective Cargo Overalls"
+  },
+  {
+    "sku": "KS-IMP-0120",
+    "name": "Quip Medium First Aid Kit",
+    "old_price": 3200,
+    "new_price": 3800,
+    "change_pct": 18.8,
+    "confidence": "high",
+    "source": "Safeken",
+    "best_match": "Medium First Aid Kit"
+  },
+  {
+    "sku": "KS-IMP-0267",
+    "name": "Duocolour Chemical-Resistant Gloves – Blue & Yellow",
+    "old_price": 450,
+    "new_price": 300,
+    "change_pct": -33.3,
+    "confidence": "medium",
+    "source": "Safeken",
+    "best_match": "Heavy Duty Chemical Resistant Gloves"
+  },
+  {
+    "sku": "KS-IMP-0054",
+    "name": "ACE Wolverine Safety Shoe",
+    "old_price": 3500,
+    "new_price": 3300,
+    "change_pct": -5.7,
+    "confidence": "medium",
+    "source": "Safety Hub",
+    "best_match": "Wolverine Safety Shoe"
+  },
+  {
+    "sku": "KS-IMP-0190",
+    "name": "Denim Welding Overall 2PC",
+    "old_price": 3600,
+    "new_price": 2300,
+    "change_pct": -36.1,
+    "confidence": "medium",
+    "source": "Safeken",
+    "best_match": "Welding Overall"
+  },
+  {
+    "sku": "KS-PPE-3044",
+    "name": "Plain Cotton-Twill Overalls",
+    "old_price": 2600,
+    "new_price": 2200,
+    "change_pct": -15.4,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "Cotton Twill Industrial Overall"
+  },
+  {
+    "sku": "KS-PPE-3038",
+    "name": "Shoe Covers",
+    "old_price": 700,
+    "new_price": 1000,
+    "change_pct": 42.9,
+    "confidence": "high",
+    "source": "Safeken",
+    "best_match": "Shoe Covers"
+  },
+  {
+    "sku": "KS-IMP-0159",
+    "name": "Vaultex Ear Muff 25 db",
+    "old_price": 950,
+    "new_price": 800,
+    "change_pct": -15.8,
+    "confidence": "medium",
+    "source": "Safeken",
+    "best_match": "Vaultex Ear Muff"
+  },
+  {
+    "sku": "KS-IMP-0097",
+    "name": "Navy Blue with Orange Piping Bump Cap",
+    "old_price": 2200,
+    "new_price": 1200,
+    "change_pct": -45.5,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "Navy Blue Bump Caps"
+  },
+  {
+    "sku": "KS-IMP-0249",
+    "name": "ACE Sindi Ladies Safety Shoe",
+    "old_price": 3200,
+    "new_price": 3000,
+    "change_pct": -6.3,
+    "confidence": "high",
+    "source": "Safeken",
+    "best_match": "Ace Sindi Ladies Safety Shoes"
+  },
+  {
+    "sku": "KS-FIR-4005",
+    "name": "ABC Dry Powder Fire Extinguisher 4kg",
+    "old_price": 8200,
+    "new_price": 4200,
+    "change_pct": -48.8,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "4kg Dry Powder fire extinguisher"
+  },
+  {
+    "sku": "KS-IMP-0095",
+    "name": "Vaultex 6200 Respiratory Half Face Mask",
+    "old_price": 1500,
+    "new_price": 1600,
+    "change_pct": 6.7,
+    "confidence": "high",
+    "source": "Safeken",
+    "best_match": "Vaultex Half Face Mask"
+  },
+  {
+    "sku": "KS-IMP-0162",
+    "name": "Shujaa Black Gumboot - Light Duty",
+    "old_price": 650,
+    "new_price": 850,
+    "change_pct": 30.8,
+    "confidence": "medium",
+    "source": "Safeken",
+    "best_match": "Black Industrial Gumboot"
+  },
+  {
+    "sku": "KS-IMP-0016",
+    "name": "Wooden Pole Climbers",
+    "old_price": 7200,
+    "new_price": 7500,
+    "change_pct": 4.2,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "Wooden Pole Climbers"
+  },
+  {
+    "sku": "KS-IMP-0009",
+    "name": "Green Mission Jacket",
+    "old_price": 3500,
+    "new_price": 2500,
+    "change_pct": -28.6,
+    "confidence": "high",
+    "source": "Safeken",
+    "best_match": "Mission Jacket"
+  },
+  {
+    "sku": "KS-PPE-3058",
+    "name": "Waterproof Rain Suit — Jacket & Bib Trousers",
+    "old_price": 3200,
+    "new_price": 1800,
+    "change_pct": -43.8,
+    "confidence": "medium",
+    "source": "Safety Hub",
+    "best_match": "Quality Waterproof Rain Jacket"
+  },
+  {
+    "sku": "KS-IND-2009",
+    "name": "HIVIEW Safety Boot HTS4101",
+    "old_price": 5200,
+    "new_price": 4700,
+    "change_pct": -9.6,
+    "confidence": "high",
+    "source": "Sidget Safety",
+    "best_match": "HIVIEW SAFETY BOOT HTS4101"
+  },
+  {
+    "sku": "KS-EMR-9001",
+    "name": "RescuePro 25-Piece First Aid Kit",
+    "old_price": 3900,
+    "new_price": 3500,
+    "change_pct": -10.3,
+    "confidence": "medium",
+    "source": "Safety Hub",
+    "best_match": "First Aid Kits"
+  },
+  {
+    "sku": "KS-IND-2014",
+    "name": "Vaultex Safety Boot",
+    "old_price": 5000,
+    "new_price": 2700,
+    "change_pct": -46,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "Vaultex Safety Boots"
+  },
+  {
+    "sku": "KS-IMP-0141",
+    "name": "Multi-colour Kids Rain Coat",
+    "old_price": 700,
+    "new_price": 1200,
+    "change_pct": 71.4,
+    "confidence": "medium",
+    "source": "Safety Hub",
+    "best_match": "Quality Kids Rain Coats"
+  },
+  {
+    "sku": "KS-IMP-0086",
+    "name": "Work at Height Helmet",
+    "old_price": 3300,
+    "new_price": 2700,
+    "change_pct": -18.2,
+    "confidence": "high",
+    "source": "Safeken",
+    "best_match": "Work at Height Helmet"
+  },
+  {
+    "sku": "KS-IMP-0172",
+    "name": "Solid Orange Bump Cap",
+    "old_price": 2200,
+    "new_price": 1500,
+    "change_pct": -31.8,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "Orange Bump Cap"
+  },
+  {
+    "sku": "KS-IMP-0076",
+    "name": "Reflective Rain Coat - Long",
+    "old_price": 1600,
+    "new_price": 1500,
+    "change_pct": -6.3,
+    "confidence": "medium",
+    "source": "Safety Hub",
+    "best_match": "Rain coats"
+  },
+  {
+    "sku": "KS-PPE-3049",
+    "name": "Electrical Insulating Gloves Class 0",
+    "old_price": 4800,
+    "new_price": 3000,
+    "change_pct": -37.5,
+    "confidence": "medium",
+    "source": "Safeken",
+    "best_match": "Electrical Gloves"
+  },
+  {
+    "sku": "KS-IMP-0244",
+    "name": "Light Duty Leather Gloves",
+    "old_price": 550,
+    "new_price": 350,
+    "change_pct": -36.4,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "Leather Work Gloves"
+  },
+  {
+    "sku": "KS-IMP-0220",
+    "name": "Red Mesh Bump Cap",
+    "old_price": 1800,
+    "new_price": 1500,
+    "change_pct": -16.7,
+    "confidence": "medium",
+    "source": "Safety Hub",
+    "best_match": "Red Caps"
+  },
+  {
+    "sku": "KS-SEC-1109",
+    "name": "Wooden Suggestion Box",
+    "old_price": 3200,
+    "new_price": 5000,
+    "change_pct": 56.3,
+    "confidence": "medium",
+    "source": "Safeken",
+    "best_match": "Suggestion Box"
+  },
+  {
+    "sku": "KS-IMP-0087",
+    "name": "Heavy Duty Reflector Vest – Zipped",
+    "old_price": 250,
+    "new_price": 200,
+    "change_pct": -20,
+    "confidence": "high",
+    "source": "Safeken",
+    "best_match": "Zipped Reflector Vest"
+  },
+  {
+    "sku": "KS-IMP-0008",
+    "name": "Light Duty Reflector Vest – Non-Zip",
+    "old_price": 150,
+    "new_price": 200,
+    "change_pct": 33.3,
+    "confidence": "medium",
+    "source": "Safeken",
+    "best_match": "Light Reflector Vest"
+  },
+  {
+    "sku": "KS-IMP-0271",
+    "name": "PVC Double Dipped Gloves",
+    "old_price": 300,
+    "new_price": 400,
+    "change_pct": 33.3,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "Green Double Dipped PVC Gloves"
+  },
+  {
+    "sku": "KS-IMP-0144",
+    "name": "C&P FleetMax Safety Shoe",
+    "old_price": 3500,
+    "new_price": 3200,
+    "change_pct": -8.6,
+    "confidence": "medium",
+    "source": "Safety Hub",
+    "best_match": "Quality Safety shoes"
+  },
+  {
+    "sku": "KS-IND-2011",
+    "name": "Safety Jogger Safety Manager Boot",
+    "old_price": 6100,
+    "new_price": 3800,
+    "change_pct": -37.7,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "Safety Joggers Boots"
+  },
+  {
+    "sku": "KS-IMP-0003",
+    "name": "Heavy Duty Gumboots - C&P, Vaultex & Bata",
+    "old_price": 950,
+    "new_price": 1100,
+    "change_pct": 15.8,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "Vaultex Safety Gumboots"
+  },
+  {
+    "sku": "KS-IMP-0021",
+    "name": "Healthcare Personal First Aid Kit",
+    "old_price": 1900,
+    "new_price": 3500,
+    "change_pct": 84.2,
+    "confidence": "high",
+    "source": "Safeken",
+    "best_match": "Personal First Aid Kit"
+  },
+  {
+    "sku": "KS-IMP-0332",
+    "name": "Warm Rider Gloves - Heavy Duty",
+    "old_price": 650,
+    "new_price": 500,
+    "change_pct": -23.1,
+    "confidence": "medium",
+    "source": "Sidget Safety",
+    "best_match": "Rider gloves"
+  },
+  {
+    "sku": "KS-IND-2007",
+    "name": "VisionPro Adjustable Face Shield",
+    "old_price": 1600,
+    "new_price": 800,
+    "change_pct": -50,
+    "confidence": "medium",
+    "source": "Safety Hub",
+    "best_match": "Protective Face Shield"
+  },
+  {
+    "sku": "KS-IMP-0024",
+    "name": "Light Duty Rain Coat",
+    "old_price": 950,
+    "new_price": 1500,
+    "change_pct": 57.9,
+    "confidence": "high",
+    "source": "Safety Hub",
+    "best_match": "Rain coats"
+  }
+]

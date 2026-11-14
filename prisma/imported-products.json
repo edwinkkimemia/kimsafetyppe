@@ -164,7 +164,7 @@
       "categories": [
         "industrial-safety"
       ],
-      "price": 950,
+      "price": 1100,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -203,22 +203,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "950",
+          "price": "1,100",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "903",
+          "price": "1,045",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "865",
+          "price": "1,001",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "827",
+          "price": "957",
           "savings": "13% off"
         }
       ],
@@ -392,7 +392,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 170,
+      "price": 200,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -431,22 +431,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "170",
+          "price": "200",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "162",
+          "price": "190",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "155",
+          "price": "182",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "148",
+          "price": "174",
           "savings": "13% off"
         }
       ],
@@ -468,7 +468,7 @@
       "categories": [
         "industrial-safety"
       ],
-      "price": 500,
+      "price": 600,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -507,22 +507,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "500",
+          "price": "600",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "475",
+          "price": "570",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "455",
+          "price": "546",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "435",
+          "price": "522",
           "savings": "13% off"
         }
       ],
@@ -544,7 +544,7 @@
       "categories": [
         "road-safety"
       ],
-      "price": 150,
+      "price": 200,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -583,22 +583,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "150",
+          "price": "200",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "143",
+          "price": "190",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "137",
+          "price": "182",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "131",
+          "price": "174",
           "savings": "13% off"
         }
       ],
@@ -620,7 +620,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 3500,
+      "price": 2500,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -659,22 +659,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "3,500",
+          "price": "2,500",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "3,325",
+          "price": "2,375",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "3,185",
+          "price": "2,275",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "3,045",
+          "price": "2,175",
           "savings": "13% off"
         }
       ],
@@ -696,7 +696,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 1500,
+      "price": 1000,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -735,22 +735,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "1,500",
+          "price": "1,000",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "1,425",
+          "price": "950",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "1,365",
+          "price": "910",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "1,305",
+          "price": "870",
           "savings": "13% off"
         }
       ],
@@ -1170,7 +1170,7 @@
       "categories": [
         "construction-safety"
       ],
-      "price": 7200,
+      "price": 7500,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -1209,22 +1209,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "7,200",
+          "price": "7,500",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "6,840",
+          "price": "7,125",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "6,552",
+          "price": "6,825",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "6,264",
+          "price": "6,525",
           "savings": "13% off"
         }
       ],
@@ -1322,7 +1322,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 380,
+      "price": 450,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -1361,22 +1361,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "380",
+          "price": "450",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "361",
+          "price": "428",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "346",
+          "price": "410",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "331",
+          "price": "392",
           "savings": "13% off"
         }
       ],
@@ -1474,7 +1474,7 @@
       "categories": [
         "industrial-safety"
       ],
-      "price": 2200,
+      "price": 1200,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -1513,22 +1513,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "2,200",
+          "price": "1,200",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "2,090",
+          "price": "1,140",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "2,002",
+          "price": "1,092",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "1,914",
+          "price": "1,044",
           "savings": "13% off"
         }
       ],
@@ -1550,7 +1550,7 @@
       "categories": [
         "emergency-response"
       ],
-      "price": 1900,
+      "price": 3500,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -1589,22 +1589,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "1,900",
+          "price": "3,500",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "1,805",
+          "price": "3,325",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "1,729",
+          "price": "3,185",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "1,653",
+          "price": "3,045",
           "savings": "13% off"
         }
       ],
@@ -1702,7 +1702,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 4200,
+      "price": 3200,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -1741,22 +1741,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "4,200",
+          "price": "3,200",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "3,990",
+          "price": "3,040",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "3,822",
+          "price": "2,912",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "3,654",
+          "price": "2,784",
           "savings": "13% off"
         }
       ],
@@ -1778,7 +1778,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 950,
+      "price": 1500,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -1817,22 +1817,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "950",
+          "price": "1,500",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "903",
+          "price": "1,425",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "865",
+          "price": "1,365",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "827",
+          "price": "1,305",
           "savings": "13% off"
         }
       ],
@@ -1854,7 +1854,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 450,
+      "price": 250,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -1893,22 +1893,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "450",
+          "price": "250",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "428",
+          "price": "238",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "410",
+          "price": "228",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "392",
+          "price": "218",
           "savings": "13% off"
         }
       ],
@@ -2006,7 +2006,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 5000,
+      "price": 3000,
       "priceNote": "Price range: KSh 5,000 – 9,800",
       "stock": 50,
       "lowStockAt": 10,
@@ -2051,22 +2051,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "5,000",
+          "price": "3,000",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "4,750",
+          "price": "2,850",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "4,550",
+          "price": "2,730",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "4,350",
+          "price": "2,610",
           "savings": "13% off"
         }
       ],
@@ -2240,7 +2240,7 @@
       "categories": [
         "industrial-safety"
       ],
-      "price": 3700,
+      "price": 3500,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -2279,22 +2279,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "3,700",
+          "price": "3,500",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "3,515",
+          "price": "3,325",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "3,367",
+          "price": "3,185",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "3,219",
+          "price": "3,045",
           "savings": "13% off"
         }
       ],
@@ -2316,7 +2316,7 @@
       "categories": [
         "industrial-safety"
       ],
-      "price": 2300,
+      "price": 1800,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -2355,22 +2355,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "2,300",
+          "price": "1,800",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "2,185",
+          "price": "1,710",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "2,093",
+          "price": "1,638",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "2,001",
+          "price": "1,566",
           "savings": "13% off"
         }
       ],
@@ -2392,7 +2392,7 @@
       "categories": [
         "road-safety"
       ],
-      "price": 850,
+      "price": 750,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -2431,22 +2431,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "850",
+          "price": "750",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "808",
+          "price": "713",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "774",
+          "price": "683",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "740",
+          "price": "653",
           "savings": "13% off"
         }
       ],
@@ -2468,7 +2468,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 1800,
+      "price": 1200,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -2507,22 +2507,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "1,800",
+          "price": "1,200",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "1,710",
+          "price": "1,140",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "1,638",
+          "price": "1,092",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "1,566",
+          "price": "1,044",
           "savings": "13% off"
         }
       ],
@@ -2544,7 +2544,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 1300,
+      "price": 1200,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -2583,22 +2583,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "1,300",
+          "price": "1,200",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "1,235",
+          "price": "1,140",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "1,183",
+          "price": "1,092",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "1,131",
+          "price": "1,044",
           "savings": "13% off"
         }
       ],
@@ -2696,7 +2696,7 @@
       "categories": [
         "road-safety"
       ],
-      "price": 400,
+      "price": 600,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -2735,22 +2735,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "400",
+          "price": "600",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "380",
+          "price": "570",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "364",
+          "price": "546",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "348",
+          "price": "522",
           "savings": "13% off"
         }
       ],
@@ -3301,7 +3301,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 400,
+      "price": 500,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -3340,22 +3340,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "400",
+          "price": "500",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "380",
+          "price": "475",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "364",
+          "price": "455",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "348",
+          "price": "435",
           "savings": "13% off"
         }
       ],
@@ -3453,7 +3453,7 @@
       "categories": [
         "industrial-safety"
       ],
-      "price": 2200,
+      "price": 1400,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -3492,22 +3492,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "2,200",
+          "price": "1,400",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "2,090",
+          "price": "1,330",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "2,002",
+          "price": "1,274",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "1,914",
+          "price": "1,218",
           "savings": "13% off"
         }
       ],
@@ -3529,7 +3529,7 @@
       "categories": [
         "emergency-response"
       ],
-      "price": 2900,
+      "price": 3800,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -3568,22 +3568,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "2,900",
+          "price": "3,800",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "2,755",
+          "price": "3,610",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "2,639",
+          "price": "3,458",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "2,523",
+          "price": "3,306",
           "savings": "13% off"
         }
       ],
@@ -3681,7 +3681,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 4500,
+      "price": 3000,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -3720,22 +3720,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "4,500",
+          "price": "3,000",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "4,275",
+          "price": "2,850",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "4,095",
+          "price": "2,730",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "3,915",
+          "price": "2,610",
           "savings": "13% off"
         }
       ],
@@ -4061,7 +4061,7 @@
       "categories": [
         "industrial-safety"
       ],
-      "price": 3500,
+      "price": 3300,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -4100,22 +4100,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "3,500",
+          "price": "3,300",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "3,325",
+          "price": "3,135",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "3,185",
+          "price": "3,003",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "3,045",
+          "price": "2,871",
           "savings": "13% off"
         }
       ],
@@ -4137,7 +4137,7 @@
       "categories": [
         "industrial-safety"
       ],
-      "price": 4000,
+      "price": 3500,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -4176,22 +4176,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "4,000",
+          "price": "3,500",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "3,800",
+          "price": "3,325",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "3,640",
+          "price": "3,185",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "3,480",
+          "price": "3,045",
           "savings": "13% off"
         }
       ],
@@ -4517,7 +4517,7 @@
       "categories": [
         "industrial-safety"
       ],
-      "price": 1700,
+      "price": 1300,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -4556,22 +4556,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "1,700",
+          "price": "1,300",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "1,615",
+          "price": "1,235",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "1,547",
+          "price": "1,183",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "1,479",
+          "price": "1,131",
           "savings": "13% off"
         }
       ],
@@ -4593,7 +4593,7 @@
       "categories": [
         "road-safety"
       ],
-      "price": 230,
+      "price": 200,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -4632,22 +4632,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "230",
+          "price": "200",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "219",
+          "price": "190",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "209",
+          "price": "182",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "200",
+          "price": "174",
           "savings": "13% off"
         }
       ],
@@ -4669,7 +4669,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 3500,
+      "price": 2500,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -4708,22 +4708,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "3,500",
+          "price": "2,500",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "3,325",
+          "price": "2,375",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "3,185",
+          "price": "2,275",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "3,045",
+          "price": "2,175",
           "savings": "13% off"
         }
       ],
@@ -5116,7 +5116,7 @@
       "categories": [
         "construction-safety"
       ],
-      "price": 6500,
+      "price": 7000,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -5155,22 +5155,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "6,500",
+          "price": "7,000",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "6,175",
+          "price": "6,650",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "5,915",
+          "price": "6,370",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "5,655",
+          "price": "6,090",
           "savings": "13% off"
         }
       ],
@@ -5420,7 +5420,7 @@
       "categories": [
         "industrial-safety"
       ],
-      "price": 2200,
+      "price": 1500,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -5459,22 +5459,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "2,200",
+          "price": "1,500",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "2,090",
+          "price": "1,425",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "2,002",
+          "price": "1,365",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "1,914",
+          "price": "1,305",
           "savings": "13% off"
         }
       ],
@@ -5496,7 +5496,7 @@
       "categories": [
         "emergency-response"
       ],
-      "price": 7500,
+      "price": 4000,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -5535,22 +5535,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "7,500",
+          "price": "4,000",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "7,125",
+          "price": "3,800",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "6,825",
+          "price": "3,640",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "6,525",
+          "price": "3,480",
           "savings": "13% off"
         }
       ],
@@ -5724,7 +5724,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 1600,
+      "price": 1500,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -5763,22 +5763,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "1,600",
+          "price": "1,500",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "1,520",
+          "price": "1,425",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "1,456",
+          "price": "1,365",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "1,392",
+          "price": "1,305",
           "savings": "13% off"
         }
       ],
@@ -5952,7 +5952,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 950,
+      "price": 800,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -5991,22 +5991,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "950",
+          "price": "800",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "903",
+          "price": "760",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "865",
+          "price": "728",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "827",
+          "price": "696",
           "savings": "13% off"
         }
       ],
@@ -6332,7 +6332,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 2800,
+      "price": 2700,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -6371,22 +6371,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "2,800",
+          "price": "2,700",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "2,660",
+          "price": "2,565",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "2,548",
+          "price": "2,457",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "2,436",
+          "price": "2,349",
           "savings": "13% off"
         }
       ],
@@ -6408,7 +6408,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 5200,
+      "price": 3000,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -6447,22 +6447,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "5,200",
+          "price": "3,000",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "4,940",
+          "price": "2,850",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "4,732",
+          "price": "2,730",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "4,524",
+          "price": "2,610",
           "savings": "13% off"
         }
       ],
@@ -6484,7 +6484,7 @@
       "categories": [
         "industrial-safety"
       ],
-      "price": 3300,
+      "price": 2700,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -6523,22 +6523,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "3,300",
+          "price": "2,700",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "3,135",
+          "price": "2,565",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "3,003",
+          "price": "2,457",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "2,871",
+          "price": "2,349",
           "savings": "13% off"
         }
       ],
@@ -6560,7 +6560,7 @@
       "categories": [
         "road-safety"
       ],
-      "price": 250,
+      "price": 200,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -6599,22 +6599,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "250",
+          "price": "200",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "238",
+          "price": "190",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "228",
+          "price": "182",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "218",
+          "price": "174",
           "savings": "13% off"
         }
       ],
@@ -6636,7 +6636,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 3500,
+      "price": 2500,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -6675,22 +6675,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "3,500",
+          "price": "2,500",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "3,325",
+          "price": "2,375",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "3,185",
+          "price": "2,275",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "3,045",
+          "price": "2,175",
           "savings": "13% off"
         }
       ],
@@ -7001,7 +7001,7 @@
       "categories": [
         "construction-safety"
       ],
-      "price": 10800,
+      "price": 9500,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -7040,22 +7040,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "10,800",
+          "price": "9,500",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "10,260",
+          "price": "9,025",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "9,828",
+          "price": "8,645",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "9,396",
+          "price": "8,265",
           "savings": "13% off"
         }
       ],
@@ -7153,7 +7153,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 1500,
+      "price": 1600,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -7192,22 +7192,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "1,500",
+          "price": "1,600",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "1,425",
+          "price": "1,520",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "1,365",
+          "price": "1,456",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "1,305",
+          "price": "1,392",
           "savings": "13% off"
         }
       ],
@@ -7229,7 +7229,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 800,
+      "price": 500,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -7268,22 +7268,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "800",
+          "price": "500",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "760",
+          "price": "475",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "728",
+          "price": "455",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "696",
+          "price": "435",
           "savings": "13% off"
         }
       ],
@@ -7305,7 +7305,7 @@
       "categories": [
         "industrial-safety"
       ],
-      "price": 2200,
+      "price": 1200,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -7344,22 +7344,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "2,200",
+          "price": "1,200",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "2,090",
+          "price": "1,140",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "2,002",
+          "price": "1,092",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "1,914",
+          "price": "1,044",
           "savings": "13% off"
         }
       ],
@@ -7533,7 +7533,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 5500,
+      "price": 6500,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -7572,22 +7572,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "5,500",
+          "price": "6,500",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "5,225",
+          "price": "6,175",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "5,005",
+          "price": "5,915",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "4,785",
+          "price": "5,655",
           "savings": "13% off"
         }
       ],
@@ -9038,7 +9038,7 @@
       "categories": [
         "emergency-response"
       ],
-      "price": 3200,
+      "price": 3800,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -9077,22 +9077,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "3,200",
+          "price": "3,800",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "3,040",
+          "price": "3,610",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "2,912",
+          "price": "3,458",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "2,784",
+          "price": "3,306",
           "savings": "13% off"
         }
       ],
@@ -9342,7 +9342,7 @@
       "categories": [
         "industrial-safety"
       ],
-      "price": 2500,
+      "price": 2700,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -9381,22 +9381,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "2,500",
+          "price": "2,700",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "2,375",
+          "price": "2,565",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "2,275",
+          "price": "2,457",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "2,175",
+          "price": "2,349",
           "savings": "13% off"
         }
       ],
@@ -10397,7 +10397,7 @@
       "categories": [
         "industrial-safety"
       ],
-      "price": 2200,
+      "price": 1800,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -10436,22 +10436,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "2,200",
+          "price": "1,800",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "2,090",
+          "price": "1,710",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "2,002",
+          "price": "1,638",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "1,914",
+          "price": "1,566",
           "savings": "13% off"
         }
       ],
@@ -10473,7 +10473,7 @@
       "categories": [
         "emergency-response"
       ],
-      "price": 7200,
+      "price": 4000,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -10512,22 +10512,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "7,200",
+          "price": "4,000",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "6,840",
+          "price": "3,800",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "6,552",
+          "price": "3,640",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "6,264",
+          "price": "3,480",
           "savings": "13% off"
         }
       ],
@@ -10625,7 +10625,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 700,
+      "price": 1200,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -10664,22 +10664,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "700",
+          "price": "1,200",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "665",
+          "price": "1,140",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "637",
+          "price": "1,092",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "609",
+          "price": "1,044",
           "savings": "13% off"
         }
       ],
@@ -10701,7 +10701,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 1300,
+      "price": 800,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -10740,22 +10740,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "1,300",
+          "price": "800",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "1,235",
+          "price": "760",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "1,183",
+          "price": "728",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "1,131",
+          "price": "696",
           "savings": "13% off"
         }
       ],
@@ -10853,7 +10853,7 @@
       "categories": [
         "industrial-safety"
       ],
-      "price": 3500,
+      "price": 3200,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -10892,22 +10892,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "3,500",
+          "price": "3,200",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "3,325",
+          "price": "3,040",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "3,185",
+          "price": "2,912",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "3,045",
+          "price": "2,784",
           "savings": "13% off"
         }
       ],
@@ -11157,7 +11157,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 350,
+      "price": 400,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -11196,22 +11196,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "350",
+          "price": "400",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "333",
+          "price": "380",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "319",
+          "price": "364",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "305",
+          "price": "348",
           "savings": "13% off"
         }
       ],
@@ -11674,7 +11674,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 500,
+      "price": 800,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -11713,22 +11713,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "500",
+          "price": "800",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "475",
+          "price": "760",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "455",
+          "price": "728",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "435",
+          "price": "696",
           "savings": "13% off"
         }
       ],
@@ -11750,7 +11750,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 450,
+      "price": 350,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -11789,22 +11789,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "450",
+          "price": "350",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "428",
+          "price": "333",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "410",
+          "price": "319",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "392",
+          "price": "305",
           "savings": "13% off"
         }
       ],
@@ -11902,7 +11902,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 2600,
+      "price": 2000,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -11941,22 +11941,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "2,600",
+          "price": "2,000",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "2,470",
+          "price": "1,900",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "2,366",
+          "price": "1,820",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "2,262",
+          "price": "1,740",
           "savings": "13% off"
         }
       ],
@@ -11978,7 +11978,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 950,
+      "price": 800,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -12017,22 +12017,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "950",
+          "price": "800",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "903",
+          "price": "760",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "865",
+          "price": "728",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "827",
+          "price": "696",
           "savings": "13% off"
         }
       ],
@@ -12130,7 +12130,7 @@
       "categories": [
         "industrial-safety"
       ],
-      "price": 2000,
+      "price": 3200,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -12169,22 +12169,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "2,000",
+          "price": "3,200",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "1,900",
+          "price": "3,040",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "1,820",
+          "price": "2,912",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "1,740",
+          "price": "2,784",
           "savings": "13% off"
         }
       ],
@@ -12206,7 +12206,7 @@
       "categories": [
         "industrial-safety"
       ],
-      "price": 650,
+      "price": 850,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -12245,22 +12245,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "650",
+          "price": "850",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "618",
+          "price": "808",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "592",
+          "price": "774",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "566",
+          "price": "740",
           "savings": "13% off"
         }
       ],
@@ -12434,7 +12434,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 350,
+      "price": 400,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -12473,22 +12473,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "350",
+          "price": "400",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "333",
+          "price": "380",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "319",
+          "price": "364",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "305",
+          "price": "348",
           "savings": "13% off"
         }
       ],
@@ -12799,7 +12799,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 39000,
+      "price": 58000,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -12838,22 +12838,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "39,000",
+          "price": "58,000",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "37,050",
+          "price": "55,100",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "35,490",
+          "price": "52,780",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "33,930",
+          "price": "50,460",
           "savings": "13% off"
         }
       ],
@@ -12951,7 +12951,7 @@
       "categories": [
         "industrial-safety"
       ],
-      "price": 2200,
+      "price": 1500,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -12990,22 +12990,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "2,200",
+          "price": "1,500",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "2,090",
+          "price": "1,425",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "2,002",
+          "price": "1,365",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "1,914",
+          "price": "1,305",
           "savings": "13% off"
         }
       ],
@@ -13255,7 +13255,7 @@
       "categories": [
         "industrial-safety"
       ],
-      "price": 950,
+      "price": 850,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -13294,22 +13294,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "950",
+          "price": "850",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "903",
+          "price": "808",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "865",
+          "price": "774",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "827",
+          "price": "740",
           "savings": "13% off"
         }
       ],
@@ -13331,7 +13331,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 3000,
+      "price": 2300,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -13370,22 +13370,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "3,000",
+          "price": "2,300",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "2,850",
+          "price": "2,185",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "2,730",
+          "price": "2,093",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "2,610",
+          "price": "2,001",
           "savings": "13% off"
         }
       ],
@@ -13772,7 +13772,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 10200,
+      "price": 10500,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -13811,22 +13811,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "10,200",
+          "price": "10,500",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "9,690",
+          "price": "9,975",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "9,282",
+          "price": "9,555",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "8,874",
+          "price": "9,135",
           "savings": "13% off"
         }
       ],
@@ -14304,7 +14304,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 3600,
+      "price": 2300,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -14343,22 +14343,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "3,600",
+          "price": "2,300",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "3,420",
+          "price": "2,185",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "3,276",
+          "price": "2,093",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "3,132",
+          "price": "2,001",
           "savings": "13% off"
         }
       ],
@@ -14380,7 +14380,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 2300,
+      "price": 1600,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -14419,22 +14419,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "2,300",
+          "price": "1,600",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "2,185",
+          "price": "1,520",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "2,093",
+          "price": "1,456",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "2,001",
+          "price": "1,392",
           "savings": "13% off"
         }
       ],
@@ -14669,7 +14669,7 @@
       "categories": [
         "construction-safety"
       ],
-      "price": 10000,
+      "price": 18000,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -14708,22 +14708,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "10,000",
+          "price": "18,000",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "9,500",
+          "price": "17,100",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "9,100",
+          "price": "16,380",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "8,700",
+          "price": "15,660",
           "savings": "13% off"
         }
       ],
@@ -15724,7 +15724,7 @@
       "categories": [
         "industrial-safety"
       ],
-      "price": 1800,
+      "price": 1200,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -15763,22 +15763,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "1,800",
+          "price": "1,200",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "1,710",
+          "price": "1,140",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "1,638",
+          "price": "1,092",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "1,566",
+          "price": "1,044",
           "savings": "13% off"
         }
       ],
@@ -15952,7 +15952,7 @@
       "categories": [
         "industrial-safety"
       ],
-      "price": 3200,
+      "price": 3000,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -15991,22 +15991,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "3,200",
+          "price": "3,000",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "3,040",
+          "price": "2,850",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "2,912",
+          "price": "2,730",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "2,784",
+          "price": "2,610",
           "savings": "13% off"
         }
       ],
@@ -16104,7 +16104,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 2800,
+      "price": 2200,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -16143,22 +16143,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "2,800",
+          "price": "2,200",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "2,660",
+          "price": "2,090",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "2,548",
+          "price": "2,002",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "2,436",
+          "price": "1,914",
           "savings": "13% off"
         }
       ],
@@ -16180,7 +16180,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 400,
+      "price": 550,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -16219,22 +16219,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "400",
+          "price": "550",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "380",
+          "price": "523",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "364",
+          "price": "501",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "348",
+          "price": "479",
           "savings": "13% off"
         }
       ],
@@ -16545,7 +16545,7 @@
       "categories": [
         "industrial-safety"
       ],
-      "price": 1800,
+      "price": 1500,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -16584,22 +16584,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "1,800",
+          "price": "1,500",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "1,710",
+          "price": "1,425",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "1,638",
+          "price": "1,365",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "1,566",
+          "price": "1,305",
           "savings": "13% off"
         }
       ],
@@ -16697,7 +16697,7 @@
       "categories": [
         "emergency-response"
       ],
-      "price": 1800,
+      "price": 2800,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -16736,22 +16736,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "1,800",
+          "price": "2,800",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "1,710",
+          "price": "2,660",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "1,638",
+          "price": "2,548",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "1,566",
+          "price": "2,436",
           "savings": "13% off"
         }
       ],
@@ -16849,7 +16849,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 2500,
+      "price": 2100,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -16888,22 +16888,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "2,500",
+          "price": "2,100",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "2,375",
+          "price": "1,995",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "2,275",
+          "price": "1,911",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "2,175",
+          "price": "1,827",
           "savings": "13% off"
         }
       ],
@@ -17214,7 +17214,7 @@
       "categories": [
         "road-safety"
       ],
-      "price": 2200,
+      "price": 2500,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -17253,22 +17253,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "2,200",
+          "price": "2,500",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "2,090",
+          "price": "2,375",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "2,002",
+          "price": "2,275",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "1,914",
+          "price": "2,175",
           "savings": "13% off"
         }
       ],
@@ -17883,7 +17883,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 600,
+      "price": 350,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -17922,22 +17922,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "600",
+          "price": "350",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "570",
+          "price": "333",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "546",
+          "price": "319",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "522",
+          "price": "305",
           "savings": "13% off"
         }
       ],
@@ -18172,7 +18172,7 @@
       "categories": [
         "security-equipment"
       ],
-      "price": 1700,
+      "price": 1500,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -18211,22 +18211,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "1,700",
+          "price": "1,500",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "1,615",
+          "price": "1,425",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "1,547",
+          "price": "1,365",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "1,479",
+          "price": "1,305",
           "savings": "13% off"
         }
       ],
@@ -18324,7 +18324,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 550,
+      "price": 350,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -18363,22 +18363,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "550",
+          "price": "350",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "523",
+          "price": "333",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "501",
+          "price": "319",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "479",
+          "price": "305",
           "savings": "13% off"
         }
       ],
@@ -18400,7 +18400,7 @@
       "categories": [
         "industrial-safety"
       ],
-      "price": 950,
+      "price": 600,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -18439,22 +18439,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "950",
+          "price": "600",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "903",
+          "price": "570",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "865",
+          "price": "546",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "827",
+          "price": "522",
           "savings": "13% off"
         }
       ],
@@ -18689,7 +18689,7 @@
       "categories": [
         "industrial-safety"
       ],
-      "price": 3200,
+      "price": 3000,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -18728,22 +18728,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "3,200",
+          "price": "3,000",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "3,040",
+          "price": "2,850",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "2,912",
+          "price": "2,730",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "2,784",
+          "price": "2,610",
           "savings": "13% off"
         }
       ],
@@ -18765,7 +18765,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 300,
+      "price": 350,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -18804,22 +18804,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "300",
+          "price": "350",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "285",
+          "price": "333",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "273",
+          "price": "319",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "261",
+          "price": "305",
           "savings": "13% off"
         }
       ],
@@ -18841,7 +18841,7 @@
       "categories": [
         "industrial-safety"
       ],
-      "price": 250,
+      "price": 200,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -18880,22 +18880,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "250",
+          "price": "200",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "238",
+          "price": "190",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "228",
+          "price": "182",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "218",
+          "price": "174",
           "savings": "13% off"
         }
       ],
@@ -19130,7 +19130,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 280,
+      "price": 350,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -19169,22 +19169,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "280",
+          "price": "350",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "266",
+          "price": "333",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "255",
+          "price": "319",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "244",
+          "price": "305",
           "savings": "13% off"
         }
       ],
@@ -19343,7 +19343,7 @@
       "categories": [
         "industrial-safety"
       ],
-      "price": 3500,
+      "price": 3200,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -19382,22 +19382,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "3,500",
+          "price": "3,200",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "3,325",
+          "price": "3,040",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "3,185",
+          "price": "2,912",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "3,045",
+          "price": "2,784",
           "savings": "13% off"
         }
       ],
@@ -19419,7 +19419,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 550,
+      "price": 350,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -19458,22 +19458,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "550",
+          "price": "350",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "523",
+          "price": "333",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "501",
+          "price": "319",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "479",
+          "price": "305",
           "savings": "13% off"
         }
       ],
@@ -19708,7 +19708,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 600,
+      "price": 500,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -19747,22 +19747,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "600",
+          "price": "500",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "570",
+          "price": "475",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "546",
+          "price": "455",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "522",
+          "price": "435",
           "savings": "13% off"
         }
       ],
@@ -19997,7 +19997,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 450,
+      "price": 300,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -20036,22 +20036,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "450",
+          "price": "300",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "428",
+          "price": "285",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "410",
+          "price": "273",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "392",
+          "price": "261",
           "savings": "13% off"
         }
       ],
@@ -20286,7 +20286,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 300,
+      "price": 400,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -20325,22 +20325,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "300",
+          "price": "400",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "285",
+          "price": "380",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "273",
+          "price": "364",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "261",
+          "price": "348",
           "savings": "13% off"
         }
       ],
@@ -20575,7 +20575,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 500,
+      "price": 300,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -20614,22 +20614,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "500",
+          "price": "300",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "475",
+          "price": "285",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "455",
+          "price": "273",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "435",
+          "price": "261",
           "savings": "13% off"
         }
       ],
@@ -20788,7 +20788,7 @@
       "categories": [
         "industrial-safety"
       ],
-      "price": 3500,
+      "price": 3200,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -20827,22 +20827,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "3,500",
+          "price": "3,200",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "3,325",
+          "price": "3,040",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "3,185",
+          "price": "2,912",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "3,045",
+          "price": "2,784",
           "savings": "13% off"
         }
       ],
@@ -20864,7 +20864,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 400,
+      "price": 300,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -20903,22 +20903,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "400",
+          "price": "300",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "380",
+          "price": "285",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "364",
+          "price": "273",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "348",
+          "price": "261",
           "savings": "13% off"
         }
       ],
@@ -21077,7 +21077,7 @@
       "categories": [
         "industrial-safety"
       ],
-      "price": 4000,
+      "price": 3800,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -21116,22 +21116,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "4,000",
+          "price": "3,800",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "3,800",
+          "price": "3,610",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "3,640",
+          "price": "3,458",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "3,480",
+          "price": "3,306",
           "savings": "13% off"
         }
       ],
@@ -21442,7 +21442,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 500,
+      "price": 350,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -21481,22 +21481,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "500",
+          "price": "350",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "475",
+          "price": "333",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "455",
+          "price": "319",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "435",
+          "price": "305",
           "savings": "13% off"
         }
       ],
@@ -22933,7 +22933,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 170,
+      "price": 100,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -22972,22 +22972,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "170",
+          "price": "100",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "162",
+          "price": "95",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "155",
+          "price": "91",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "148",
+          "price": "87",
           "savings": "13% off"
         }
       ],
@@ -24637,7 +24637,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 650,
+      "price": 500,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -24676,22 +24676,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "650",
+          "price": "500",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "618",
+          "price": "475",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "592",
+          "price": "455",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "566",
+          "price": "435",
           "savings": "13% off"
         }
       ],
@@ -24850,7 +24850,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 550,
+      "price": 500,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -24889,22 +24889,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "550",
+          "price": "500",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "523",
+          "price": "475",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "501",
+          "price": "455",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "479",
+          "price": "435",
           "savings": "13% off"
         }
       ],
@@ -25489,7 +25489,7 @@
       "categories": [
         "ppe"
       ],
-      "price": 950,
+      "price": 500,
       "stock": 50,
       "lowStockAt": 10,
       "rating": 4.5,
@@ -25528,22 +25528,22 @@
       "bulk": [
         {
           "qty": "1 – 9",
-          "price": "950",
+          "price": "500",
           "savings": "Standard"
         },
         {
           "qty": "10 – 49",
-          "price": "903",
+          "price": "475",
           "savings": "5% off"
         },
         {
           "qty": "50 – 199",
-          "price": "865",
+          "price": "455",
           "savings": "9% off"
         },
         {
           "qty": "200+",
-          "price": "827",
+          "price": "435",
           "savings": "13% off"
         }
       ],

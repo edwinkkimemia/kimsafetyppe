@@ -85,7 +85,7 @@ export const products: Product[] = [
   }),
   p({
     id: "p-004", sku: "KS-IND-2002", name: "GripTech Steel-Toe Work Boots", brand: "Karam", category: "industrial-safety", categoryName: "Industrial Safety",
-    price: 4850, oldPrice: 5800, stock: 96, lowStockAt: 25, rating: 4.7, reviews: 189, sold: 3400, model: "KS-8221", featured: true,
+    price: 3800, oldPrice: 5800, stock: 96, lowStockAt: 25, rating: 4.7, reviews: 189, sold: 3400, model: "KS-8221", featured: true,
     tags: ["boots", "construction", "foot protection"], material: "Full-grain leather + PU sole", size: "38 – 47 EU", weight: "1.4 kg / pair", color: "Black",
     certification: "EN ISO 20345 S1P", standard: "EN ISO 20345", country: "India",
     description: "Full-grain leather work boots with steel toe caps, anti-penetration midsoles and slip-resistant PU outsoles. Breathable lining keeps feet dry through long shifts on site.",
@@ -93,7 +93,7 @@ export const products: Product[] = [
   }),
   p({
     id: "p-005", sku: "KS-PPE-3001", name: "Nova Shield Half-Mask Respirator", brand: "3M", category: "ppe", categoryName: "PPE",
-    price: 2950, oldPrice: 3500, stock: 210, lowStockAt: 30, rating: 4.9, reviews: 275, sold: 5600, model: "3M 6500QL", featured: true, bestSeller: true,
+    price: 3000, oldPrice: 3500, stock: 210, lowStockAt: 30, rating: 4.9, reviews: 275, sold: 5600, model: "3M 6500QL", featured: true, bestSeller: true,
     tags: ["respirator", "dust", "chemical"], material: "TPE + PP", size: "S · M · L", weight: "180 g", color: "Grey",
     certification: "EN 140", standard: "EN 149 FFP2", country: "USA",
     description: "Comfortable half-mask respirator with quick-release buckles, low-profile design for use with goggles, and compatibility with a wide range of filters and cartridges. Ideal for dust, fumes and chemical exposure.",
@@ -101,7 +101,7 @@ export const products: Product[] = [
   }),
   p({
     id: "p-006", sku: "KS-PPE-3002", name: "FlexiGlove Nitrile Work Gloves (Pair)", brand: "Ansell", category: "ppe", categoryName: "PPE",
-    price: 750, oldPrice: 950, stock: 640, lowStockAt: 60, rating: 4.6, reviews: 142, sold: 15000, model: "HyFlex 11-800",
+    price: 400, oldPrice: 950, stock: 640, lowStockAt: 60, rating: 4.6, reviews: 142, sold: 15000, model: "HyFlex 11-800",
     tags: ["gloves", "nitrile", "mechanical"], material: "Nitrile-coated knitted", size: "7 – 11", weight: "45 g / pair", color: "Black / Grey",
     certification: "EN 388 4141", standard: "EN 388", country: "Malaysia",
     description: "Durable nitrile-coated work gloves offering excellent grip in oily and dry conditions. Breathable knitted back keeps hands cool during repetitive handling tasks.",
@@ -117,7 +117,7 @@ export const products: Product[] = [
   }),
   p({
     id: "p-008", sku: "KS-FIR-4002", name: "SmartAlert Optical Smoke Detector", brand: "Honeywell", category: "fire-safety", categoryName: "Fire Safety",
-    price: 2850, oldPrice: 3300, stock: 140, lowStockAt: 20, rating: 4.5, reviews: 88, sold: 3200, model: "HD-3",
+    price: 1500, oldPrice: 3300, stock: 140, lowStockAt: 20, rating: 4.5, reviews: 88, sold: 3200, model: "HD-3",
     tags: ["fire", "detector", "smoke"], material: "ABS", size: "110 mm dia", weight: "210 g", color: "White",
     certification: "EN 14604", standard: "EN 14604", country: "USA", warranty: "24-month warranty",
     description: "Optical smoke detector with 85 dB alarm, low-battery warning and test button. Battery powered — no wiring required. CE and EN 14604 certified for home and office use.",
@@ -141,7 +141,7 @@ export const products: Product[] = [
   }),
   p({
     id: "p-011", sku: "KS-CON-6001", name: "HarnessMax Full-Body Fall Arrest Harness", brand: "MSA", category: "construction-safety", categoryName: "Construction Safety",
-    price: 8900, oldPrice: 10400, stock: 48, lowStockAt: 12, rating: 4.8, reviews: 87, sold: 1400, model: "V-FORM", featured: true,
+    price: 18000, oldPrice: 10400, stock: 48, lowStockAt: 12, rating: 4.8, reviews: 87, sold: 1400, model: "V-FORM", featured: true,
     tags: ["harness", "fall protection", "height"], material: "Polyester webbing + alloy D-rings", size: "M · L · XL", weight: "1.6 kg", color: "Navy",
     certification: "EN 361", standard: "EN 361:2002", country: "USA",
     description: "Full-body fall arrest harness with dual dorsal D-ring, padded shoulder straps and quick-connect buckles. EN 361 certified for working at height in construction and maintenance.",
@@ -165,7 +165,7 @@ export const products: Product[] = [
   }),
   p({
     id: "p-014", sku: "KS-EMR-9001", name: "RescuePro 25-Piece First Aid Kit", brand: "MSA", category: "emergency-response", categoryName: "Emergency Response",
-    price: 3900, oldPrice: 4600, stock: 150, lowStockAt: 25, rating: 4.8, reviews: 164, sold: 5200, model: "FAK-25", featured: true, bestSeller: true,
+    price: 3500, oldPrice: 4600, stock: 150, lowStockAt: 25, rating: 4.8, reviews: 164, sold: 5200, model: "FAK-25", featured: true, bestSeller: true,
     tags: ["first aid", "kit", "workplace"], material: "ABS case + medical contents", size: "250 × 170 × 90 mm", weight: "1.1 kg", color: "Green",
     certification: "KeBS · WHO kit listing", standard: "WHO Emergency Kit", country: "Kenya (assembled)",
     description: "Comprehensive 25-piece first aid kit in a durable carry case — plasters, bandages, antiseptic, scissors, gloves and CPR mask. Complies with Kenyan workplace first aid requirements for teams up to 25 people.",
@@ -333,7 +333,7 @@ export const products: Product[] = [
   }),
   p({
     id: "p-035", sku: "KS-CLN-8002", name: "ComfortGrip Heavy-Duty Cleaning Gloves (Pair)", brand: "Ansell", category: "cleaning-hygiene", categoryName: "Cleaning & Hygiene",
-    price: 450, oldPrice: 550, stock: 350, lowStockAt: 50, rating: 4.4, reviews: 74, sold: 11000, model: "HD-06",
+    price: 750, oldPrice: 550, stock: 350, lowStockAt: 50, rating: 4.4, reviews: 74, sold: 11000, model: "HD-06",
     tags: ["cleaning", "gloves", "rubber"], material: "Natural rubber", size: "M · L · XL", weight: "260 g / pair", color: "Yellow",
     certification: "EN 374", standard: "EN 374-1", country: "Malaysia",
     description: "Reusable heavy-duty cleaning gloves with flocked lining and textured grip. Protects hands from detergents, disinfectants and hot water.",
@@ -381,7 +381,7 @@ export const products: Product[] = [
   }),
   p({
     id: "p-041", sku: "KS-IND-2007", name: "VisionPro Adjustable Face Shield", brand: "Uvex", category: "industrial-safety", categoryName: "Industrial Safety",
-    price: 1600, oldPrice: 1900, stock: 150, lowStockAt: 25, rating: 4.5, reviews: 66, sold: 3900, model: "9431-021", featured: true,
+    price: 800, oldPrice: 1900, stock: 150, lowStockAt: 25, rating: 4.5, reviews: 66, sold: 3900, model: "9431-021", featured: true,
     tags: ["face shield", "protection", "visor"], material: "PETG visor + ABS frame", size: "Universal", weight: "180 g", color: "Clear",
     certification: "EN 166", standard: "EN 166:2001", country: "Germany",
     description: "Comfortable face shield with ratchet headband and anti-fog PETG visor. Full-face protection against splashes, sparks and impacts.",
@@ -521,7 +521,7 @@ export const products: Product[] = [
   }),
   p({
     id: "p-244", sku: "KS-EMR-9005", name: "First Aid Kit (Medium, Grey)", brand: "KimSafety", category: "emergency-response", categoryName: "Emergency Response",
-    price: 2800, stock: 88, lowStockAt: 20, rating: 4.4, reviews: 113, sold: 1038,
+    price: 3800, stock: 88, lowStockAt: 20, rating: 4.4, reviews: 113, sold: 1038,
     tags: ["emergencyresponse", "first-aid"],
     description: "First Aid Kit (Medium, Grey), quality-inspected at KimSafety's Nairobi warehouse and certified for professional use. Available in bulk with tiered corporate discounts and same-day dispatch within Nairobi.",
   }),
@@ -539,7 +539,7 @@ export const products: Product[] = [
   }),
   p({
     id: "p-204", sku: "KS-FIR-4005", name: "ABC Dry Powder Fire Extinguisher 4kg", brand: "KimSafety", category: "fire-safety", categoryName: "Fire Safety",
-    price: 8200, stock: 94, lowStockAt: 20, rating: 4.6, reviews: 19, sold: 1044,
+    price: 4200, stock: 94, lowStockAt: 20, rating: 4.6, reviews: 19, sold: 1044,
     tags: ["firesafety", "fire", "extinguisher"],
     description: "ABC Dry Powder Fire Extinguisher 4kg, quality-inspected at KimSafety's Nairobi warehouse and certified for professional use. Available in bulk with tiered corporate discounts and same-day dispatch within Nairobi.",
   }),
@@ -581,7 +581,7 @@ export const products: Product[] = [
   }),
   p({
     id: "p-279", sku: "KS-FOO-1204", name: "Beard Covers", brand: "KimSafety", category: "food-safety", categoryName: "Food Safety",
-    price: 700, stock: 113, lowStockAt: 20, rating: 4.5, reviews: 98, sold: 403,
+    price: 1000, stock: 113, lowStockAt: 20, rating: 4.5, reviews: 98, sold: 403,
     tags: ["foodsafety", "hearing"],
     description: "Beard Covers, quality-inspected at KimSafety's Nairobi warehouse and certified for professional use. Available in bulk with tiered corporate discounts and same-day dispatch within Nairobi.",
   }),
@@ -617,31 +617,31 @@ export const products: Product[] = [
   }),
   p({
     id: "p-322", sku: "KS-FOO-1210", name: "Reusable Chef Hats", brand: "KimSafety", category: "food-safety", categoryName: "Food Safety",
-    price: 550, stock: 154, lowStockAt: 20, rating: 4.6, reviews: 139, sold: 1104,
+    price: 300, stock: 154, lowStockAt: 20, rating: 4.6, reviews: 139, sold: 1104,
     tags: ["foodsafety"],
     description: "Reusable Chef Hats, quality-inspected at KimSafety's Nairobi warehouse and certified for professional use. Available in bulk with tiered corporate discounts and same-day dispatch within Nairobi.",
   }),
   p({
     id: "p-228", sku: "KS-IND-2008", name: "General Purpose Industrial Gumboot (Green)", brand: "KimSafety", category: "industrial-safety", categoryName: "Industrial Safety",
-    price: 1900, stock: 121, lowStockAt: 20, rating: 4.9, reviews: 86, sold: 411,
+    price: 1100, stock: 121, lowStockAt: 20, rating: 4.9, reviews: 86, sold: 411,
     tags: ["industrialsafety", "boots"],
     description: "General Purpose Industrial Gumboot (Green), quality-inspected at KimSafety's Nairobi warehouse and certified for professional use. Available in bulk with tiered corporate discounts and same-day dispatch within Nairobi.",
   }),
   p({
     id: "p-235", sku: "KS-IND-2009", name: "HIVIEW Safety Boot HTS4101", brand: "HIVIEW", category: "industrial-safety", categoryName: "Industrial Safety",
-    price: 5200, stock: 200, lowStockAt: 20, rating: 4.8, reviews: 125, sold: 270,
+    price: 4700, stock: 200, lowStockAt: 20, rating: 4.8, reviews: 125, sold: 270,
     tags: ["industrialsafety", "boots"],
     description: "HIVIEW Safety Boot HTS4101, quality-inspected at KimSafety's Nairobi warehouse and certified for professional use. Available in bulk with tiered corporate discounts and same-day dispatch within Nairobi.",
   }),
   p({
     id: "p-255", sku: "KS-IND-2010", name: "Safety Jogger Best Boy Safety Boot", brand: "Safety Jogger", category: "industrial-safety", categoryName: "Industrial Safety",
-    price: 5600, stock: 55, lowStockAt: 20, rating: 4.3, reviews: 120, sold: 565,
+    price: 3800, stock: 55, lowStockAt: 20, rating: 4.3, reviews: 120, sold: 565,
     tags: ["industrialsafety", "boots"],
     description: "Safety Jogger Best Boy Safety Boot, quality-inspected at KimSafety's Nairobi warehouse and certified for professional use. Available in bulk with tiered corporate discounts and same-day dispatch within Nairobi.",
   }),
   p({
     id: "p-256", sku: "KS-IND-2011", name: "Safety Jogger Safety Manager Boot", brand: "Safety Jogger", category: "industrial-safety", categoryName: "Industrial Safety",
-    price: 6100, stock: 206, lowStockAt: 20, rating: 4.6, reviews: 91, sold: 1156,
+    price: 3800, stock: 206, lowStockAt: 20, rating: 4.6, reviews: 91, sold: 1156,
     tags: ["industrialsafety", "boots"],
     description: "Safety Jogger Safety Manager Boot, quality-inspected at KimSafety's Nairobi warehouse and certified for professional use. Available in bulk with tiered corporate discounts and same-day dispatch within Nairobi.",
   }),
@@ -653,13 +653,13 @@ export const products: Product[] = [
   }),
   p({
     id: "p-262", sku: "KS-IND-2013", name: "Steel Toe Gumboot", brand: "KimSafety", category: "industrial-safety", categoryName: "Industrial Safety",
-    price: 2400, stock: 171, lowStockAt: 20, rating: 4.3, reviews: 16, sold: 241,
+    price: 1800, stock: 171, lowStockAt: 20, rating: 4.3, reviews: 16, sold: 241,
     tags: ["industrialsafety", "boots"],
     description: "Steel Toe Gumboot, quality-inspected at KimSafety's Nairobi warehouse and certified for professional use. Available in bulk with tiered corporate discounts and same-day dispatch within Nairobi.",
   }),
   p({
     id: "p-268", sku: "KS-IND-2014", name: "Vaultex Safety Boot", brand: "Vaultex", category: "industrial-safety", categoryName: "Industrial Safety",
-    price: 5000, stock: 64, lowStockAt: 20, rating: 4.8, reviews: 109, sold: 574,
+    price: 2700, stock: 64, lowStockAt: 20, rating: 4.8, reviews: 109, sold: 574,
     tags: ["industrialsafety", "boots"],
     description: "Vaultex Safety Boot, quality-inspected at KimSafety's Nairobi warehouse and certified for professional use. Available in bulk with tiered corporate discounts and same-day dispatch within Nairobi.",
   }),
@@ -695,7 +695,7 @@ export const products: Product[] = [
   }),
   p({
     id: "p-213", sku: "KS-MED-1007", name: "Medic Face Shield (Blue)", brand: "KimSafety", category: "medical-safety", categoryName: "Medical Safety",
-    price: 950, stock: 54, lowStockAt: 20, rating: 4.6, reviews: 19, sold: 564,
+    price: 800, stock: 54, lowStockAt: 20, rating: 4.6, reviews: 19, sold: 564,
     tags: ["medicalsafety"],
     description: "Medic Face Shield (Blue), quality-inspected at KimSafety's Nairobi warehouse and certified for professional use. Available in bulk with tiered corporate discounts and same-day dispatch within Nairobi.",
   }),
@@ -737,7 +737,7 @@ export const products: Product[] = [
   }),
   p({
     id: "p-215", sku: "KS-PPE-3006", name: "HiVis Bump Cap (Black/Orange)", brand: "KimSafety", category: "ppe", categoryName: "PPE",
-    price: 2200, stock: 121, lowStockAt: 20, rating: 4.5, reviews: 66, sold: 411,
+    price: 1800, stock: 121, lowStockAt: 20, rating: 4.5, reviews: 66, sold: 411,
     tags: ["ppe"],
     description: "HiVis Bump Cap (Black/Orange), quality-inspected at KimSafety's Nairobi warehouse and certified for professional use. Available in bulk with tiered corporate discounts and same-day dispatch within Nairobi.",
   }),
@@ -749,7 +749,7 @@ export const products: Product[] = [
   }),
   p({
     id: "p-218", sku: "KS-PPE-3008", name: "Designer Reflective Jacket (Orange)", brand: "KimSafety", category: "ppe", categoryName: "PPE",
-    price: 3200, stock: 200, lowStockAt: 20, rating: 4.8, reviews: 125, sold: 270,
+    price: 1700, stock: 200, lowStockAt: 20, rating: 4.8, reviews: 125, sold: 270,
     tags: ["ppe", "signage", "jacket"],
     description: "Designer Reflective Jacket (Orange), quality-inspected at KimSafety's Nairobi warehouse and certified for professional use. Available in bulk with tiered corporate discounts and same-day dispatch within Nairobi.",
   }),
@@ -761,7 +761,7 @@ export const products: Product[] = [
   }),
   p({
     id: "p-233", sku: "KS-PPE-3010", name: "Heavy Duty Industrial Dungaree", brand: "KimSafety", category: "ppe", categoryName: "PPE",
-    price: 3200, stock: 206, lowStockAt: 20, rating: 4.2, reviews: 71, sold: 716,
+    price: 2100, stock: 206, lowStockAt: 20, rating: 4.2, reviews: 71, sold: 716,
     tags: ["ppe"],
     description: "Heavy Duty Industrial Dungaree, quality-inspected at KimSafety's Nairobi warehouse and certified for professional use. Available in bulk with tiered corporate discounts and same-day dispatch within Nairobi.",
   }),
@@ -779,13 +779,13 @@ export const products: Product[] = [
   }),
   p({
     id: "p-250", sku: "KS-PPE-3013", name: "Rain Coat with Inner Lining", brand: "KimSafety", category: "ppe", categoryName: "PPE",
-    price: 1400, stock: 197, lowStockAt: 20, rating: 4.9, reviews: 22, sold: 1147,
+    price: 1200, stock: 197, lowStockAt: 20, rating: 4.9, reviews: 22, sold: 1147,
     tags: ["ppe"],
     description: "Rain Coat with Inner Lining, quality-inspected at KimSafety's Nairobi warehouse and certified for professional use. Available in bulk with tiered corporate discounts and same-day dispatch within Nairobi.",
   }),
   p({
     id: "p-251", sku: "KS-PPE-3014", name: "Rain Coat", brand: "KimSafety", category: "ppe", categoryName: "PPE",
-    price: 2400, stock: 130, lowStockAt: 20, rating: 4.6, reviews: 75, sold: 640,
+    price: 1200, stock: 130, lowStockAt: 20, rating: 4.6, reviews: 75, sold: 640,
     tags: ["ppe"],
     description: "Rain Coat, quality-inspected at KimSafety's Nairobi warehouse and certified for professional use. Available in bulk with tiered corporate discounts and same-day dispatch within Nairobi.",
   }),
@@ -821,7 +821,7 @@ export const products: Product[] = [
   }),
   p({
     id: "p-267", sku: "KS-PPE-3020", name: "Vaultex Dust Mask VB1", brand: "Vaultex", category: "ppe", categoryName: "PPE",
-    price: 700, stock: 269, lowStockAt: 20, rating: 4.5, reviews: 114, sold: 779,
+    price: 600, stock: 269, lowStockAt: 20, rating: 4.5, reviews: 114, sold: 779,
     tags: ["ppe", "masks"],
     description: "Vaultex Dust Mask VB1, quality-inspected at KimSafety's Nairobi warehouse and certified for professional use. Available in bulk with tiered corporate discounts and same-day dispatch within Nairobi.",
   }),
@@ -833,7 +833,7 @@ export const products: Product[] = [
   }),
   p({
     id: "p-275", sku: "KS-PPE-3022", name: "Anti-Cut Gloves (TraffiGlove)", brand: "Traffiglove", category: "ppe", categoryName: "PPE",
-    price: 450, stock: 104, lowStockAt: 20, rating: 4.8, reviews: 149, sold: 834,
+    price: 550, stock: 104, lowStockAt: 20, rating: 4.8, reviews: 149, sold: 834,
     tags: ["ppe", "gloves"],
     description: "Anti-Cut Gloves (TraffiGlove), quality-inspected at KimSafety's Nairobi warehouse and certified for professional use. Available in bulk with tiered corporate discounts and same-day dispatch within Nairobi.",
   }),
@@ -851,7 +851,7 @@ export const products: Product[] = [
   }),
   p({
     id: "p-281", sku: "KS-PPE-3025", name: "Blue Reusable Nitrile Gloves", brand: "KimSafety", category: "ppe", categoryName: "PPE",
-    price: 250, stock: 213, lowStockAt: 20, rating: 4.9, reviews: 118, sold: 1163,
+    price: 400, stock: 213, lowStockAt: 20, rating: 4.9, reviews: 118, sold: 1163,
     tags: ["ppe", "gloves", "nitrile"],
     description: "Blue Reusable Nitrile Gloves, quality-inspected at KimSafety's Nairobi warehouse and certified for professional use. Available in bulk with tiered corporate discounts and same-day dispatch within Nairobi.",
   }),
@@ -875,7 +875,7 @@ export const products: Product[] = [
   }),
   p({
     id: "p-293", sku: "KS-PPE-3029", name: "Ear Plugs", brand: "KimSafety", category: "ppe", categoryName: "PPE",
-    price: 130, stock: 142, lowStockAt: 20, rating: 4.6, reviews: 27, sold: 652,
+    price: 100, stock: 142, lowStockAt: 20, rating: 4.6, reviews: 27, sold: 652,
     tags: ["ppe", "hearing"],
     description: "Ear Plugs, quality-inspected at KimSafety's Nairobi warehouse and certified for professional use. Available in bulk with tiered corporate discounts and same-day dispatch within Nairobi.",
   }),
@@ -887,7 +887,7 @@ export const products: Product[] = [
   }),
   p({
     id: "p-303", sku: "KS-PPE-3031", name: "Heavy-Duty Twill Overalls", brand: "KimSafety", category: "ppe", categoryName: "PPE",
-    price: 2600, stock: 97, lowStockAt: 20, rating: 4.5, reviews: 82, sold: 607,
+    price: 1800, stock: 97, lowStockAt: 20, rating: 4.5, reviews: 82, sold: 607,
     tags: ["ppe", "coveralls"],
     description: "Heavy-Duty Twill Overalls, quality-inspected at KimSafety's Nairobi warehouse and certified for professional use. Available in bulk with tiered corporate discounts and same-day dispatch within Nairobi.",
   }),
@@ -929,7 +929,7 @@ export const products: Product[] = [
   }),
   p({
     id: "p-326", sku: "KS-PPE-3038", name: "Shoe Covers", brand: "KimSafety", category: "ppe", categoryName: "PPE",
-    price: 700, stock: 124, lowStockAt: 20, rating: 4.4, reviews: 89, sold: 414,
+    price: 1000, stock: 124, lowStockAt: 20, rating: 4.4, reviews: 89, sold: 414,
     tags: ["ppe", "boots"],
     description: "Shoe Covers, quality-inspected at KimSafety's Nairobi warehouse and certified for professional use. Available in bulk with tiered corporate discounts and same-day dispatch within Nairobi.",
   }),
@@ -941,7 +941,7 @@ export const products: Product[] = [
   }),
   p({
     id: "p-338", sku: "KS-PPE-3040", name: "Waterproof Canvas Aprons", brand: "KimSafety", category: "ppe", categoryName: "PPE",
-    price: 1500, stock: 93, lowStockAt: 20, rating: 4.5, reviews: 98, sold: 1043,
+    price: 750, stock: 93, lowStockAt: 20, rating: 4.5, reviews: 98, sold: 1043,
     tags: ["ppe", "aprons"],
     description: "Waterproof Canvas Aprons, quality-inspected at KimSafety's Nairobi warehouse and certified for professional use. Available in bulk with tiered corporate discounts and same-day dispatch within Nairobi.",
   }),
@@ -977,13 +977,13 @@ export const products: Product[] = [
   }),
   p({
     id: "p-283", sku: "KS-ROA-5008", name: "Caution Barrier Tape", brand: "KimSafety", category: "road-safety", categoryName: "Road Safety",
-    price: 1200, stock: 177, lowStockAt: 20, rating: 4.9, reviews: 22, sold: 467,
+    price: 600, stock: 177, lowStockAt: 20, rating: 4.9, reviews: 22, sold: 467,
     tags: ["roadsafety", "tape"],
     description: "Caution Barrier Tape, quality-inspected at KimSafety's Nairobi warehouse and certified for professional use. Available in bulk with tiered corporate discounts and same-day dispatch within Nairobi.",
   }),
   p({
     id: "p-210", sku: "KS-SEC-1102", name: "Askari Security Baton", brand: "KimSafety", category: "security-equipment", categoryName: "Security Equipment",
-    price: 1800, stock: 204, lowStockAt: 20, rating: 4.8, reviews: 29, sold: 494,
+    price: 1000, stock: 204, lowStockAt: 20, rating: 4.8, reviews: 29, sold: 494,
     tags: ["securityequipment"],
     description: "Askari Security Baton, quality-inspected at KimSafety's Nairobi warehouse and certified for professional use. Available in bulk with tiered corporate discounts and same-day dispatch within Nairobi.",
   }),
@@ -1007,7 +1007,7 @@ export const products: Product[] = [
   }),
   p({
     id: "p-259", sku: "KS-SEC-1106", name: "Security Whistle", brand: "KimSafety", category: "security-equipment", categoryName: "Security Equipment",
-    price: 350, stock: 239, lowStockAt: 20, rating: 4.3, reviews: 104, sold: 529,
+    price: 200, stock: 239, lowStockAt: 20, rating: 4.3, reviews: 104, sold: 529,
     tags: ["securityequipment", "security"],
     description: "Security Whistle, quality-inspected at KimSafety's Nairobi warehouse and certified for professional use. Available in bulk with tiered corporate discounts and same-day dispatch within Nairobi.",
   }),
@@ -1019,19 +1019,19 @@ export const products: Product[] = [
   }),
   p({
     id: "p-264", sku: "KS-SEC-1108", name: "Suggestion Box (Mid Size)", brand: "KimSafety", category: "security-equipment", categoryName: "Security Equipment",
-    price: 2600, stock: 72, lowStockAt: 20, rating: 4.4, reviews: 97, sold: 1022,
+    price: 5000, stock: 72, lowStockAt: 20, rating: 4.4, reviews: 97, sold: 1022,
     tags: ["securityequipment"],
     description: "Suggestion Box (Mid Size), quality-inspected at KimSafety's Nairobi warehouse and certified for professional use. Available in bulk with tiered corporate discounts and same-day dispatch within Nairobi.",
   }),
   p({
     id: "p-271", sku: "KS-SEC-1109", name: "Wooden Suggestion Box", brand: "KimSafety", category: "security-equipment", categoryName: "Security Equipment",
-    price: 3200, stock: 224, lowStockAt: 20, rating: 4.4, reviews: 129, sold: 294,
+    price: 5000, stock: 224, lowStockAt: 20, rating: 4.4, reviews: 129, sold: 294,
     tags: ["securityequipment"],
     description: "Wooden Suggestion Box, quality-inspected at KimSafety's Nairobi warehouse and certified for professional use. Available in bulk with tiered corporate discounts and same-day dispatch within Nairobi.",
   }),
   p({
     id: "p-207", sku: "KS-SIG-1303", name: "Construction In Progress Sign (A2)", brand: "KimSafety", category: "signs-labels", categoryName: "Signs & Labels",
-    price: 1450, stock: 151, lowStockAt: 20, rating: 4.7, reviews: 156, sold: 661,
+    price: 2700, stock: 151, lowStockAt: 20, rating: 4.7, reviews: 156, sold: 661,
     tags: ["signslabels", "signage"],
     description: "Construction In Progress Sign (A2), quality-inspected at KimSafety's Nairobi warehouse and certified for professional use. Available in bulk with tiered corporate discounts and same-day dispatch within Nairobi.",
   }),
@@ -1049,7 +1049,7 @@ export const products: Product[] = [
   }),
   p({
     id: "p-223", sku: "KS-SIG-1306", name: "Fire Point Sign", brand: "KimSafety", category: "signs-labels", categoryName: "Signs & Labels",
-    price: 1200, stock: 234, lowStockAt: 20, rating: 4.2, reviews: 159, sold: 744,
+    price: 1900, stock: 234, lowStockAt: 20, rating: 4.2, reviews: 159, sold: 744,
     tags: ["signslabels", "fire", "signage"],
     description: "Fire Point Sign, quality-inspected at KimSafety's Nairobi warehouse and certified for professional use. Available in bulk with tiered corporate discounts and same-day dispatch within Nairobi.",
   }),
@@ -1079,13 +1079,13 @@ export const products: Product[] = [
   }),
   p({
     id: "p-294", sku: "KS-SIG-1311", name: "Floor Marking Tape", brand: "KimSafety", category: "signs-labels", categoryName: "Signs & Labels",
-    price: 1200, stock: 266, lowStockAt: 20, rating: 4.2, reviews: 151, sold: 556,
+    price: 1450, stock: 266, lowStockAt: 20, rating: 4.2, reviews: 151, sold: 556,
     tags: ["signslabels", "tape"],
     description: "Floor Marking Tape, quality-inspected at KimSafety's Nairobi warehouse and certified for professional use. Available in bulk with tiered corporate discounts and same-day dispatch within Nairobi.",
   }),
   p({
     id: "p-295", sku: "KS-SIG-1312", name: "Floor Safety Signages", brand: "KimSafety", category: "signs-labels", categoryName: "Signs & Labels",
-    price: 1200, stock: 254, lowStockAt: 20, rating: 4.6, reviews: 139, sold: 1204,
+    price: 1700, stock: 254, lowStockAt: 20, rating: 4.6, reviews: 139, sold: 1204,
     tags: ["signslabels", "signage"],
     description: "Floor Safety Signages, quality-inspected at KimSafety's Nairobi warehouse and certified for professional use. Available in bulk with tiered corporate discounts and same-day dispatch within Nairobi.",
   }),
@@ -1259,7 +1259,7 @@ export const products: Product[] = [
   }),
   p({
     id: "p-341", sku: "KS-IND-2019", name: "Steel-Toe Safety Gumboot S1-SRA", brand: "Vaultex", category: "industrial-safety", categoryName: "Industrial Safety",
-    price: 2500, oldPrice: 2900, stock: 210, lowStockAt: 30, rating: 4.7, reviews: 64, sold: 1420, model: "VG-S1",
+    price: 2300, oldPrice: 2900, stock: 210, lowStockAt: 30, rating: 4.7, reviews: 64, sold: 1420, model: "VG-S1",
     tags: ["gumboot", "steel-toe", "boots"], material: "Full-grain rubber + steel toe cap", size: "38 – 46 EU", weight: "1.6 kg / pair", color: "Black",
     certification: "EN ISO 20345 S1-SRA", standard: "EN ISO 20345", country: "Kenya (assembled)",
     description: "Steel-toe safety gumboot with anti-slip SRC outsole, oil and acid resistant rubber upper and steel toe cap rated to 200 J. Built for wet, muddy and industrial work sites.",
@@ -1275,7 +1275,7 @@ export const products: Product[] = [
   }),
   p({
     id: "p-343", sku: "KS-IND-2021", name: "Steel-Toe Safety Boots — Goodyear Welt", brand: "Safety Jogger", category: "industrial-safety", categoryName: "Industrial Safety",
-    price: 5200, oldPrice: 6100, stock: 130, lowStockAt: 25, rating: 4.8, reviews: 96, sold: 1180, model: "SJ-GW",
+    price: 3800, oldPrice: 6100, stock: 130, lowStockAt: 25, rating: 4.8, reviews: 96, sold: 1180, model: "SJ-GW",
     tags: ["boots", "steel-toe", "construction"], material: "Buffalo leather + steel toe + midsole", size: "39 – 47 EU", weight: "1.5 kg / pair", color: "Brown",
     certification: "EN ISO 20345 S1P-SRC", standard: "EN ISO 20345", country: "Belgium",
     description: "Goodyear-welted steel-toe safety boots with anti-penetration midsole, shock-absorbing dual-density sole and full-grain water-resistant leather upper for all-day site protection.",
@@ -1283,7 +1283,7 @@ export const products: Product[] = [
   }),
   p({
     id: "p-344", sku: "KS-PPE-3043", name: "Reflective Cargo Overalls", brand: "Karam", category: "ppe", categoryName: "PPE",
-    price: 3400, oldPrice: 3900, stock: 180, lowStockAt: 25, rating: 4.7, reviews: 73, sold: 1640,
+    price: 2300, oldPrice: 3900, stock: 180, lowStockAt: 25, rating: 4.7, reviews: 73, sold: 1640,
     tags: ["overalls", "reflective", "coveralls"], material: "65/35 poly-cotton twill + reflective tape", size: "M – 4XL", weight: "950 g", color: "Navy / Orange tape",
     certification: "EN ISO 20471 Class 2", standard: "EN ISO 20471 + EN ISO 13688", country: "India",
     description: "Heavy-duty cargo overalls with 3M-type reflective tape on shoulders, sleeves and legs. Multiple utility pockets, two-way front zip and reinforced stress points for site and warehouse crews.",
@@ -1291,7 +1291,7 @@ export const products: Product[] = [
   }),
   p({
     id: "p-345", sku: "KS-PPE-3044", name: "Plain Cotton-Twill Overalls", brand: "KimSafety", category: "ppe", categoryName: "PPE",
-    price: 2600, stock: 240, lowStockAt: 30, rating: 4.6, reviews: 61, sold: 2080,
+    price: 2200, stock: 240, lowStockAt: 30, rating: 4.6, reviews: 61, sold: 2080,
     tags: ["overalls", "coveralls", "workwear"], material: "65% polyester / 35% cotton twill", size: "M – 4XL", weight: "900 g", color: "Navy / Khaki / Black",
     certification: "EN ISO 13688", standard: "EN ISO 13688", country: "Kenya (assembled)",
     description: "Classic plain cotton-twill overalls — hard-wearing, breathable and comfortable for everyday workshop, warehouse and light industrial use.",
@@ -1299,7 +1299,7 @@ export const products: Product[] = [
   }),
   p({
     id: "p-346", sku: "KS-PPE-3045", name: "Disposable Type 5/6 Coveralls", brand: "DuPont", category: "ppe", categoryName: "PPE",
-    price: 1800, oldPrice: 2100, stock: 260, lowStockAt: 40, rating: 4.7, reviews: 84, sold: 1920, model: "TY45",
+    price: 950, oldPrice: 2100, stock: 260, lowStockAt: 40, rating: 4.7, reviews: 84, sold: 1920, model: "TY45",
     tags: ["coveralls", "disposable", "chemical"], material: "Microporous laminated PP film", size: "M – XXL", weight: "450 g", color: "White",
     certification: "CE Cat III Type 5/6", standard: "EN 13982-2 / EN 13034", country: "China",
     description: "Single-use Category III coveralls protecting against dry particulates (Type 5) and light chemical splashes (Type 6). Hooded, elasticated cuffs, ankles and waist with storm flap.",
@@ -1331,7 +1331,7 @@ export const products: Product[] = [
   }),
   p({
     id: "p-350", sku: "KS-PPE-3049", name: "Electrical Insulating Gloves Class 0", brand: "Honeywell", category: "electrical-safety", categoryName: "Electrical Safety",
-    price: 4800, oldPrice: 5500, stock: 90, lowStockAt: 15, rating: 4.8, reviews: 41, sold: 820, model: "CG-CL0",
+    price: 3000, oldPrice: 5500, stock: 90, lowStockAt: 15, rating: 4.8, reviews: 41, sold: 820, model: "CG-CL0",
     tags: ["gloves", "electrical", "insulated"], material: "Natural rubberlatex", size: "8 – 11", weight: "350 g / pair", color: "Yellow/Black",
     certification: "IEC 60903 Class 0", standard: "IEC 60903 / EN 60903", country: "Mexico",
     description: "Class 0 electrical-insulating gloves rated to 1,000 V AC working exposure. Ergonomic hand shape reduces fatigue; supplied with certificate of conformance per pair.",
@@ -1363,7 +1363,7 @@ export const products: Product[] = [
   }),
   p({
     id: "p-354", sku: "KS-PPE-3053", name: "Auto-Darkening Welding Helmet", brand: "Honeywell", category: "ppe", categoryName: "PPE",
-    price: 8500, oldPrice: 9800, stock: 60, lowStockAt: 12, rating: 4.8, reviews: 38, sold: 640, model: "AD-910V",
+    price: 4500, oldPrice: 9800, stock: 60, lowStockAt: 12, rating: 4.8, reviews: 38, sold: 640, model: "AD-910V",
     tags: ["welding helmet", "auto-darkening", "welding"], material: "PA housing + solar LCD filter", size: "Universal", weight: "480 g", color: "Black/Green",
     certification: "EN 379 1/1/1/2", standard: "EN 379 + EN 175", country: "China",
     description: "Solar-powered auto-darkening welding helmet with variable shade DIN 9–13, grind mode and adjustable sensitivity/delay. Switches from light to dark in 0.04 ms.",
@@ -1379,7 +1379,7 @@ export const products: Product[] = [
   }),
   p({
     id: "p-356", sku: "KS-CON-6007", name: "Bump Cap — Baseball Style", brand: "KimSafety", category: "construction-safety", categoryName: "Construction Safety",
-    price: 1200, stock: 260, lowStockAt: 35, rating: 4.5, reviews: 49, sold: 1480,
+    price: 2200, stock: 260, lowStockAt: 35, rating: 4.5, reviews: 49, sold: 1480,
     tags: ["bump cap", "cap"], material: "PP insert + cotton twill cap", size: "One size adjustable", weight: "180 g", color: "Navy / Black",
     certification: "EN 812", standard: "EN 812", country: "China",
     description: "Baseball-style bump cap with removable PE insert — protects against knocks and scrapes in maintenance, mechanics and warehousing where hard hats are not required.",
@@ -1427,7 +1427,7 @@ export const products: Product[] = [
   }),
   p({
     id: "p-362", sku: "KS-PPE-3056", name: "Reusable Half-Mask Respirator — Dual Cartridge", brand: "Dräger", category: "ppe", categoryName: "PPE",
-    price: 4200, oldPrice: 4900, stock: 110, lowStockAt: 20, rating: 4.9, reviews: 57, sold: 1240, model: "X-plore 3300",
+    price: 3000, oldPrice: 4900, stock: 110, lowStockAt: 20, rating: 4.9, reviews: 57, sold: 1240, model: "X-plore 3300",
     tags: ["respirator", "reusable", "half-mask"], material: "TPE body + bayonet cartridge mounts", size: "S / M / L", weight: "180 g", color: "Grey/Teal",
     certification: "EN 140", standard: "EN 140", country: "Germany",
     description: "Soft TPE reusable half-mask with low-profile twin-cartridge mounts, hypoallergenic face seal and easy-to-clean surface. Cartridges sold separately (A2P3 compatible).",
@@ -1451,7 +1451,7 @@ export const products: Product[] = [
   }),
   p({
     id: "p-365", sku: "KS-PPE-3058", name: "Waterproof Rain Suit — Jacket & Bib Trousers", brand: "Delta Plus", category: "ppe", categoryName: "PPE",
-    price: 3200, oldPrice: 3800, stock: 160, lowStockAt: 25, rating: 4.6, reviews: 58, sold: 1340, model: "RN-2PC",
+    price: 1800, oldPrice: 3800, stock: 160, lowStockAt: 25, rating: 4.6, reviews: 58, sold: 1340, model: "RN-2PC",
     tags: ["rain suit", "waterproof", "jacket"], material: "PVC-coated polyester", size: "M – XXXL", weight: "1.1 kg / suit", color: "Yellow / Green",
     certification: "EN 343 Class 3/1", standard: "EN 343", country: "France",
     description: "Two-piece waterproof rain suit — hooded jacket with storm flap plus bib trousers with braces. Welded seams keep out driving rain on sites and transport runs.",
