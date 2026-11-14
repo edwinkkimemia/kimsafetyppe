@@ -44,6 +44,7 @@ async function seedImportedProducts() {
   console.log(
     `[seed] imported products: ${inserted} inserted, ${skipped} already present/deleted, ${failed} failed (${imported.products.length} total)`
   );
+  if (failed > 0) throw new Error(`${failed} imported products could not be inserted`);
 }
 
 async function main() {
@@ -59,7 +60,8 @@ async function main() {
   try {
     await seedImportedProducts();
   } catch (err) {
-    console.warn("[seed] product import failed:", (err as Error).message);
+    console.error("[seed] product import failed:", (err as Error).message);
+    throw err;
   }
 }
 

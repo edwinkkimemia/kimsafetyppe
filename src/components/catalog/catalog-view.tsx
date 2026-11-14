@@ -17,6 +17,7 @@ import {
 import { products, matchesQuery } from "@/lib/data/products";
 import { categories, brands, productInCategory } from "@/lib/data/catalog";
 import { useStore } from "@/lib/store";
+import { getVisitorId } from "@/lib/analytics-client";
 import type { Product } from "@/lib/types";
 import { PageHeader } from "@/components/layout/page-header";
 import { ProductCard } from "@/components/product/product-card";
@@ -135,6 +136,29 @@ export function CatalogView({ title, subtitle, search, category, brand, deals, h
     }
     return list;
   }, [q, cat, br, availability, rating, minPrice, maxPrice, onSale, sort, sortExplicit, deals, liveCatalogItems, catalogFetchedAt, initialProducts]);
+
+  // Log submitted searches once per term for the superadmin analytics dashboard.
+  const loggedSearches = useRef<Set<string>>(new Set());
+  useEffect(() => {
+    const term = q.trim();
+    if (term.length < 2) return;
+    const key = term.toLowerCase();
+    if (loggedSearches.current.has(key)) return;
+    loggedSearches.current.add(key);
+    const t = setTimeout(() => {
+      fetch("/api/analytics/search", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          query: term,
+          resultsCount: results.length,
+          visitorId: getVisitorId(),
+        }),
+        keepalive: true,
+      }).catch(() => {});
+    }, 700);
+    return () => clearTimeout(t);
+  }, [q, results.length]);
 
   const totalPages = Math.max(1, Math.ceil(results.length / PAGE_SIZE));
   const pageItems = results.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);

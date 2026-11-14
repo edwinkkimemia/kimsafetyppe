@@ -261,7 +261,7 @@ export default function AdminProductEditPage() {
     // Refresh the shared client catalog before navigating away so the
     // storefront does not render the previous image/price from the stale
     // in-memory catalog first and swap it a moment later.
-    await refreshCatalog().catch(() => {});
+    await refreshCatalog(true).catch(() => {});
     router.push("/admin/products");
     router.refresh();
   };

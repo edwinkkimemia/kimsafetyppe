@@ -33,7 +33,7 @@ type Store = {
   liveBySlug: (slug: string) => Product | undefined;
   recentlyViewed: string[];
   noteRecentlyViewed: (productId: string) => void;
-  refreshCatalog: () => Promise<void>;
+  refreshCatalog: (force?: boolean) => Promise<void>;
   delivery: { fee: number; threshold: number };
 };
 
@@ -99,9 +99,10 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   // Re-fetches the live catalog so cart/checkout prices reflect admin price
   // changes made after this page was loaded. Cart and checkout call this on
   // mount — prices are never a snapshot taken at add-to-cart time.
-  const refreshCatalog = useCallback(async () => {
+  const refreshCatalog = useCallback(async (force = false) => {
     try {
-      const res = await fetch("/api/catalog", { cache: "no-store" });
+      const url = force ? `/api/catalog?fresh=1&t=${Date.now()}` : "/api/catalog";
+      const res = await fetch(url, { cache: "no-store" });
       const data = await res.json();
       if (Array.isArray(data?.products)) {
         setCatalog(data.products);
@@ -112,13 +113,13 @@ export function StoreProvider({ children }: { children: ReactNode }) {
     }
   }, []);
 
-  // Keeps listing pages honest while browsing without reload. Uses a longer
-  // 2-minute interval and debounced focus handling to avoid the stampede seen
-  // in logs (4× /api/settings at the same ms when tab regains focus).
+  // Refresh only when a tab regains focus after a long idle gap. The previous
+  // 2-minute interval kept Neon compute active around the clock and exhausted
+  // the free plan quota; checkouts/cart still refresh on their own mount.
   useEffect(() => {
     let pending = false;
     let lastSync = 0;
-    const MIN_SYNC_GAP_MS = 120_000; // don't re-fetch catalog more than every 2 min
+    const MIN_SYNC_GAP_MS = 10 * 60_000; // one refresh per 10 min at most
     const sync = () => {
       const now = Date.now();
       if (pending || document.visibilityState !== "visible") return;
@@ -134,11 +135,9 @@ export function StoreProvider({ children }: { children: ReactNode }) {
       if (focusDebounce) clearTimeout(focusDebounce);
       focusDebounce = setTimeout(sync, 1500); // debounce rapid focus/visibility bursts
     };
-    const iv = setInterval(sync, 120_000);
     window.addEventListener("focus", onFocus);
     document.addEventListener("visibilitychange", onFocus);
     return () => {
-      clearInterval(iv);
       if (focusDebounce) clearTimeout(focusDebounce);
       window.removeEventListener("focus", onFocus);
       document.removeEventListener("visibilitychange", onFocus);

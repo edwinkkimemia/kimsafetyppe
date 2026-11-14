@@ -7,11 +7,10 @@ import { IMAGE_REMOVED } from "@/lib/image-constants";
 import type { Product } from "@/lib/types";
 import path from "path";
 
-// Admin product table changes only on admin edits. Keep the per-Lambda TTL
-// short so image/price edits show up promptly across instances. The protection
-// against 53300 now comes from the pooled Neon connection and the no-store
-// /api/catalog response; on DB failure we still back off briefly.
-const CATALOG_TTL_MS = 5 * 1000;
+// Admin product table changes only on admin edits. The 30s per-Lambda TTL keeps
+// Neon compute from being hammered by every catalog request; admin saves use
+// the ?fresh=1 catalog path to bypass it (and the CDN) immediately.
+const CATALOG_TTL_MS = 30 * 1000;
 const DB_FAIL_TTL_MS = 30 * 1000;
 let cachedAdminRows: { at: number; rows: Awaited<ReturnType<typeof listAdminProducts>> } | null = null;
 let lastDbFailAt = 0;

@@ -4,6 +4,7 @@ import { Inter, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import { StoreProvider } from "@/lib/store";
 import { StorefrontChrome } from "@/components/layout/storefront-chrome";
+import { AnalyticsTracker } from "@/components/analytics/tracker";
 import { siteUrl } from "@/lib/site";
 import { getAllSettings } from "@/lib/db";
 import { resolveLogoUrl, DEFAULT_LOGO } from "@/lib/logo";
@@ -211,6 +212,7 @@ gtag('config', '${gaId}');`}
           );
         })()}
         <StoreProvider>
+          <AnalyticsTracker />
           <a
             href="#main"
             className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[60] focus:rounded-xl focus:bg-navy-900 focus:px-4 focus:py-2 focus:text-sm focus:font-bold focus:text-white"

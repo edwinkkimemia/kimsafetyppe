@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { signOut } from "next-auth/react";
-import { LayoutDashboard, Package, ShoppingCart, Users, ClipboardList, Building2, BookOpen, Newspaper, LogOut, ShieldCheck, Menu, X, ArrowLeft, Truck, Store, Settings, FileText, Megaphone, LifeBuoy, Star, Mail, KeyRound, Undo2, MessagesSquare, Inbox, Images, CreditCard } from "lucide-react";
+import { LayoutDashboard, Package, ShoppingCart, Users, ClipboardList, Building2, BookOpen, Newspaper, LogOut, ShieldCheck, Menu, X, ArrowLeft, Truck, Store, Settings, FileText, Megaphone, LifeBuoy, Star, Mail, KeyRound, Undo2, MessagesSquare, Inbox, Images, CreditCard, BarChart3 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Logo } from "@/components/layout/logo";
 import { WhatsAppIcon } from "@/components/ui/whatsapp-icon";
@@ -33,6 +33,7 @@ const navSecondary = [
   ["/admin/returns", "Returns", Undo2],
   ["/admin/questions", "Q&A", MessagesSquare],
   ["/admin/contact-messages", "Messages", Inbox],
+  ["/admin/analytics", "Analytics", BarChart3],
 ] as const;
 
 const badgeHrefs: Record<string, string> = {
@@ -85,7 +86,12 @@ export function AdminShell({ children }: { children: React.ReactNode }) {
       if (timer) clearTimeout(timer);
       timer = setTimeout(load, ms);
     };
-    const load = () =>
+    const load = () => {
+      // Do not keep Neon compute awake for a forgotten background admin tab.
+      if (document.visibilityState !== "visible") {
+        schedule(5 * 60_000);
+        return;
+      }
       fetch("/api/admin/nav-badges")
         .then((r) => {
           if (!r.ok) throw new Error(`nav-badges ${r.status}`);
@@ -94,15 +100,16 @@ export function AdminShell({ children }: { children: React.ReactNode }) {
         .then((d) => {
           if (alive && d?.badges) setBadges(d.badges);
           failures = 0;
-          schedule(60000);
+          schedule(5 * 60_000);
         })
         .catch(() => {
           failures += 1;
-          // Back off on 53300 / 500 burst: 1m → 2m → 4m max 5m, avoids hammering DB.
-          const backoff = Math.min(60000 * Math.pow(2, failures), 300000);
+          // Back off on 53300 / 500 burst: 5m → 10m → 20m max 30m.
+          const backoff = Math.min(5 * 60_000 * Math.pow(2, failures), 30 * 60_000);
           const jitter = backoff * 0.2 * Math.random();
           schedule(backoff + jitter);
         });
+    };
     load();
     return () => {
       alive = false;
@@ -115,7 +122,9 @@ export function AdminShell({ children }: { children: React.ReactNode }) {
       ? navPrimary
       : navPrimary.filter(([href]) => !["/admin/media", "/admin/newsletter"].includes(href as string))
   ) as typeof navPrimary;
-  const navSecondaryItems = navSecondary as typeof navSecondary;
+  const navSecondaryItems = (
+    role === "superadmin" ? navSecondary : navSecondary.filter(([href]) => href !== "/admin/analytics")
+  ) as typeof navSecondary;
 
   useEffect(() => {
     setDrawer(false);
